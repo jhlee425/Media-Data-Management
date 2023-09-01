@@ -1,0 +1,1155 @@
+[INFO] 2021-11-09 16:43:38,535 	     anchor_num:	2
+[INFO] 2021-11-09 16:43:38,535 	     batch_size:	4
+[INFO] 2021-11-09 16:43:38,535 	        cascade:	True
+[INFO] 2021-11-09 16:43:38,535 	       ckpt_dir:	ckpt/
+[INFO] 2021-11-09 16:43:38,535 	confidence_threshold:	0.02
+[INFO] 2021-11-09 16:43:38,536 	      crop_size:	640
+[INFO] 2021-11-09 16:43:38,536 	       data_dir:	data/
+[INFO] 2021-11-09 16:43:38,536 	        dataset:	widerface/
+[INFO] 2021-11-09 16:43:38,536 	         epochs:	8000
+[INFO] 2021-11-09 16:43:38,536 	 evaluate_every:	10
+[INFO] 2021-11-09 16:43:38,536 	experiment_name:	resnet_anc2_casT_fpn3
+[INFO] 2021-11-09 16:43:38,536 	        fpn_num:	3
+[INFO] 2021-11-09 16:43:38,536 	        gpu_num:	2
+[INFO] 2021-11-09 16:43:38,536 	     lambda_loc:	2
+[INFO] 2021-11-09 16:43:38,536 	        log_dir:	log/
+[INFO] 2021-11-09 16:43:38,536 	             lr:	0.001
+[INFO] 2021-11-09 16:43:38,536 	       momentum:	0.9
+[INFO] 2021-11-09 16:43:38,536 	   ms_inference:	1
+[INFO] 2021-11-09 16:43:38,536 	        network:	resnet50
+[INFO] 2021-11-09 16:43:38,536 	  nms_threshold:	0.4
+[INFO] 2021-11-09 16:43:38,536 	       pretrain:	True
+[INFO] 2021-11-09 16:43:38,537 	pretrained_model_dir:	./models/pretrained_mobilenetV1/mobilenetV1X0.25_pretrain.tar
+[INFO] 2021-11-09 16:43:38,537 	    print_every:	1
+[INFO] 2021-11-09 16:43:38,537 	     save_every:	1
+[INFO] 2021-11-09 16:43:38,537 	    save_folder:	result/
+[INFO] 2021-11-09 16:43:38,537 	       save_img:	False
+[INFO] 2021-11-09 16:43:38,537 	   weight_decay:	0.0005
+[INFO] 2021-11-09 16:43:38,537 	        weights:	ckpt-best.pth
+[INFO] 2021-11-09 16:45:10,385 	     anchor_num:	2
+[INFO] 2021-11-09 16:45:10,385 	     batch_size:	16
+[INFO] 2021-11-09 16:45:10,385 	        cascade:	True
+[INFO] 2021-11-09 16:45:10,385 	       ckpt_dir:	ckpt/
+[INFO] 2021-11-09 16:45:10,385 	confidence_threshold:	0.02
+[INFO] 2021-11-09 16:45:10,385 	      crop_size:	640
+[INFO] 2021-11-09 16:45:10,385 	       data_dir:	data/
+[INFO] 2021-11-09 16:45:10,385 	        dataset:	widerface/
+[INFO] 2021-11-09 16:45:10,385 	         epochs:	8000
+[INFO] 2021-11-09 16:45:10,385 	 evaluate_every:	10
+[INFO] 2021-11-09 16:45:10,385 	experiment_name:	resnet_anc2_casT_fpn3
+[INFO] 2021-11-09 16:45:10,385 	        fpn_num:	3
+[INFO] 2021-11-09 16:45:10,386 	        gpu_num:	2
+[INFO] 2021-11-09 16:45:10,386 	     lambda_loc:	2
+[INFO] 2021-11-09 16:45:10,386 	        log_dir:	log/
+[INFO] 2021-11-09 16:45:10,386 	             lr:	0.001
+[INFO] 2021-11-09 16:45:10,386 	       momentum:	0.9
+[INFO] 2021-11-09 16:45:10,386 	   ms_inference:	1
+[INFO] 2021-11-09 16:45:10,386 	        network:	resnet50
+[INFO] 2021-11-09 16:45:10,386 	  nms_threshold:	0.4
+[INFO] 2021-11-09 16:45:10,386 	       pretrain:	True
+[INFO] 2021-11-09 16:45:10,386 	pretrained_model_dir:	./models/pretrained_mobilenetV1/mobilenetV1X0.25_pretrain.tar
+[INFO] 2021-11-09 16:45:10,386 	    print_every:	1
+[INFO] 2021-11-09 16:45:10,386 	     save_every:	1
+[INFO] 2021-11-09 16:45:10,386 	    save_folder:	result/
+[INFO] 2021-11-09 16:45:10,386 	       save_img:	False
+[INFO] 2021-11-09 16:45:10,386 	   weight_decay:	0.0005
+[INFO] 2021-11-09 16:45:10,386 	        weights:	ckpt-best.pth
+[INFO] 2021-11-09 16:53:15,136 [Epoch 1/8000] Loss = 19.8113    Cls = 4.0155    Bbox = 6.2578    Landmark = 9.5380    Epoch Time = 473.476
+[INFO] 2021-11-09 17:01:00,963 [Epoch 2/8000] Loss = 13.6640    Cls = 3.1422    Bbox = 4.4499    Landmark = 6.0720    Epoch Time = 465.824
+[INFO] 2021-11-09 17:08:47,184 [Epoch 3/8000] Loss = 12.0363    Cls = 2.9070    Bbox = 3.9602    Landmark = 5.1692    Epoch Time = 466.217
+[INFO] 2021-11-09 17:16:33,894 [Epoch 4/8000] Loss = 10.9464    Cls = 2.7635    Bbox = 3.6532    Landmark = 4.5297    Epoch Time = 466.706
+[INFO] 2021-11-09 17:24:17,091 [Epoch 5/8000] Loss = 10.4833    Cls = 2.7026    Bbox = 3.5374    Landmark = 4.2433    Epoch Time = 463.194
+[INFO] 2021-11-09 17:32:02,281 [Epoch 6/8000] Loss = 9.6855    Cls = 2.5529    Bbox = 3.2887    Landmark = 3.8438    Epoch Time = 465.187
+[INFO] 2021-11-09 17:39:47,128 [Epoch 7/8000] Loss = 9.5228    Cls = 2.5534    Bbox = 3.2278    Landmark = 3.7417    Epoch Time = 464.844
+[INFO] 2021-11-09 17:47:30,333 [Epoch 8/8000] Loss = 9.3675    Cls = 2.5417    Bbox = 3.2292    Landmark = 3.5966    Epoch Time = 463.201
+[INFO] 2021-11-09 17:55:15,525 [Epoch 9/8000] Loss = 8.8093    Cls = 2.4183    Bbox = 3.0423    Landmark = 3.3487    Epoch Time = 465.188
+[INFO] 2021-11-09 18:02:58,683 [Epoch 10/8000] Loss = 8.6323    Cls = 2.3945    Bbox = 2.9873    Landmark = 3.2505    Epoch Time = 463.154
+[INFO] 2021-11-09 18:20:36,106 Avg AP : 0.8408   Easy AP : 0.9044   Medium AP : 0.8769   Hard AP : 0.7565
+[INFO] 2021-11-09 18:20:36,419 Epoch Model Saved
+[INFO] 2021-11-09 18:20:36,671 Model Saved
+[INFO] 2021-11-09 18:20:36,671 Best Avg AP : 0.8408   Easy AP : 0.9044   Medium AP : 0.8769   Hard AP : 0.7565
+[INFO] 2021-11-09 18:28:22,288 [Epoch 11/8000] Loss = 8.4678    Cls = 2.3776    Bbox = 2.9570    Landmark = 3.1332    Epoch Time = 465.616
+[INFO] 2021-11-09 18:36:04,579 [Epoch 12/8000] Loss = 8.2714    Cls = 2.3432    Bbox = 2.8756    Landmark = 3.0526    Epoch Time = 462.287
+[INFO] 2021-11-09 18:43:48,149 [Epoch 13/8000] Loss = 8.1141    Cls = 2.3171    Bbox = 2.8338    Landmark = 2.9633    Epoch Time = 463.567
+[INFO] 2021-11-09 18:51:31,687 [Epoch 14/8000] Loss = 8.2018    Cls = 2.3529    Bbox = 2.8812    Landmark = 2.9676    Epoch Time = 463.536
+[INFO] 2021-11-09 18:59:17,419 [Epoch 15/8000] Loss = 7.7898    Cls = 2.2557    Bbox = 2.7514    Landmark = 2.7827    Epoch Time = 465.730
+[INFO] 2021-11-09 19:07:03,868 [Epoch 16/8000] Loss = 7.9392    Cls = 2.2908    Bbox = 2.7771    Landmark = 2.8713    Epoch Time = 466.448
+[INFO] 2021-11-09 19:14:48,587 [Epoch 17/8000] Loss = 7.6915    Cls = 2.2298    Bbox = 2.7123    Landmark = 2.7495    Epoch Time = 464.714
+[INFO] 2021-11-09 19:22:32,056 [Epoch 18/8000] Loss = 7.6163    Cls = 2.2308    Bbox = 2.7004    Landmark = 2.6850    Epoch Time = 463.466
+[INFO] 2021-11-09 19:30:16,847 [Epoch 19/8000] Loss = 7.4426    Cls = 2.1955    Bbox = 2.6455    Landmark = 2.6015    Epoch Time = 464.787
+[INFO] 2021-11-09 19:38:03,937 [Epoch 20/8000] Loss = 7.3188    Cls = 2.1536    Bbox = 2.5700    Landmark = 2.5952    Epoch Time = 467.086
+[INFO] 2021-11-09 19:43:06,127 Avg AP : 0.8484   Easy AP : 0.9127   Medium AP : 0.8765   Hard AP : 0.7709
+[INFO] 2021-11-09 19:43:06,388 Epoch Model Saved
+[INFO] 2021-11-09 19:43:07,412 Model Saved
+[INFO] 2021-11-09 19:43:07,412 Best Avg AP : 0.8484   Easy AP : 0.9127   Medium AP : 0.8765   Hard AP : 0.7709
+[INFO] 2021-11-09 19:50:52,065 [Epoch 21/8000] Loss = 7.4010    Cls = 2.1850    Bbox = 2.5945    Landmark = 2.6216    Epoch Time = 464.649
+[INFO] 2021-11-09 19:58:38,531 [Epoch 22/8000] Loss = 7.0928    Cls = 2.1196    Bbox = 2.5305    Landmark = 2.4427    Epoch Time = 466.463
+[INFO] 2021-11-09 20:06:22,336 [Epoch 23/8000] Loss = 7.1242    Cls = 2.1360    Bbox = 2.5426    Landmark = 2.4456    Epoch Time = 463.801
+[INFO] 2021-11-09 20:14:08,072 [Epoch 24/8000] Loss = 7.1221    Cls = 2.1248    Bbox = 2.5307    Landmark = 2.4666    Epoch Time = 465.733
+[INFO] 2021-11-09 20:21:52,991 [Epoch 25/8000] Loss = 7.2387    Cls = 2.1555    Bbox = 2.5775    Landmark = 2.5058    Epoch Time = 464.916
+[INFO] 2021-11-09 20:29:37,988 [Epoch 26/8000] Loss = 7.3847    Cls = 2.1980    Bbox = 2.6001    Landmark = 2.5866    Epoch Time = 464.994
+[INFO] 2021-11-09 20:37:24,145 [Epoch 27/8000] Loss = 6.9843    Cls = 2.1072    Bbox = 2.4933    Landmark = 2.3838    Epoch Time = 466.155
+[INFO] 2021-11-09 20:45:07,803 [Epoch 28/8000] Loss = 6.7523    Cls = 2.0552    Bbox = 2.4165    Landmark = 2.2807    Epoch Time = 463.655
+[INFO] 2021-11-09 20:52:51,814 [Epoch 29/8000] Loss = 7.0833    Cls = 2.1279    Bbox = 2.5176    Landmark = 2.4378    Epoch Time = 464.007
+[INFO] 2021-11-09 21:00:35,170 [Epoch 30/8000] Loss = 6.7601    Cls = 2.0745    Bbox = 2.4255    Landmark = 2.2601    Epoch Time = 463.353
+[INFO] 2021-11-09 21:05:39,879 Avg AP : 0.8557   Easy AP : 0.9166   Medium AP : 0.8882   Hard AP : 0.7769
+[INFO] 2021-11-09 21:05:40,174 Epoch Model Saved
+[INFO] 2021-11-09 21:05:41,278 Model Saved
+[INFO] 2021-11-09 21:05:41,278 Best Avg AP : 0.8557   Easy AP : 0.9166   Medium AP : 0.8882   Hard AP : 0.7769
+[INFO] 2021-11-09 21:13:25,136 [Epoch 31/8000] Loss = 6.7432    Cls = 2.0574    Bbox = 2.4214    Landmark = 2.2644    Epoch Time = 463.856
+[INFO] 2021-11-09 21:21:10,076 [Epoch 32/8000] Loss = 6.6580    Cls = 2.0488    Bbox = 2.3974    Landmark = 2.2118    Epoch Time = 464.937
+[INFO] 2021-11-09 21:28:55,520 [Epoch 33/8000] Loss = 6.6206    Cls = 2.0327    Bbox = 2.3773    Landmark = 2.2107    Epoch Time = 465.441
+[INFO] 2021-11-09 21:36:41,377 [Epoch 34/8000] Loss = 6.4788    Cls = 1.9887    Bbox = 2.3272    Landmark = 2.1629    Epoch Time = 465.854
+[INFO] 2021-11-09 21:44:29,246 [Epoch 35/8000] Loss = 6.5409    Cls = 2.0172    Bbox = 2.3592    Landmark = 2.1644    Epoch Time = 467.866
+[INFO] 2021-11-09 21:52:13,854 [Epoch 36/8000] Loss = 6.5393    Cls = 2.0241    Bbox = 2.3377    Landmark = 2.1775    Epoch Time = 464.605
+[INFO] 2021-11-09 22:00:00,465 [Epoch 37/8000] Loss = 6.4584    Cls = 1.9967    Bbox = 2.3250    Landmark = 2.1366    Epoch Time = 466.608
+[INFO] 2021-11-09 22:07:44,158 [Epoch 38/8000] Loss = 6.4683    Cls = 1.9850    Bbox = 2.3200    Landmark = 2.1633    Epoch Time = 463.678
+[INFO] 2021-11-09 22:15:29,601 [Epoch 39/8000] Loss = 6.3196    Cls = 1.9812    Bbox = 2.2863    Landmark = 2.0522    Epoch Time = 465.440
+[INFO] 2021-11-09 22:23:12,866 [Epoch 40/8000] Loss = 6.3296    Cls = 1.9743    Bbox = 2.2791    Landmark = 2.0762    Epoch Time = 463.262
+[INFO] 2021-11-09 22:28:14,157 Avg AP : 0.8567   Easy AP : 0.9214   Medium AP : 0.8900   Hard AP : 0.7741
+[INFO] 2021-11-09 22:28:14,420 Epoch Model Saved
+[INFO] 2021-11-09 22:28:14,421 Best Avg AP : 0.8557   Easy AP : 0.9166   Medium AP : 0.8882   Hard AP : 0.7769
+[INFO] 2021-11-09 22:36:00,200 [Epoch 41/8000] Loss = 6.2750    Cls = 1.9580    Bbox = 2.2628    Landmark = 2.0541    Epoch Time = 465.778
+[INFO] 2021-11-09 22:43:44,337 [Epoch 42/8000] Loss = 6.3825    Cls = 1.9764    Bbox = 2.2977    Landmark = 2.1084    Epoch Time = 464.134
+[INFO] 2021-11-09 22:51:29,856 [Epoch 43/8000] Loss = 6.3439    Cls = 1.9898    Bbox = 2.2841    Landmark = 2.0700    Epoch Time = 465.516
+[INFO] 2021-11-09 22:59:12,483 [Epoch 44/8000] Loss = 6.3242    Cls = 1.9671    Bbox = 2.2615    Landmark = 2.0956    Epoch Time = 462.623
+[INFO] 2021-11-09 23:06:58,511 [Epoch 45/8000] Loss = 6.2944    Cls = 1.9588    Bbox = 2.2546    Landmark = 2.0810    Epoch Time = 466.025
+[INFO] 2021-11-09 23:14:44,089 [Epoch 46/8000] Loss = 6.2695    Cls = 1.9640    Bbox = 2.2811    Landmark = 2.0245    Epoch Time = 465.574
+[INFO] 2021-11-09 23:22:29,539 [Epoch 47/8000] Loss = 6.1286    Cls = 1.9336    Bbox = 2.2240    Landmark = 1.9709    Epoch Time = 465.444
+[INFO] 2021-11-09 23:30:14,185 [Epoch 48/8000] Loss = 6.2457    Cls = 1.9614    Bbox = 2.2626    Landmark = 2.0218    Epoch Time = 464.643
+[INFO] 2021-11-09 23:37:57,262 [Epoch 49/8000] Loss = 6.0362    Cls = 1.9109    Bbox = 2.1975    Landmark = 1.9278    Epoch Time = 463.073
+[INFO] 2021-11-09 23:45:43,684 [Epoch 50/8000] Loss = 6.0381    Cls = 1.9161    Bbox = 2.1937    Landmark = 1.9283    Epoch Time = 466.419
+[INFO] 2021-11-09 23:50:44,369 Avg AP : 0.8613   Easy AP : 0.9264   Medium AP : 0.8891   Hard AP : 0.7835
+[INFO] 2021-11-09 23:50:44,616 Epoch Model Saved
+[INFO] 2021-11-09 23:50:45,705 Model Saved
+[INFO] 2021-11-09 23:50:45,706 Best Avg AP : 0.8613   Easy AP : 0.9264   Medium AP : 0.8891   Hard AP : 0.7835
+[INFO] 2021-11-09 23:58:32,398 [Epoch 51/8000] Loss = 6.0158    Cls = 1.9159    Bbox = 2.1928    Landmark = 1.9070    Epoch Time = 466.688
+[INFO] 2021-11-10 00:06:19,600 [Epoch 52/8000] Loss = 5.9304    Cls = 1.8829    Bbox = 2.1645    Landmark = 1.8830    Epoch Time = 467.199
+[INFO] 2021-11-10 00:14:04,714 [Epoch 53/8000] Loss = 5.9494    Cls = 1.8909    Bbox = 2.1562    Landmark = 1.9023    Epoch Time = 465.097
+[INFO] 2021-11-10 00:21:52,600 [Epoch 54/8000] Loss = 5.9778    Cls = 1.8991    Bbox = 2.1620    Landmark = 1.9168    Epoch Time = 467.883
+[INFO] 2021-11-10 00:29:36,487 [Epoch 55/8000] Loss = 6.0783    Cls = 1.9297    Bbox = 2.1940    Landmark = 1.9546    Epoch Time = 463.885
+[INFO] 2021-11-10 00:37:21,095 [Epoch 56/8000] Loss = 6.0751    Cls = 1.9056    Bbox = 2.1964    Landmark = 1.9731    Epoch Time = 464.604
+[INFO] 2021-11-10 00:45:03,259 [Epoch 57/8000] Loss = 5.7906    Cls = 1.8613    Bbox = 2.1101    Landmark = 1.8193    Epoch Time = 462.163
+[INFO] 2021-11-10 00:52:47,044 [Epoch 58/8000] Loss = inf    Cls = 1.8891    Bbox = inf    Landmark = 1.8582    Epoch Time = 463.781
+[INFO] 2021-11-10 01:00:27,988 [Epoch 59/8000] Loss = 5.8615    Cls = 1.8784    Bbox = 2.1478    Landmark = 1.8354    Epoch Time = 460.941
+[INFO] 2021-11-10 01:08:12,532 [Epoch 60/8000] Loss = 5.9842    Cls = 1.8960    Bbox = 2.1645    Landmark = 1.9237    Epoch Time = 464.540
+[INFO] 2021-11-10 01:13:48,302 Avg AP : 0.8630   Easy AP : 0.9227   Medium AP : 0.8958   Hard AP : 0.7848
+[INFO] 2021-11-10 01:13:48,573 Epoch Model Saved
+[INFO] 2021-11-10 01:13:51,618 Model Saved
+[INFO] 2021-11-10 01:13:51,619 Best Avg AP : 0.8630   Easy AP : 0.9227   Medium AP : 0.8958   Hard AP : 0.7848
+[INFO] 2021-11-10 01:25:28,964 [Epoch 61/8000] Loss = 5.9417    Cls = 1.8937    Bbox = 2.1499    Landmark = 1.8981    Epoch Time = 697.342
+[INFO] 2021-11-10 01:37:54,481 [Epoch 62/8000] Loss = 5.7940    Cls = 1.8632    Bbox = 2.1218    Landmark = 1.8091    Epoch Time = 745.514
+[INFO] 2021-11-10 01:50:25,875 [Epoch 63/8000] Loss = 5.8149    Cls = 1.8655    Bbox = 2.1077    Landmark = 1.8417    Epoch Time = 751.390
+[INFO] 2021-11-10 02:02:56,561 [Epoch 64/8000] Loss = 5.8029    Cls = 1.8668    Bbox = 2.1045    Landmark = 1.8316    Epoch Time = 750.683
+[INFO] 2021-11-10 02:15:21,140 [Epoch 65/8000] Loss = 5.9168    Cls = 1.8903    Bbox = 2.1369    Landmark = 1.8895    Epoch Time = 744.576
+[INFO] 2021-11-10 02:27:47,161 [Epoch 66/8000] Loss = 5.7893    Cls = 1.8548    Bbox = 2.1121    Landmark = 1.8223    Epoch Time = 746.018
+[INFO] 2021-11-10 02:40:13,842 [Epoch 67/8000] Loss = 5.8038    Cls = 1.8541    Bbox = 2.1003    Landmark = 1.8493    Epoch Time = 746.677
+[INFO] 2021-11-10 02:52:46,411 [Epoch 68/8000] Loss = 5.7746    Cls = 1.8609    Bbox = 2.0811    Landmark = 1.8326    Epoch Time = 752.566
+[INFO] 2021-11-10 03:05:15,050 [Epoch 69/8000] Loss = 5.6513    Cls = 1.8467    Bbox = 2.0637    Landmark = 1.7409    Epoch Time = 748.635
+[INFO] 2021-11-10 03:17:40,260 [Epoch 70/8000] Loss = 5.7623    Cls = 1.8513    Bbox = 2.0920    Landmark = 1.8190    Epoch Time = 745.206
+[INFO] 2021-11-10 03:24:38,586 Avg AP : 0.8700   Easy AP : 0.9243   Medium AP : 0.9024   Hard AP : 0.7966
+[INFO] 2021-11-10 03:24:38,888 Epoch Model Saved
+[INFO] 2021-11-10 03:24:41,138 Model Saved
+[INFO] 2021-11-10 03:24:41,138 Best Avg AP : 0.8700   Easy AP : 0.9243   Medium AP : 0.9024   Hard AP : 0.7966
+[INFO] 2021-11-10 03:37:13,320 [Epoch 71/8000] Loss = inf    Cls = 1.8721    Bbox = inf    Landmark = 1.8825    Epoch Time = 752.179
+[INFO] 2021-11-10 03:49:50,958 [Epoch 72/8000] Loss = 5.7564    Cls = 1.8639    Bbox = 2.0948    Landmark = 1.7977    Epoch Time = 757.636
+[INFO] 2021-11-10 04:02:34,127 [Epoch 73/8000] Loss = 5.7477    Cls = 1.8571    Bbox = 2.0770    Landmark = 1.8136    Epoch Time = 763.164
+[INFO] 2021-11-10 04:15:12,241 [Epoch 74/8000] Loss = 5.7744    Cls = 1.8498    Bbox = 2.0913    Landmark = 1.8333    Epoch Time = 758.111
+[INFO] 2021-11-10 04:27:52,288 [Epoch 75/8000] Loss = 5.6999    Cls = 1.8464    Bbox = 2.0677    Landmark = 1.7859    Epoch Time = 760.044
+[INFO] 2021-11-10 04:40:26,078 [Epoch 76/8000] Loss = 5.6640    Cls = 1.8326    Bbox = 2.0682    Landmark = 1.7632    Epoch Time = 753.788
+[INFO] 2021-11-10 04:53:03,636 [Epoch 77/8000] Loss = 5.7591    Cls = 1.8629    Bbox = 2.0781    Landmark = 1.8181    Epoch Time = 757.554
+[INFO] 2021-11-10 05:05:52,702 [Epoch 78/8000] Loss = 5.6050    Cls = 1.8224    Bbox = 2.0374    Landmark = 1.7452    Epoch Time = 769.064
+[INFO] 2021-11-10 05:18:26,946 [Epoch 79/8000] Loss = 5.6838    Cls = 1.8414    Bbox = 2.0539    Landmark = 1.7885    Epoch Time = 754.239
+[INFO] 2021-11-10 05:31:03,192 [Epoch 80/8000] Loss = inf    Cls = 1.8515    Bbox = inf    Landmark = 1.8580    Epoch Time = 756.243
+[INFO] 2021-11-10 05:38:08,372 Avg AP : 0.8755   Easy AP : 0.9277   Medium AP : 0.9052   Hard AP : 0.8062
+[INFO] 2021-11-10 05:38:08,632 Epoch Model Saved
+[INFO] 2021-11-10 05:38:10,518 Model Saved
+[INFO] 2021-11-10 05:38:10,518 Best Avg AP : 0.8755   Easy AP : 0.9277   Medium AP : 0.9052   Hard AP : 0.8062
+[INFO] 2021-11-10 05:50:49,130 [Epoch 81/8000] Loss = 5.6007    Cls = 1.8153    Bbox = 2.0428    Landmark = 1.7426    Epoch Time = 758.609
+[INFO] 2021-11-10 06:03:28,129 [Epoch 82/8000] Loss = 5.5292    Cls = 1.7957    Bbox = 2.0141    Landmark = 1.7194    Epoch Time = 758.995
+[INFO] 2021-11-10 06:15:59,518 [Epoch 83/8000] Loss = 5.6437    Cls = 1.8275    Bbox = 2.0313    Landmark = 1.7849    Epoch Time = 751.387
+[INFO] 2021-11-10 06:28:34,293 [Epoch 84/8000] Loss = 5.6486    Cls = 1.8376    Bbox = 2.0576    Landmark = 1.7535    Epoch Time = 754.772
+[INFO] 2021-11-10 06:41:12,397 [Epoch 85/8000] Loss = 5.4959    Cls = 1.7900    Bbox = 2.0105    Landmark = 1.6954    Epoch Time = 758.101
+[INFO] 2021-11-10 06:53:54,901 [Epoch 86/8000] Loss = 5.3588    Cls = 1.7674    Bbox = 1.9583    Landmark = 1.6332    Epoch Time = 762.502
+[INFO] 2021-11-10 07:06:31,990 [Epoch 87/8000] Loss = 5.5862    Cls = 1.8146    Bbox = 2.0313    Landmark = 1.7403    Epoch Time = 757.084
+[INFO] 2021-11-10 07:19:11,632 [Epoch 88/8000] Loss = 5.5290    Cls = 1.8008    Bbox = 2.0089    Landmark = 1.7194    Epoch Time = 759.639
+[INFO] 2021-11-10 07:31:46,665 [Epoch 89/8000] Loss = 5.5109    Cls = 1.7888    Bbox = 1.9997    Landmark = 1.7224    Epoch Time = 755.030
+[INFO] 2021-11-10 07:44:29,060 [Epoch 90/8000] Loss = 5.4883    Cls = 1.7775    Bbox = 1.9868    Landmark = 1.7241    Epoch Time = 762.391
+[INFO] 2021-11-10 07:51:30,421 Avg AP : 0.8803   Easy AP : 0.9352   Medium AP : 0.9052   Hard AP : 0.8131
+[INFO] 2021-11-10 07:51:30,699 Epoch Model Saved
+[INFO] 2021-11-10 07:51:32,159 Model Saved
+[INFO] 2021-11-10 07:51:32,159 Best Avg AP : 0.8803   Easy AP : 0.9352   Medium AP : 0.9052   Hard AP : 0.8131
+[INFO] 2021-11-10 08:04:09,045 [Epoch 91/8000] Loss = 5.5301    Cls = 1.8000    Bbox = 2.0060    Landmark = 1.7241    Epoch Time = 756.883
+[INFO] 2021-11-10 08:16:41,860 [Epoch 92/8000] Loss = 5.4379    Cls = 1.7755    Bbox = 1.9825    Landmark = 1.6799    Epoch Time = 752.811
+[INFO] 2021-11-10 08:29:08,185 [Epoch 93/8000] Loss = 5.4094    Cls = 1.7734    Bbox = 1.9614    Landmark = 1.6746    Epoch Time = 746.321
+[INFO] 2021-11-10 08:41:43,042 [Epoch 94/8000] Loss = inf    Cls = 1.7573    Bbox = inf    Landmark = 1.6541    Epoch Time = 754.855
+[INFO] 2021-11-10 08:54:14,204 [Epoch 95/8000] Loss = 5.3474    Cls = 1.7511    Bbox = 1.9475    Landmark = 1.6488    Epoch Time = 751.159
+[INFO] 2021-11-10 09:06:47,365 [Epoch 96/8000] Loss = 5.4797    Cls = 1.8006    Bbox = 1.9827    Landmark = 1.6963    Epoch Time = 753.159
+[INFO] 2021-11-10 09:19:18,726 [Epoch 97/8000] Loss = 5.3930    Cls = 1.7659    Bbox = 1.9613    Landmark = 1.6658    Epoch Time = 751.358
+[INFO] 2021-11-10 09:31:58,005 [Epoch 98/8000] Loss = 5.3446    Cls = 1.7617    Bbox = 1.9409    Landmark = 1.6419    Epoch Time = 759.274
+[INFO] 2021-11-10 09:44:31,216 [Epoch 99/8000] Loss = 5.4830    Cls = 1.7820    Bbox = 1.9740    Landmark = 1.7269    Epoch Time = 753.208
+[INFO] 2021-11-10 09:52:35,011 [Epoch 100/8000] Loss = 5.3447    Cls = 1.7587    Bbox = 1.9483    Landmark = 1.6378    Epoch Time = 483.792
+[INFO] 2021-11-10 09:57:59,132 Avg AP : 0.8722   Easy AP : 0.9251   Medium AP : 0.9022   Hard AP : 0.8021
+[INFO] 2021-11-10 09:57:59,421 Epoch Model Saved
+[INFO] 2021-11-10 09:57:59,422 Best Avg AP : 0.8803   Easy AP : 0.9352   Medium AP : 0.9052   Hard AP : 0.8131
+[INFO] 2021-11-10 10:05:54,354 [Epoch 101/8000] Loss = 5.4413    Cls = 1.7788    Bbox = 1.9739    Landmark = 1.6886    Epoch Time = 474.931
+[INFO] 2021-11-10 10:13:47,613 [Epoch 102/8000] Loss = 5.4073    Cls = 1.7756    Bbox = 1.9548    Landmark = 1.6769    Epoch Time = 473.255
+[INFO] 2021-11-10 10:21:40,718 [Epoch 103/8000] Loss = 5.3574    Cls = 1.7609    Bbox = 1.9451    Landmark = 1.6514    Epoch Time = 473.101
+[INFO] 2021-11-10 10:29:34,719 [Epoch 104/8000] Loss = 5.3936    Cls = 1.7592    Bbox = 1.9594    Landmark = 1.6750    Epoch Time = 473.998
+[INFO] 2021-11-10 10:37:27,057 [Epoch 105/8000] Loss = 5.2727    Cls = 1.7435    Bbox = 1.9328    Landmark = 1.5964    Epoch Time = 472.333
+[INFO] 2021-11-10 10:45:22,550 [Epoch 106/8000] Loss = 5.3227    Cls = 1.7486    Bbox = 1.9368    Landmark = 1.6373    Epoch Time = 475.491
+[INFO] 2021-11-10 10:53:15,734 [Epoch 107/8000] Loss = 5.5093    Cls = 1.7991    Bbox = 1.9789    Landmark = 1.7313    Epoch Time = 473.182
+[INFO] 2021-11-10 11:01:09,861 [Epoch 108/8000] Loss = 5.3720    Cls = 1.7651    Bbox = 1.9531    Landmark = 1.6538    Epoch Time = 474.125
+[INFO] 2021-11-10 11:09:05,432 [Epoch 109/8000] Loss = 5.2679    Cls = 1.7431    Bbox = 1.9165    Landmark = 1.6083    Epoch Time = 475.566
+[INFO] 2021-11-10 11:17:01,952 [Epoch 110/8000] Loss = 5.2506    Cls = 1.7323    Bbox = 1.9096    Landmark = 1.6087    Epoch Time = 476.517
+[INFO] 2021-11-10 11:22:28,276 Avg AP : 0.8809   Easy AP : 0.9350   Medium AP : 0.9091   Hard AP : 0.8116
+[INFO] 2021-11-10 11:22:28,544 Epoch Model Saved
+[INFO] 2021-11-10 11:22:28,545 Best Avg AP : 0.8803   Easy AP : 0.9352   Medium AP : 0.9052   Hard AP : 0.8131
+[INFO] 2021-11-10 11:30:21,639 [Epoch 111/8000] Loss = 5.2297    Cls = 1.7349    Bbox = 1.8908    Landmark = 1.6040    Epoch Time = 473.093
+[INFO] 2021-11-10 11:38:14,458 [Epoch 112/8000] Loss = 5.2841    Cls = 1.7504    Bbox = 1.9303    Landmark = 1.6034    Epoch Time = 472.815
+[INFO] 2021-11-10 11:46:07,413 [Epoch 113/8000] Loss = 5.2069    Cls = 1.7248    Bbox = 1.8962    Landmark = 1.5860    Epoch Time = 472.952
+[INFO] 2021-11-10 11:54:02,487 [Epoch 114/8000] Loss = 5.2273    Cls = 1.7235    Bbox = 1.8991    Landmark = 1.6046    Epoch Time = 475.069
+[INFO] 2021-11-10 12:01:55,161 [Epoch 115/8000] Loss = 5.2444    Cls = 1.7265    Bbox = 1.8917    Landmark = 1.6261    Epoch Time = 472.669
+[INFO] 2021-11-10 12:09:49,901 [Epoch 116/8000] Loss = 5.0462    Cls = 1.6900    Bbox = 1.8458    Landmark = 1.5104    Epoch Time = 474.738
+[INFO] 2021-11-10 12:17:43,878 [Epoch 117/8000] Loss = 5.1538    Cls = 1.6960    Bbox = 1.8547    Landmark = 1.6031    Epoch Time = 473.972
+[INFO] 2021-11-10 12:25:38,800 [Epoch 118/8000] Loss = 5.1609    Cls = 1.7029    Bbox = 1.8791    Landmark = 1.5790    Epoch Time = 474.918
+[INFO] 2021-11-10 12:33:33,219 [Epoch 119/8000] Loss = inf    Cls = 1.7179    Bbox = inf    Landmark = 1.5693    Epoch Time = 474.416
+[INFO] 2021-11-10 12:41:26,873 [Epoch 120/8000] Loss = inf    Cls = 1.7271    Bbox = inf    Landmark = 1.6060    Epoch Time = 473.651
+[INFO] 2021-11-10 12:46:47,185 Avg AP : 0.8798   Easy AP : 0.9355   Medium AP : 0.9085   Hard AP : 0.8086
+[INFO] 2021-11-10 12:46:47,476 Epoch Model Saved
+[INFO] 2021-11-10 12:46:47,476 Best Avg AP : 0.8803   Easy AP : 0.9352   Medium AP : 0.9052   Hard AP : 0.8131
+[INFO] 2021-11-10 12:54:40,478 [Epoch 121/8000] Loss = 5.2444    Cls = 1.7306    Bbox = 1.8876    Landmark = 1.6262    Epoch Time = 473.001
+[INFO] 2021-11-10 13:02:35,296 [Epoch 122/8000] Loss = 5.2377    Cls = 1.7293    Bbox = 1.9001    Landmark = 1.6083    Epoch Time = 474.815
+[INFO] 2021-11-10 13:10:29,104 [Epoch 123/8000] Loss = 5.2615    Cls = 1.7437    Bbox = 1.9030    Landmark = 1.6148    Epoch Time = 473.804
+[INFO] 2021-11-10 13:18:23,854 [Epoch 124/8000] Loss = 5.2922    Cls = 1.7443    Bbox = 1.9119    Landmark = 1.6360    Epoch Time = 474.747
+[INFO] 2021-11-10 13:26:15,863 [Epoch 125/8000] Loss = 5.3495    Cls = 1.7648    Bbox = 1.9415    Landmark = 1.6432    Epoch Time = 472.008
+[INFO] 2021-11-10 13:34:09,112 [Epoch 126/8000] Loss = 5.2271    Cls = 1.7333    Bbox = 1.9007    Landmark = 1.5931    Epoch Time = 473.246
+[INFO] 2021-11-10 13:42:03,007 [Epoch 127/8000] Loss = 5.1518    Cls = 1.7129    Bbox = 1.8632    Landmark = 1.5757    Epoch Time = 473.891
+[INFO] 2021-11-10 13:49:57,943 [Epoch 128/8000] Loss = 5.1900    Cls = 1.7163    Bbox = 1.8831    Landmark = 1.5907    Epoch Time = 474.934
+[INFO] 2021-11-10 13:57:53,449 [Epoch 129/8000] Loss = 5.1835    Cls = 1.7177    Bbox = 1.8727    Landmark = 1.5930    Epoch Time = 475.504
+[INFO] 2021-11-10 14:05:45,462 [Epoch 130/8000] Loss = 5.0930    Cls = 1.7034    Bbox = 1.8430    Landmark = 1.5466    Epoch Time = 472.009
+[INFO] 2021-11-10 14:11:10,016 Avg AP : 0.8797   Easy AP : 0.9310   Medium AP : 0.9100   Hard AP : 0.8106
+[INFO] 2021-11-10 14:11:10,326 Epoch Model Saved
+[INFO] 2021-11-10 14:11:10,326 Best Avg AP : 0.8803   Easy AP : 0.9352   Medium AP : 0.9052   Hard AP : 0.8131
+[INFO] 2021-11-10 14:19:05,301 [Epoch 131/8000] Loss = 5.0766    Cls = 1.6893    Bbox = 1.8460    Landmark = 1.5413    Epoch Time = 474.974
+[INFO] 2021-11-10 14:27:06,411 [Epoch 132/8000] Loss = 5.0093    Cls = 1.6766    Bbox = 1.8204    Landmark = 1.5122    Epoch Time = 481.106
+[INFO] 2021-11-10 14:35:06,083 [Epoch 133/8000] Loss = 5.1339    Cls = 1.7164    Bbox = 1.8463    Landmark = 1.5712    Epoch Time = 479.669
+[INFO] 2021-11-10 14:42:59,985 [Epoch 134/8000] Loss = 5.0792    Cls = 1.6914    Bbox = 1.8562    Landmark = 1.5316    Epoch Time = 473.899
+[INFO] 2021-11-10 14:50:55,684 [Epoch 135/8000] Loss = 5.0121    Cls = 1.6764    Bbox = 1.8177    Landmark = 1.5179    Epoch Time = 475.696
+[INFO] 2021-11-10 14:58:54,640 [Epoch 136/8000] Loss = 5.0709    Cls = 1.6902    Bbox = 1.8402    Landmark = 1.5405    Epoch Time = 478.952
+[INFO] 2021-11-10 15:06:54,600 [Epoch 137/8000] Loss = 5.2109    Cls = 1.7351    Bbox = 1.8829    Landmark = 1.5928    Epoch Time = 479.957
+[INFO] 2021-11-10 15:14:50,419 [Epoch 138/8000] Loss = 5.3399    Cls = 1.7466    Bbox = 1.9118    Landmark = 1.6816    Epoch Time = 475.816
+[INFO] 2021-11-10 15:22:45,750 [Epoch 139/8000] Loss = 5.1008    Cls = 1.7002    Bbox = 1.8444    Landmark = 1.5562    Epoch Time = 475.326
+[INFO] 2021-11-10 15:30:40,008 [Epoch 140/8000] Loss = 5.0671    Cls = 1.6859    Bbox = 1.8218    Landmark = 1.5593    Epoch Time = 474.255
+[INFO] 2021-11-10 15:36:04,117 Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-10 15:36:04,386 Epoch Model Saved
+[INFO] 2021-11-10 15:36:05,611 Model Saved
+[INFO] 2021-11-10 15:36:05,611 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-10 15:44:00,238 [Epoch 141/8000] Loss = 5.1742    Cls = 1.7067    Bbox = 1.8662    Landmark = 1.6012    Epoch Time = 474.623
+[INFO] 2021-11-10 15:51:55,861 [Epoch 142/8000] Loss = 5.1667    Cls = 1.7222    Bbox = 1.8702    Landmark = 1.5743    Epoch Time = 475.619
+[INFO] 2021-11-10 15:59:55,262 [Epoch 143/8000] Loss = 5.0767    Cls = 1.6883    Bbox = 1.8271    Landmark = 1.5613    Epoch Time = 479.398
+[INFO] 2021-11-10 16:07:53,788 [Epoch 144/8000] Loss = 5.0869    Cls = 1.6914    Bbox = 1.8414    Landmark = 1.5542    Epoch Time = 478.524
+[INFO] 2021-11-10 16:15:48,654 [Epoch 145/8000] Loss = 4.9911    Cls = 1.6750    Bbox = 1.8166    Landmark = 1.4996    Epoch Time = 474.862
+[INFO] 2021-11-10 16:23:44,682 [Epoch 146/8000] Loss = 5.1967    Cls = 1.7164    Bbox = 1.8722    Landmark = 1.6081    Epoch Time = 476.024
+[INFO] 2021-11-10 16:31:41,992 [Epoch 147/8000] Loss = 5.1423    Cls = 1.7005    Bbox = 1.8509    Landmark = 1.5909    Epoch Time = 477.306
+[INFO] 2021-11-10 16:39:37,454 [Epoch 148/8000] Loss = 5.0807    Cls = 1.6900    Bbox = 1.8307    Landmark = 1.5600    Epoch Time = 475.458
+[INFO] 2021-11-10 16:47:35,014 [Epoch 149/8000] Loss = 4.9325    Cls = 1.6644    Bbox = 1.8019    Landmark = 1.4661    Epoch Time = 477.558
+[INFO] 2021-11-10 16:55:33,703 [Epoch 150/8000] Loss = 4.9252    Cls = 1.6496    Bbox = 1.7981    Landmark = 1.4775    Epoch Time = 478.686
+[INFO] 2021-11-10 17:01:00,168 Avg AP : 0.8842   Easy AP : 0.9376   Medium AP : 0.9103   Hard AP : 0.8173
+[INFO] 2021-11-10 17:01:00,422 Epoch Model Saved
+[INFO] 2021-11-10 17:01:00,422 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-10 17:09:00,455 [Epoch 151/8000] Loss = 5.0058    Cls = 1.6811    Bbox = 1.8114    Landmark = 1.5132    Epoch Time = 480.031
+[INFO] 2021-11-10 17:16:57,803 [Epoch 152/8000] Loss = 4.9573    Cls = 1.6615    Bbox = 1.7892    Landmark = 1.5066    Epoch Time = 477.346
+[INFO] 2021-11-10 17:24:50,626 [Epoch 153/8000] Loss = 4.9974    Cls = 1.6762    Bbox = 1.8069    Landmark = 1.5143    Epoch Time = 472.819
+[INFO] 2021-11-10 17:32:43,271 [Epoch 154/8000] Loss = 5.0651    Cls = 1.6916    Bbox = 1.8153    Landmark = 1.5581    Epoch Time = 472.643
+[INFO] 2021-11-10 17:40:34,962 [Epoch 155/8000] Loss = 5.1335    Cls = 1.7085    Bbox = 1.8405    Landmark = 1.5845    Epoch Time = 471.688
+[INFO] 2021-11-10 17:48:29,263 [Epoch 156/8000] Loss = 4.9454    Cls = 1.6669    Bbox = 1.7972    Landmark = 1.4813    Epoch Time = 474.298
+[INFO] 2021-11-10 17:56:26,580 [Epoch 157/8000] Loss = 4.8996    Cls = 1.6440    Bbox = 1.7807    Landmark = 1.4750    Epoch Time = 477.314
+[INFO] 2021-11-10 18:04:24,560 [Epoch 158/8000] Loss = 4.9662    Cls = 1.6606    Bbox = 1.7863    Landmark = 1.5194    Epoch Time = 477.977
+[INFO] 2021-11-10 18:12:17,940 [Epoch 159/8000] Loss = 4.9550    Cls = 1.6658    Bbox = 1.8001    Landmark = 1.4891    Epoch Time = 473.378
+[INFO] 2021-11-10 18:20:11,266 [Epoch 160/8000] Loss = 5.0487    Cls = 1.6853    Bbox = 1.8376    Landmark = 1.5258    Epoch Time = 473.323
+[INFO] 2021-11-10 18:25:32,933 Avg AP : 0.8721   Easy AP : 0.9304   Medium AP : 0.8972   Hard AP : 0.8021
+[INFO] 2021-11-10 18:25:33,192 Epoch Model Saved
+[INFO] 2021-11-10 18:25:33,192 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-10 18:33:28,384 [Epoch 161/8000] Loss = 5.0719    Cls = 1.6996    Bbox = 1.8363    Landmark = 1.5361    Epoch Time = 475.190
+[INFO] 2021-11-10 18:41:24,746 [Epoch 162/8000] Loss = 4.9163    Cls = 1.6452    Bbox = 1.7727    Landmark = 1.4984    Epoch Time = 476.360
+[INFO] 2021-11-10 18:49:29,589 [Epoch 163/8000] Loss = 4.8887    Cls = 1.6401    Bbox = 1.7671    Landmark = 1.4814    Epoch Time = 484.841
+[INFO] 2021-11-10 18:57:27,297 [Epoch 164/8000] Loss = 4.9200    Cls = 1.6452    Bbox = 1.7765    Landmark = 1.4984    Epoch Time = 477.707
+[INFO] 2021-11-10 19:08:05,727 [Epoch 165/8000] Loss = 4.8028    Cls = 1.6218    Bbox = 1.7470    Landmark = 1.4341    Epoch Time = 638.427
+[INFO] 2021-11-10 19:17:31,562 [Epoch 166/8000] Loss = 4.9800    Cls = 1.6591    Bbox = 1.7925    Landmark = 1.5284    Epoch Time = 565.831
+[INFO] 2021-11-10 19:25:35,460 [Epoch 167/8000] Loss = 4.9136    Cls = 1.6586    Bbox = 1.7855    Landmark = 1.4695    Epoch Time = 483.894
+[INFO] 2021-11-10 19:43:20,830 [Epoch 168/8000] Loss = 4.9139    Cls = 1.6475    Bbox = 1.7762    Landmark = 1.4902    Epoch Time = 1065.368
+[INFO] 2021-11-10 20:02:40,348 [Epoch 169/8000] Loss = 5.0260    Cls = 1.6679    Bbox = 1.8172    Landmark = 1.5409    Epoch Time = 1159.378
+[INFO] 2021-11-10 20:30:24,376 [Epoch 170/8000] Loss = 4.9782    Cls = 1.6615    Bbox = 1.7915    Landmark = 1.5252    Epoch Time = 1664.008
+[INFO] 2021-11-10 20:47:01,938 Avg AP : 0.8666   Easy AP : 0.9284   Medium AP : 0.8954   Hard AP : 0.7904
+[INFO] 2021-11-10 20:47:02,310 Epoch Model Saved
+[INFO] 2021-11-10 20:47:02,310 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-10 20:55:24,869 [Epoch 171/8000] Loss = 4.8974    Cls = 1.6465    Bbox = 1.7768    Landmark = 1.4741    Epoch Time = 502.558
+[INFO] 2021-11-10 21:03:28,875 [Epoch 172/8000] Loss = 4.8485    Cls = 1.6320    Bbox = 1.7466    Landmark = 1.4699    Epoch Time = 484.003
+[INFO] 2021-11-10 21:11:23,290 [Epoch 173/8000] Loss = 4.9075    Cls = 1.6466    Bbox = 1.7734    Landmark = 1.4876    Epoch Time = 474.413
+[INFO] 2021-11-10 21:19:23,934 [Epoch 174/8000] Loss = 4.7715    Cls = 1.6279    Bbox = 1.7363    Landmark = 1.4073    Epoch Time = 480.640
+[INFO] 2021-11-10 21:27:33,492 [Epoch 175/8000] Loss = 4.8503    Cls = 1.6273    Bbox = 1.7421    Landmark = 1.4809    Epoch Time = 489.554
+[INFO] 2021-11-10 21:35:47,608 [Epoch 176/8000] Loss = 4.9775    Cls = 1.6740    Bbox = 1.8020    Landmark = 1.5016    Epoch Time = 494.114
+[INFO] 2021-11-10 21:43:59,514 [Epoch 177/8000] Loss = 4.8663    Cls = 1.6401    Bbox = 1.7668    Landmark = 1.4593    Epoch Time = 491.902
+[INFO] 2021-11-10 21:52:20,167 [Epoch 178/8000] Loss = 4.8175    Cls = 1.6361    Bbox = 1.7421    Landmark = 1.4392    Epoch Time = 500.651
+[INFO] 2021-11-10 22:00:31,459 [Epoch 179/8000] Loss = 4.7750    Cls = 1.6157    Bbox = 1.7341    Landmark = 1.4252    Epoch Time = 491.289
+[INFO] 2021-11-10 22:08:35,800 [Epoch 180/8000] Loss = 4.7261    Cls = 1.5946    Bbox = 1.7107    Landmark = 1.4209    Epoch Time = 484.339
+[INFO] 2021-11-10 22:14:12,709 Avg AP : 0.8831   Easy AP : 0.9380   Medium AP : 0.9107   Hard AP : 0.8135
+[INFO] 2021-11-10 22:14:13,049 Epoch Model Saved
+[INFO] 2021-11-10 22:14:13,070 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-10 22:22:19,303 [Epoch 181/8000] Loss = 4.9453    Cls = 1.6635    Bbox = 1.7802    Landmark = 1.5015    Epoch Time = 486.230
+[INFO] 2021-11-10 22:30:31,819 [Epoch 182/8000] Loss = 4.8846    Cls = 1.6374    Bbox = 1.7651    Landmark = 1.4821    Epoch Time = 492.512
+[INFO] 2021-11-10 22:38:36,681 [Epoch 183/8000] Loss = 4.8100    Cls = 1.6159    Bbox = 1.7230    Landmark = 1.4711    Epoch Time = 484.858
+[INFO] 2021-11-10 22:46:46,493 [Epoch 184/8000] Loss = 4.7904    Cls = 1.6150    Bbox = 1.7331    Landmark = 1.4423    Epoch Time = 489.808
+[INFO] 2021-11-10 22:54:55,036 [Epoch 185/8000] Loss = 4.8020    Cls = 1.6107    Bbox = 1.7498    Landmark = 1.4414    Epoch Time = 488.539
+[INFO] 2021-11-10 23:02:58,868 [Epoch 186/8000] Loss = 4.6487    Cls = 1.5846    Bbox = 1.6906    Landmark = 1.3734    Epoch Time = 483.828
+[INFO] 2021-11-10 23:11:10,658 [Epoch 187/8000] Loss = 4.8343    Cls = 1.6276    Bbox = 1.7517    Landmark = 1.4550    Epoch Time = 491.785
+[INFO] 2021-11-10 23:19:22,959 [Epoch 188/8000] Loss = 4.8499    Cls = 1.6353    Bbox = 1.7451    Landmark = 1.4696    Epoch Time = 492.298
+[INFO] 2021-11-10 23:27:32,463 [Epoch 189/8000] Loss = 4.7366    Cls = 1.5989    Bbox = 1.7214    Landmark = 1.4163    Epoch Time = 489.500
+[INFO] 2021-11-10 23:35:44,445 [Epoch 190/8000] Loss = 4.8317    Cls = 1.6259    Bbox = 1.7415    Landmark = 1.4642    Epoch Time = 491.979
+[INFO] 2021-11-10 23:41:22,484 Avg AP : 0.8748   Easy AP : 0.9345   Medium AP : 0.9018   Hard AP : 0.8018
+[INFO] 2021-11-10 23:41:22,856 Epoch Model Saved
+[INFO] 2021-11-10 23:41:22,857 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-10 23:49:35,858 [Epoch 191/8000] Loss = 4.8769    Cls = 1.6370    Bbox = 1.7489    Landmark = 1.4910    Epoch Time = 493.001
+[INFO] 2021-11-10 23:57:55,014 [Epoch 192/8000] Loss = 4.8089    Cls = 1.6234    Bbox = 1.7324    Landmark = 1.4531    Epoch Time = 499.152
+[INFO] 2021-11-11 00:06:04,385 [Epoch 193/8000] Loss = 4.8673    Cls = 1.6283    Bbox = 1.7353    Landmark = 1.5037    Epoch Time = 489.367
+[INFO] 2021-11-11 00:14:18,883 [Epoch 194/8000] Loss = 4.9087    Cls = 1.6485    Bbox = 1.7603    Landmark = 1.4999    Epoch Time = 494.495
+[INFO] 2021-11-11 00:22:32,827 [Epoch 195/8000] Loss = 4.7455    Cls = 1.6197    Bbox = 1.7183    Landmark = 1.4075    Epoch Time = 493.941
+[INFO] 2021-11-11 00:30:43,809 [Epoch 196/8000] Loss = 4.7807    Cls = 1.6097    Bbox = 1.7196    Landmark = 1.4514    Epoch Time = 490.978
+[INFO] 2021-11-11 00:38:50,557 [Epoch 197/8000] Loss = 4.6367    Cls = 1.5835    Bbox = 1.6860    Landmark = 1.3673    Epoch Time = 486.745
+[INFO] 2021-11-11 00:46:55,566 [Epoch 198/8000] Loss = 4.6438    Cls = 1.5824    Bbox = 1.6811    Landmark = 1.3803    Epoch Time = 485.007
+[INFO] 2021-11-11 00:55:00,260 [Epoch 199/8000] Loss = 4.6582    Cls = 1.5794    Bbox = 1.6749    Landmark = 1.4039    Epoch Time = 484.691
+[INFO] 2021-11-11 01:03:03,935 [Epoch 200/8000] Loss = 4.7688    Cls = 1.6125    Bbox = 1.7169    Landmark = 1.4394    Epoch Time = 483.672
+[INFO] 2021-11-11 01:08:37,217 Avg AP : 0.8827   Easy AP : 0.9358   Medium AP : 0.9088   Hard AP : 0.8159
+[INFO] 2021-11-11 01:08:37,509 Epoch Model Saved
+[INFO] 2021-11-11 01:08:37,509 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-11 01:16:43,460 [Epoch 201/8000] Loss = 4.6818    Cls = 1.5922    Bbox = 1.6884    Landmark = 1.4012    Epoch Time = 485.949
+[INFO] 2021-11-11 01:24:44,139 [Epoch 202/8000] Loss = 4.6804    Cls = 1.5960    Bbox = 1.6889    Landmark = 1.3956    Epoch Time = 480.677
+[INFO] 2021-11-11 01:32:47,607 [Epoch 203/8000] Loss = 4.6383    Cls = 1.5840    Bbox = 1.6888    Landmark = 1.3654    Epoch Time = 483.464
+[INFO] 2021-11-11 01:40:52,840 [Epoch 204/8000] Loss = 4.7132    Cls = 1.5945    Bbox = 1.6903    Landmark = 1.4284    Epoch Time = 485.230
+[INFO] 2021-11-11 01:48:54,740 [Epoch 205/8000] Loss = 4.6613    Cls = 1.5898    Bbox = 1.6888    Landmark = 1.3827    Epoch Time = 481.898
+[INFO] 2021-11-11 01:57:00,243 [Epoch 206/8000] Loss = 4.7243    Cls = 1.5941    Bbox = 1.7068    Landmark = 1.4234    Epoch Time = 485.500
+[INFO] 2021-11-11 02:05:04,220 [Epoch 207/8000] Loss = 4.6118    Cls = 1.5638    Bbox = 1.6703    Landmark = 1.3778    Epoch Time = 483.972
+[INFO] 2021-11-11 02:13:05,773 [Epoch 208/8000] Loss = 4.6745    Cls = 1.5794    Bbox = 1.6945    Landmark = 1.4007    Epoch Time = 481.550
+[INFO] 2021-11-11 02:21:08,967 [Epoch 209/8000] Loss = 4.6595    Cls = 1.5825    Bbox = 1.6776    Landmark = 1.3994    Epoch Time = 483.191
+[INFO] 2021-11-11 02:29:12,679 [Epoch 210/8000] Loss = 4.7712    Cls = 1.6143    Bbox = 1.7214    Landmark = 1.4355    Epoch Time = 483.708
+[INFO] 2021-11-11 02:34:39,665 Avg AP : 0.8758   Easy AP : 0.9321   Medium AP : 0.9034   Hard AP : 0.8051
+[INFO] 2021-11-11 02:34:40,011 Epoch Model Saved
+[INFO] 2021-11-11 02:34:40,011 Best Avg AP : 0.8851   Easy AP : 0.9355   Medium AP : 0.9120   Hard AP : 0.8200
+[INFO] 2021-11-11 02:42:40,029 [Epoch 211/8000] Loss = 4.9494    Cls = 1.6577    Bbox = 1.7757    Landmark = 1.5160    Epoch Time = 480.016
+[INFO] 2021-11-11 02:50:39,514 [Epoch 212/8000] Loss = 4.8384    Cls = 1.6250    Bbox = 1.7358    Landmark = 1.4776    Epoch Time = 479.484
+[INFO] 2021-11-11 02:58:41,400 [Epoch 213/8000] Loss = 4.8756    Cls = 1.6401    Bbox = 1.7557    Landmark = 1.4798    Epoch Time = 481.882
+[INFO] 2021-11-11 03:06:40,631 [Epoch 214/8000] Loss = 4.9620    Cls = 1.6633    Bbox = 1.7811    Landmark = 1.5176    Epoch Time = 479.226
+[INFO] 2021-11-11 03:14:42,846 [Epoch 215/8000] Loss = 4.7811    Cls = 1.6240    Bbox = 1.7287    Landmark = 1.4284    Epoch Time = 482.212
+[INFO] 2021-11-11 03:22:45,856 [Epoch 216/8000] Loss = 4.7129    Cls = 1.5960    Bbox = 1.7080    Landmark = 1.4089    Epoch Time = 483.006
+[INFO] 2021-11-11 03:30:47,752 [Epoch 217/8000] Loss = 4.7135    Cls = 1.6057    Bbox = 1.6895    Landmark = 1.4184    Epoch Time = 481.893
+[INFO] 2021-11-11 03:38:49,960 [Epoch 218/8000] Loss = inf    Cls = 1.5671    Bbox = inf    Landmark = 1.3809    Epoch Time = 482.199
+[INFO] 2021-11-11 03:46:56,631 [Epoch 219/8000] Loss = 4.8223    Cls = 1.6272    Bbox = 1.7343    Landmark = 1.4608    Epoch Time = 486.668
+[INFO] 2021-11-11 03:54:59,223 [Epoch 220/8000] Loss = 4.7538    Cls = 1.6027    Bbox = 1.7181    Landmark = 1.4329    Epoch Time = 482.591
+[INFO] 2021-11-11 04:00:27,709 Avg AP : 0.8863   Easy AP : 0.9374   Medium AP : 0.9118   Hard AP : 0.8217
+[INFO] 2021-11-11 04:00:28,017 Epoch Model Saved
+[INFO] 2021-11-11 04:00:29,245 Model Saved
+[INFO] 2021-11-11 04:00:29,245 Best Avg AP : 0.8863   Easy AP : 0.9374   Medium AP : 0.9118   Hard AP : 0.8217
+[INFO] 2021-11-11 04:08:35,014 [Epoch 221/8000] Loss = 4.7730    Cls = 1.6054    Bbox = 1.7040    Landmark = 1.4636    Epoch Time = 485.766
+[INFO] 2021-11-11 04:16:36,166 [Epoch 222/8000] Loss = 4.7067    Cls = 1.6050    Bbox = 1.6994    Landmark = 1.4023    Epoch Time = 481.148
+[INFO] 2021-11-11 04:24:39,634 [Epoch 223/8000] Loss = 4.6609    Cls = 1.5772    Bbox = 1.6869    Landmark = 1.3968    Epoch Time = 483.466
+[INFO] 2021-11-11 04:32:41,584 [Epoch 224/8000] Loss = 4.6645    Cls = 1.5930    Bbox = 1.6874    Landmark = 1.3842    Epoch Time = 481.947
+[INFO] 2021-11-11 04:40:42,435 [Epoch 225/8000] Loss = 4.6492    Cls = 1.5882    Bbox = 1.6851    Landmark = 1.3759    Epoch Time = 480.847
+[INFO] 2021-11-11 04:48:44,664 [Epoch 226/8000] Loss = 4.6554    Cls = 1.5791    Bbox = 1.6798    Landmark = 1.3965    Epoch Time = 482.226
+[INFO] 2021-11-11 04:56:47,234 [Epoch 227/8000] Loss = 4.6572    Cls = 1.5805    Bbox = 1.6712    Landmark = 1.4054    Epoch Time = 482.566
+[INFO] 2021-11-11 05:04:48,270 [Epoch 228/8000] Loss = 4.5799    Cls = 1.5671    Bbox = 1.6479    Landmark = 1.3649    Epoch Time = 481.034
+[INFO] 2021-11-11 05:12:46,745 [Epoch 229/8000] Loss = 4.5791    Cls = 1.5701    Bbox = 1.6745    Landmark = 1.3345    Epoch Time = 478.471
+[INFO] 2021-11-11 05:20:47,373 [Epoch 230/8000] Loss = 4.6018    Cls = 1.5691    Bbox = 1.6495    Landmark = 1.3832    Epoch Time = 480.625
+[INFO] 2021-11-11 05:26:11,294 Avg AP : 0.8712   Easy AP : 0.9275   Medium AP : 0.8997   Hard AP : 0.7998
+[INFO] 2021-11-11 05:26:11,561 Epoch Model Saved
+[INFO] 2021-11-11 05:26:11,561 Best Avg AP : 0.8863   Easy AP : 0.9374   Medium AP : 0.9118   Hard AP : 0.8217
+[INFO] 2021-11-11 05:34:11,595 [Epoch 231/8000] Loss = 4.6238    Cls = 1.5728    Bbox = 1.6712    Landmark = 1.3797    Epoch Time = 480.033
+[INFO] 2021-11-11 05:42:10,223 [Epoch 232/8000] Loss = 4.5294    Cls = 1.5479    Bbox = 1.6397    Landmark = 1.3418    Epoch Time = 478.626
+[INFO] 2021-11-11 05:50:10,628 [Epoch 233/8000] Loss = 4.5754    Cls = 1.5546    Bbox = 1.6451    Landmark = 1.3757    Epoch Time = 480.402
+[INFO] 2021-11-11 05:58:13,838 [Epoch 234/8000] Loss = 4.5965    Cls = 1.5692    Bbox = 1.6451    Landmark = 1.3822    Epoch Time = 483.206
+[INFO] 2021-11-11 06:06:16,497 [Epoch 235/8000] Loss = 4.6486    Cls = 1.5739    Bbox = 1.6759    Landmark = 1.3987    Epoch Time = 482.656
+[INFO] 2021-11-11 06:14:25,767 [Epoch 236/8000] Loss = 4.5750    Cls = 1.5692    Bbox = 1.6448    Landmark = 1.3609    Epoch Time = 489.267
+[INFO] 2021-11-11 06:22:29,764 [Epoch 237/8000] Loss = 4.5668    Cls = 1.5528    Bbox = 1.6474    Landmark = 1.3667    Epoch Time = 483.992
+[INFO] 2021-11-11 06:30:34,298 [Epoch 238/8000] Loss = 4.7279    Cls = 1.5988    Bbox = 1.7051    Landmark = 1.4240    Epoch Time = 484.530
+[INFO] 2021-11-11 06:38:42,128 [Epoch 239/8000] Loss = 4.4980    Cls = 1.5353    Bbox = 1.6283    Landmark = 1.3343    Epoch Time = 487.828
+[INFO] 2021-11-11 06:46:41,605 [Epoch 240/8000] Loss = 4.6932    Cls = 1.5866    Bbox = 1.6925    Landmark = 1.4141    Epoch Time = 479.473
+[INFO] 2021-11-11 06:52:10,098 Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 06:52:10,452 Epoch Model Saved
+[INFO] 2021-11-11 06:52:11,539 Model Saved
+[INFO] 2021-11-11 06:52:11,539 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 07:00:14,823 [Epoch 241/8000] Loss = 4.5928    Cls = 1.5633    Bbox = 1.6708    Landmark = 1.3588    Epoch Time = 483.281
+[INFO] 2021-11-11 07:08:18,894 [Epoch 242/8000] Loss = 4.6263    Cls = 1.5754    Bbox = 1.6723    Landmark = 1.3786    Epoch Time = 484.068
+[INFO] 2021-11-11 07:16:20,983 [Epoch 243/8000] Loss = 4.4541    Cls = 1.5334    Bbox = 1.6176    Landmark = 1.3032    Epoch Time = 482.085
+[INFO] 2021-11-11 07:24:23,568 [Epoch 244/8000] Loss = 4.6292    Cls = 1.5757    Bbox = 1.6719    Landmark = 1.3816    Epoch Time = 482.582
+[INFO] 2021-11-11 07:32:28,789 [Epoch 245/8000] Loss = 4.5936    Cls = 1.5643    Bbox = 1.6592    Landmark = 1.3701    Epoch Time = 485.217
+[INFO] 2021-11-11 07:40:36,233 [Epoch 246/8000] Loss = 4.5664    Cls = 1.5590    Bbox = 1.6465    Landmark = 1.3609    Epoch Time = 487.441
+[INFO] 2021-11-11 07:48:36,281 [Epoch 247/8000] Loss = 4.4987    Cls = 1.5386    Bbox = 1.6215    Landmark = 1.3387    Epoch Time = 480.045
+[INFO] 2021-11-11 07:56:31,488 [Epoch 248/8000] Loss = 4.4887    Cls = 1.5297    Bbox = 1.6168    Landmark = 1.3422    Epoch Time = 475.205
+[INFO] 2021-11-11 08:04:30,589 [Epoch 249/8000] Loss = 4.5323    Cls = 1.5514    Bbox = 1.6385    Landmark = 1.3425    Epoch Time = 479.097
+[INFO] 2021-11-11 08:12:26,444 [Epoch 250/8000] Loss = 4.5717    Cls = 1.5536    Bbox = 1.6524    Landmark = 1.3657    Epoch Time = 475.853
+[INFO] 2021-11-11 08:17:48,470 Avg AP : 0.8792   Easy AP : 0.9328   Medium AP : 0.9039   Hard AP : 0.8134
+[INFO] 2021-11-11 08:17:48,771 Epoch Model Saved
+[INFO] 2021-11-11 08:17:48,771 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 08:25:40,792 [Epoch 251/8000] Loss = 4.5078    Cls = 1.5393    Bbox = 1.6302    Landmark = 1.3383    Epoch Time = 472.019
+[INFO] 2021-11-11 08:33:34,785 [Epoch 252/8000] Loss = 4.4563    Cls = 1.5290    Bbox = 1.6141    Landmark = 1.3132    Epoch Time = 473.990
+[INFO] 2021-11-11 08:41:29,983 [Epoch 253/8000] Loss = 4.6197    Cls = 1.5819    Bbox = 1.6653    Landmark = 1.3725    Epoch Time = 475.196
+[INFO] 2021-11-11 08:49:25,557 [Epoch 254/8000] Loss = 4.5976    Cls = 1.5686    Bbox = 1.6551    Landmark = 1.3738    Epoch Time = 475.571
+[INFO] 2021-11-11 08:57:16,139 [Epoch 255/8000] Loss = 4.8215    Cls = 1.6319    Bbox = 1.7232    Landmark = 1.4664    Epoch Time = 470.579
+[INFO] 2021-11-11 09:05:04,436 [Epoch 256/8000] Loss = 4.7447    Cls = 1.5937    Bbox = 1.7024    Landmark = 1.4485    Epoch Time = 468.293
+[INFO] 2021-11-11 09:12:53,227 [Epoch 257/8000] Loss = 4.5464    Cls = 1.5590    Bbox = 1.6357    Landmark = 1.3517    Epoch Time = 468.788
+[INFO] 2021-11-11 09:20:41,223 [Epoch 258/8000] Loss = 4.5290    Cls = 1.5502    Bbox = 1.6392    Landmark = 1.3396    Epoch Time = 467.992
+[INFO] 2021-11-11 09:28:29,933 [Epoch 259/8000] Loss = 4.6112    Cls = 1.5799    Bbox = 1.6669    Landmark = 1.3644    Epoch Time = 468.708
+[INFO] 2021-11-11 09:36:17,605 [Epoch 260/8000] Loss = 4.5684    Cls = 1.5599    Bbox = 1.6380    Landmark = 1.3705    Epoch Time = 467.669
+[INFO] 2021-11-11 09:41:32,895 Avg AP : 0.8629   Easy AP : 0.9242   Medium AP : 0.8946   Hard AP : 0.7844
+[INFO] 2021-11-11 09:41:33,181 Epoch Model Saved
+[INFO] 2021-11-11 09:41:33,181 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 09:49:21,655 [Epoch 261/8000] Loss = 4.6021    Cls = 1.5694    Bbox = 1.6527    Landmark = 1.3801    Epoch Time = 468.473
+[INFO] 2021-11-11 09:57:11,522 [Epoch 262/8000] Loss = 4.5372    Cls = 1.5566    Bbox = 1.6257    Landmark = 1.3549    Epoch Time = 469.865
+[INFO] 2021-11-11 10:05:01,620 [Epoch 263/8000] Loss = inf    Cls = 1.5468    Bbox = inf    Landmark = 1.3360    Epoch Time = 470.095
+[INFO] 2021-11-11 10:12:50,178 [Epoch 264/8000] Loss = 4.7234    Cls = 1.6016    Bbox = 1.6869    Landmark = 1.4349    Epoch Time = 468.556
+[INFO] 2021-11-11 10:20:38,753 [Epoch 265/8000] Loss = 4.5235    Cls = 1.5547    Bbox = 1.6343    Landmark = 1.3345    Epoch Time = 468.571
+[INFO] 2021-11-11 10:28:28,742 [Epoch 266/8000] Loss = 4.5203    Cls = 1.5478    Bbox = 1.6456    Landmark = 1.3270    Epoch Time = 469.986
+[INFO] 2021-11-11 10:36:17,794 [Epoch 267/8000] Loss = 4.5911    Cls = 1.5607    Bbox = 1.6475    Landmark = 1.3829    Epoch Time = 469.050
+[INFO] 2021-11-11 10:44:07,396 [Epoch 268/8000] Loss = 4.4228    Cls = 1.5233    Bbox = 1.5944    Landmark = 1.3051    Epoch Time = 469.598
+[INFO] 2021-11-11 10:51:58,899 [Epoch 269/8000] Loss = 4.4556    Cls = 1.5246    Bbox = 1.6087    Landmark = 1.3224    Epoch Time = 471.501
+[INFO] 2021-11-11 10:59:49,797 [Epoch 270/8000] Loss = 4.7173    Cls = 1.5940    Bbox = 1.6797    Landmark = 1.4436    Epoch Time = 470.893
+[INFO] 2021-11-11 11:05:14,919 Avg AP : 0.8748   Easy AP : 0.9350   Medium AP : 0.9014   Hard AP : 0.8020
+[INFO] 2021-11-11 11:05:15,204 Epoch Model Saved
+[INFO] 2021-11-11 11:05:15,204 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 11:13:07,655 [Epoch 271/8000] Loss = 4.6938    Cls = 1.5910    Bbox = 1.6834    Landmark = 1.4195    Epoch Time = 472.450
+[INFO] 2021-11-11 11:20:57,961 [Epoch 272/8000] Loss = 4.5526    Cls = 1.5540    Bbox = 1.6334    Landmark = 1.3652    Epoch Time = 470.302
+[INFO] 2021-11-11 11:28:49,894 [Epoch 273/8000] Loss = 4.6042    Cls = 1.5732    Bbox = 1.6556    Landmark = 1.3753    Epoch Time = 471.929
+[INFO] 2021-11-11 11:36:41,505 [Epoch 274/8000] Loss = 4.5292    Cls = 1.5516    Bbox = 1.6449    Landmark = 1.3327    Epoch Time = 471.606
+[INFO] 2021-11-11 11:44:32,900 [Epoch 275/8000] Loss = 4.6164    Cls = 1.5683    Bbox = 1.6624    Landmark = 1.3857    Epoch Time = 471.393
+[INFO] 2021-11-11 11:52:22,438 [Epoch 276/8000] Loss = 4.5869    Cls = 1.5687    Bbox = 1.6574    Landmark = 1.3609    Epoch Time = 469.535
+[INFO] 2021-11-11 12:00:13,370 [Epoch 277/8000] Loss = 4.5109    Cls = 1.5482    Bbox = 1.6114    Landmark = 1.3513    Epoch Time = 470.929
+[INFO] 2021-11-11 12:08:04,087 [Epoch 278/8000] Loss = 4.4645    Cls = 1.5339    Bbox = 1.6048    Landmark = 1.3258    Epoch Time = 470.714
+[INFO] 2021-11-11 12:15:55,258 [Epoch 279/8000] Loss = 4.4332    Cls = 1.5283    Bbox = 1.5842    Landmark = 1.3207    Epoch Time = 471.167
+[INFO] 2021-11-11 12:23:46,111 [Epoch 280/8000] Loss = 4.4206    Cls = 1.5235    Bbox = 1.5983    Landmark = 1.2988    Epoch Time = 470.850
+[INFO] 2021-11-11 12:29:00,403 Avg AP : 0.8817   Easy AP : 0.9334   Medium AP : 0.9081   Hard AP : 0.8160
+[INFO] 2021-11-11 12:29:00,672 Epoch Model Saved
+[INFO] 2021-11-11 12:29:00,672 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 12:36:51,109 [Epoch 281/8000] Loss = 4.6926    Cls = 1.5833    Bbox = 1.6685    Landmark = 1.4409    Epoch Time = 470.436
+[INFO] 2021-11-11 12:44:40,862 [Epoch 282/8000] Loss = inf    Cls = 1.5534    Bbox = inf    Landmark = 1.3392    Epoch Time = 469.750
+[INFO] 2021-11-11 12:52:31,346 [Epoch 283/8000] Loss = 4.6430    Cls = 1.5768    Bbox = 1.6525    Landmark = 1.4136    Epoch Time = 470.480
+[INFO] 2021-11-11 13:00:21,521 [Epoch 284/8000] Loss = 4.5926    Cls = 1.5704    Bbox = 1.6444    Landmark = 1.3778    Epoch Time = 470.171
+[INFO] 2021-11-11 13:08:10,860 [Epoch 285/8000] Loss = 4.5326    Cls = 1.5561    Bbox = 1.6219    Landmark = 1.3546    Epoch Time = 469.337
+[INFO] 2021-11-11 13:16:01,574 [Epoch 286/8000] Loss = 4.6031    Cls = 1.5661    Bbox = 1.6532    Landmark = 1.3837    Epoch Time = 470.712
+[INFO] 2021-11-11 13:23:50,412 [Epoch 287/8000] Loss = 4.6873    Cls = 1.5744    Bbox = 1.6542    Landmark = 1.4588    Epoch Time = 468.835
+[INFO] 2021-11-11 13:31:41,886 [Epoch 288/8000] Loss = 4.4992    Cls = 1.5412    Bbox = 1.6250    Landmark = 1.3330    Epoch Time = 471.470
+[INFO] 2021-11-11 13:39:47,526 [Epoch 289/8000] Loss = 4.5013    Cls = 1.5354    Bbox = 1.6209    Landmark = 1.3450    Epoch Time = 485.638
+[INFO] 2021-11-11 13:47:53,683 [Epoch 290/8000] Loss = 4.6133    Cls = 1.5549    Bbox = 1.6403    Landmark = 1.4182    Epoch Time = 486.155
+[INFO] 2021-11-11 13:53:43,828 Avg AP : 0.8552   Easy AP : 0.9108   Medium AP : 0.8825   Hard AP : 0.7855
+[INFO] 2021-11-11 13:53:44,127 Epoch Model Saved
+[INFO] 2021-11-11 13:53:44,127 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 13:55:11,673 	     anchor_num:	2
+[INFO] 2021-11-11 13:55:11,673 	     batch_size:	32
+[INFO] 2021-11-11 13:55:11,673 	        cascade:	True
+[INFO] 2021-11-11 13:55:11,673 	       ckpt_dir:	ckpt/
+[INFO] 2021-11-11 13:55:11,673 	confidence_threshold:	0.02
+[INFO] 2021-11-11 13:55:11,673 	      crop_size:	640
+[INFO] 2021-11-11 13:55:11,673 	       data_dir:	data/
+[INFO] 2021-11-11 13:55:11,673 	        dataset:	widerface/
+[INFO] 2021-11-11 13:55:11,673 	         epochs:	8000
+[INFO] 2021-11-11 13:55:11,674 	 evaluate_every:	10
+[INFO] 2021-11-11 13:55:11,674 	experiment_name:	resnet_anc2_casT_fpn3
+[INFO] 2021-11-11 13:55:11,674 	        fpn_num:	3
+[INFO] 2021-11-11 13:55:11,674 	        gpu_num:	2
+[INFO] 2021-11-11 13:55:11,674 	     lambda_loc:	2
+[INFO] 2021-11-11 13:55:11,674 	        log_dir:	log/
+[INFO] 2021-11-11 13:55:11,674 	             lr:	0.001
+[INFO] 2021-11-11 13:55:11,674 	       momentum:	0.9
+[INFO] 2021-11-11 13:55:11,674 	   ms_inference:	1
+[INFO] 2021-11-11 13:55:11,674 	        network:	resnet50
+[INFO] 2021-11-11 13:55:11,674 	  nms_threshold:	0.4
+[INFO] 2021-11-11 13:55:11,674 	       pretrain:	True
+[INFO] 2021-11-11 13:55:11,674 	pretrained_model_dir:	./models/pretrained_mobilenetV1/mobilenetV1X0.25_pretrain.tar
+[INFO] 2021-11-11 13:55:11,674 	    print_every:	1
+[INFO] 2021-11-11 13:55:11,674 	     save_every:	1
+[INFO] 2021-11-11 13:55:11,674 	    save_folder:	result/
+[INFO] 2021-11-11 13:55:11,675 	       save_img:	False
+[INFO] 2021-11-11 13:55:11,675 	   weight_decay:	0.0005
+[INFO] 2021-11-11 13:55:11,675 	        weights:	ckpt-best.pth
+[INFO] 2021-11-11 13:55:30,567 Recovering from experiments/resnet_anc2_casT_fpn3/ckpt/resnet50_ckpt-best.pth ...
+[INFO] 2021-11-11 13:55:30,910 Recover completed. Current epoch = #240  Easy ap = 0.940  Medium ap = 0.888  Hard ap = 0.825  Best ap = 0.888
+[INFO] 2021-11-11 14:03:32,685 [Epoch 241/8000] Loss = 4.3152    Cls = 1.4956    Bbox = 1.5508    Landmark = 1.2689    Epoch Time = 481.743
+[INFO] 2021-11-11 14:11:25,010 [Epoch 242/8000] Loss = 4.2494    Cls = 1.4743    Bbox = 1.5349    Landmark = 1.2403    Epoch Time = 472.322
+[INFO] 2021-11-11 14:19:17,236 [Epoch 243/8000] Loss = 4.1143    Cls = 1.4394    Bbox = 1.4913    Landmark = 1.1835    Epoch Time = 472.223
+[INFO] 2021-11-11 14:27:06,334 [Epoch 244/8000] Loss = 4.0891    Cls = 1.4232    Bbox = 1.4795    Landmark = 1.1864    Epoch Time = 469.095
+[INFO] 2021-11-11 14:34:53,310 [Epoch 245/8000] Loss = 4.0328    Cls = 1.4056    Bbox = 1.4554    Landmark = 1.1718    Epoch Time = 466.973
+[INFO] 2021-11-11 14:42:44,414 [Epoch 246/8000] Loss = 4.0627    Cls = 1.4190    Bbox = 1.4630    Landmark = 1.1807    Epoch Time = 471.102
+[INFO] 2021-11-11 14:50:34,560 [Epoch 247/8000] Loss = 4.0098    Cls = 1.4055    Bbox = 1.4421    Landmark = 1.1622    Epoch Time = 470.142
+[INFO] 2021-11-11 14:58:21,916 [Epoch 248/8000] Loss = 3.9570    Cls = 1.3919    Bbox = 1.4382    Landmark = 1.1268    Epoch Time = 467.352
+[INFO] 2021-11-11 15:06:14,399 [Epoch 249/8000] Loss = 4.0469    Cls = 1.4233    Bbox = 1.4681    Landmark = 1.1555    Epoch Time = 472.480
+[INFO] 2021-11-11 15:14:05,465 [Epoch 250/8000] Loss = 3.9833    Cls = 1.3883    Bbox = 1.4333    Landmark = 1.1616    Epoch Time = 471.061
+[INFO] 2021-11-11 15:24:19,652 Avg AP : 0.8867   Easy AP : 0.9400   Medium AP : 0.9127   Hard AP : 0.8199
+[INFO] 2021-11-11 15:24:20,793 Epoch Model Saved
+[INFO] 2021-11-11 15:24:20,794 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 15:32:06,012 [Epoch 251/8000] Loss = 3.9533    Cls = 1.3810    Bbox = 1.4287    Landmark = 1.1435    Epoch Time = 465.216
+[INFO] 2021-11-11 15:39:58,876 [Epoch 252/8000] Loss = 3.8952    Cls = 1.3888    Bbox = 1.4093    Landmark = 1.0971    Epoch Time = 472.862
+[INFO] 2021-11-11 15:47:52,583 [Epoch 253/8000] Loss = 3.9365    Cls = 1.3832    Bbox = 1.4211    Landmark = 1.1322    Epoch Time = 473.704
+[INFO] 2021-11-11 15:55:50,301 [Epoch 254/8000] Loss = 3.8818    Cls = 1.3749    Bbox = 1.4152    Landmark = 1.0917    Epoch Time = 477.715
+[INFO] 2021-11-11 16:03:48,354 [Epoch 255/8000] Loss = 3.9043    Cls = 1.3732    Bbox = 1.3980    Landmark = 1.1331    Epoch Time = 478.050
+[INFO] 2021-11-11 16:11:45,330 [Epoch 256/8000] Loss = 3.8925    Cls = 1.3756    Bbox = 1.3954    Landmark = 1.1216    Epoch Time = 476.973
+[INFO] 2021-11-11 16:19:51,381 [Epoch 257/8000] Loss = 3.9106    Cls = 1.3778    Bbox = 1.4105    Landmark = 1.1223    Epoch Time = 486.048
+[INFO] 2021-11-11 16:27:43,945 [Epoch 258/8000] Loss = 3.8919    Cls = 1.3696    Bbox = 1.4066    Landmark = 1.1157    Epoch Time = 472.561
+[INFO] 2021-11-11 16:35:38,164 [Epoch 259/8000] Loss = inf    Cls = 1.3610    Bbox = inf    Landmark = 1.1388    Epoch Time = 474.217
+[INFO] 2021-11-11 16:43:39,165 [Epoch 260/8000] Loss = 3.8575    Cls = 1.3536    Bbox = 1.3883    Landmark = 1.1156    Epoch Time = 480.999
+[INFO] 2021-11-11 16:49:32,495 Avg AP : 0.8829   Easy AP : 0.9356   Medium AP : 0.9077   Hard AP : 0.8176
+[INFO] 2021-11-11 16:49:33,555 Epoch Model Saved
+[INFO] 2021-11-11 16:49:33,555 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 16:57:34,338 [Epoch 261/8000] Loss = 3.8118    Cls = 1.3437    Bbox = 1.3706    Landmark = 1.0975    Epoch Time = 480.780
+[INFO] 2021-11-11 17:05:34,466 [Epoch 262/8000] Loss = 3.8398    Cls = 1.3693    Bbox = 1.3947    Landmark = 1.0758    Epoch Time = 480.122
+[INFO] 2021-11-11 17:13:41,248 [Epoch 263/8000] Loss = 3.8508    Cls = 1.3546    Bbox = 1.3808    Landmark = 1.1153    Epoch Time = 486.778
+[INFO] 2021-11-11 17:21:42,360 [Epoch 264/8000] Loss = 3.7830    Cls = 1.3450    Bbox = 1.3642    Landmark = 1.0738    Epoch Time = 481.108
+[INFO] 2021-11-11 17:29:40,551 [Epoch 265/8000] Loss = 3.7888    Cls = 1.3425    Bbox = 1.3596    Landmark = 1.0866    Epoch Time = 478.188
+[INFO] 2021-11-11 17:37:48,582 [Epoch 266/8000] Loss = 3.7966    Cls = 1.3412    Bbox = 1.3667    Landmark = 1.0887    Epoch Time = 488.026
+[INFO] 2021-11-11 17:45:53,386 [Epoch 267/8000] Loss = 3.8229    Cls = 1.3451    Bbox = 1.3747    Landmark = 1.1032    Epoch Time = 484.801
+[INFO] 2021-11-11 17:53:57,858 [Epoch 268/8000] Loss = 3.8161    Cls = 1.3523    Bbox = 1.3771    Landmark = 1.0868    Epoch Time = 484.470
+[INFO] 2021-11-11 18:01:56,551 [Epoch 269/8000] Loss = 3.8464    Cls = 1.3655    Bbox = 1.3812    Landmark = 1.0996    Epoch Time = 478.690
+[INFO] 2021-11-11 18:10:02,141 [Epoch 270/8000] Loss = 3.8440    Cls = 1.3512    Bbox = 1.3812    Landmark = 1.1116    Epoch Time = 485.587
+[INFO] 2021-11-11 18:16:11,207 Avg AP : 0.8796   Easy AP : 0.9329   Medium AP : 0.9084   Hard AP : 0.8104
+[INFO] 2021-11-11 18:16:12,438 Epoch Model Saved
+[INFO] 2021-11-11 18:16:12,438 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 18:24:17,822 [Epoch 271/8000] Loss = 3.8096    Cls = 1.3405    Bbox = 1.3586    Landmark = 1.1104    Epoch Time = 485.381
+[INFO] 2021-11-11 18:32:19,167 [Epoch 272/8000] Loss = inf    Cls = 1.3594    Bbox = inf    Landmark = 1.1184    Epoch Time = 481.341
+[INFO] 2021-11-11 18:40:07,400 [Epoch 273/8000] Loss = 3.8254    Cls = 1.3464    Bbox = 1.3664    Landmark = 1.1125    Epoch Time = 468.230
+[INFO] 2021-11-11 18:47:50,784 [Epoch 274/8000] Loss = 3.8480    Cls = 1.3450    Bbox = 1.3760    Landmark = 1.1270    Epoch Time = 463.379
+[INFO] 2021-11-11 18:55:34,813 [Epoch 275/8000] Loss = 3.8091    Cls = 1.3445    Bbox = 1.3710    Landmark = 1.0936    Epoch Time = 464.026
+[INFO] 2021-11-11 19:03:17,231 [Epoch 276/8000] Loss = 3.7575    Cls = 1.3223    Bbox = 1.3445    Landmark = 1.0907    Epoch Time = 462.414
+[INFO] 2021-11-11 19:11:00,587 [Epoch 277/8000] Loss = 3.7544    Cls = 1.3192    Bbox = 1.3449    Landmark = 1.0903    Epoch Time = 463.352
+[INFO] 2021-11-11 19:18:34,375 [Epoch 278/8000] Loss = 3.7862    Cls = 1.3294    Bbox = 1.3484    Landmark = 1.1084    Epoch Time = 453.785
+[INFO] 2021-11-11 19:26:04,085 [Epoch 279/8000] Loss = 3.7635    Cls = 1.3350    Bbox = 1.3595    Landmark = 1.0689    Epoch Time = 449.706
+[INFO] 2021-11-11 19:33:32,773 [Epoch 280/8000] Loss = 3.7075    Cls = 1.3114    Bbox = 1.3363    Landmark = 1.0598    Epoch Time = 448.684
+[INFO] 2021-11-11 19:38:28,526 Avg AP : 0.8726   Easy AP : 0.9311   Medium AP : 0.8993   Hard AP : 0.8011
+[INFO] 2021-11-11 19:38:29,563 Epoch Model Saved
+[INFO] 2021-11-11 19:38:29,563 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 19:45:58,717 [Epoch 281/8000] Loss = 3.7673    Cls = 1.3229    Bbox = 1.3423    Landmark = 1.1021    Epoch Time = 449.152
+[INFO] 2021-11-11 19:53:27,044 [Epoch 282/8000] Loss = 3.7826    Cls = 1.3318    Bbox = 1.3597    Landmark = 1.0911    Epoch Time = 448.323
+[INFO] 2021-11-11 20:01:01,099 [Epoch 283/8000] Loss = 3.8247    Cls = 1.3391    Bbox = 1.3680    Landmark = 1.1176    Epoch Time = 454.052
+[INFO] 2021-11-11 20:08:38,458 [Epoch 284/8000] Loss = 3.6732    Cls = 1.3038    Bbox = 1.3166    Landmark = 1.0528    Epoch Time = 457.356
+[INFO] 2021-11-11 20:16:17,100 [Epoch 285/8000] Loss = 3.7122    Cls = 1.3038    Bbox = 1.3210    Landmark = 1.0874    Epoch Time = 458.639
+[INFO] 2021-11-11 20:23:53,456 [Epoch 286/8000] Loss = 3.7146    Cls = 1.3051    Bbox = 1.3311    Landmark = 1.0785    Epoch Time = 456.353
+[INFO] 2021-11-11 20:31:32,017 [Epoch 287/8000] Loss = 3.7430    Cls = 1.3169    Bbox = 1.3315    Landmark = 1.0946    Epoch Time = 458.557
+[INFO] 2021-11-11 20:39:09,970 [Epoch 288/8000] Loss = 3.7405    Cls = 1.3154    Bbox = 1.3428    Landmark = 1.0823    Epoch Time = 457.949
+[INFO] 2021-11-11 20:46:45,226 [Epoch 289/8000] Loss = 3.7204    Cls = 1.3109    Bbox = 1.3376    Landmark = 1.0719    Epoch Time = 455.252
+[INFO] 2021-11-11 20:54:24,708 [Epoch 290/8000] Loss = 3.7579    Cls = 1.3227    Bbox = 1.3449    Landmark = 1.0904    Epoch Time = 459.479
+[INFO] 2021-11-11 20:59:39,409 Avg AP : 0.8833   Easy AP : 0.9384   Medium AP : 0.9086   Hard AP : 0.8157
+[INFO] 2021-11-11 20:59:40,479 Epoch Model Saved
+[INFO] 2021-11-11 20:59:40,480 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 21:07:18,614 [Epoch 291/8000] Loss = 3.7255    Cls = 1.3084    Bbox = 1.3318    Landmark = 1.0854    Epoch Time = 458.132
+[INFO] 2021-11-11 21:14:55,877 [Epoch 292/8000] Loss = 3.7835    Cls = 1.3239    Bbox = 1.3543    Landmark = 1.1053    Epoch Time = 457.261
+[INFO] 2021-11-11 21:22:35,220 [Epoch 293/8000] Loss = 3.6880    Cls = 1.3023    Bbox = 1.3115    Landmark = 1.0742    Epoch Time = 459.339
+[INFO] 2021-11-11 21:30:11,464 [Epoch 294/8000] Loss = 3.7412    Cls = 1.3101    Bbox = 1.3186    Landmark = 1.1125    Epoch Time = 456.241
+[INFO] 2021-11-11 21:37:49,463 [Epoch 295/8000] Loss = 3.7282    Cls = 1.3106    Bbox = 1.3349    Landmark = 1.0827    Epoch Time = 457.996
+[INFO] 2021-11-11 21:45:26,780 [Epoch 296/8000] Loss = 3.7172    Cls = 1.3096    Bbox = 1.3282    Landmark = 1.0794    Epoch Time = 457.314
+[INFO] 2021-11-11 21:53:00,298 [Epoch 297/8000] Loss = 3.7022    Cls = 1.3059    Bbox = 1.3206    Landmark = 1.0757    Epoch Time = 453.515
+[INFO] 2021-11-11 22:00:36,448 [Epoch 298/8000] Loss = 3.6823    Cls = 1.3028    Bbox = 1.3076    Landmark = 1.0719    Epoch Time = 456.147
+[INFO] 2021-11-11 22:08:04,278 [Epoch 299/8000] Loss = 3.6403    Cls = 1.2932    Bbox = 1.3012    Landmark = 1.0459    Epoch Time = 447.827
+[INFO] 2021-11-11 22:15:30,368 [Epoch 300/8000] Loss = 3.6640    Cls = 1.2921    Bbox = 1.3052    Landmark = 1.0668    Epoch Time = 446.086
+[INFO] 2021-11-11 22:20:26,317 Avg AP : 0.8798   Easy AP : 0.9370   Medium AP : 0.9051   Hard AP : 0.8105
+[INFO] 2021-11-11 22:20:26,556 Epoch Model Saved
+[INFO] 2021-11-11 22:20:26,556 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 22:27:51,366 [Epoch 301/8000] Loss = 3.6672    Cls = 1.3058    Bbox = 1.3242    Landmark = 1.0372    Epoch Time = 444.809
+[INFO] 2021-11-11 22:35:16,746 [Epoch 302/8000] Loss = 3.6687    Cls = 1.2993    Bbox = 1.3093    Landmark = 1.0601    Epoch Time = 445.377
+[INFO] 2021-11-11 22:42:41,760 [Epoch 303/8000] Loss = 3.7054    Cls = 1.3070    Bbox = 1.3223    Landmark = 1.0762    Epoch Time = 445.010
+[INFO] 2021-11-11 22:50:07,159 [Epoch 304/8000] Loss = 3.6238    Cls = 1.2779    Bbox = 1.2963    Landmark = 1.0496    Epoch Time = 445.395
+[INFO] 2021-11-11 22:57:33,266 [Epoch 305/8000] Loss = 3.6848    Cls = 1.2914    Bbox = 1.3110    Landmark = 1.0825    Epoch Time = 446.104
+[INFO] 2021-11-11 23:04:59,675 [Epoch 306/8000] Loss = 3.6957    Cls = 1.3020    Bbox = 1.3142    Landmark = 1.0795    Epoch Time = 446.405
+[INFO] 2021-11-11 23:12:24,252 [Epoch 307/8000] Loss = 3.6957    Cls = 1.3065    Bbox = 1.3214    Landmark = 1.0678    Epoch Time = 444.573
+[INFO] 2021-11-11 23:19:48,449 [Epoch 308/8000] Loss = 3.6925    Cls = 1.2984    Bbox = 1.3198    Landmark = 1.0743    Epoch Time = 444.193
+[INFO] 2021-11-11 23:27:14,586 [Epoch 309/8000] Loss = 3.6543    Cls = 1.2859    Bbox = 1.2951    Landmark = 1.0732    Epoch Time = 446.134
+[INFO] 2021-11-11 23:34:40,299 [Epoch 310/8000] Loss = 3.6859    Cls = 1.3001    Bbox = 1.3283    Landmark = 1.0575    Epoch Time = 445.709
+[INFO] 2021-11-11 23:39:37,211 Avg AP : 0.8788   Easy AP : 0.9299   Medium AP : 0.9074   Hard AP : 0.8114
+[INFO] 2021-11-11 23:39:37,451 Epoch Model Saved
+[INFO] 2021-11-11 23:39:37,451 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-11 23:47:03,287 [Epoch 311/8000] Loss = 3.6950    Cls = 1.3019    Bbox = 1.3248    Landmark = 1.0684    Epoch Time = 445.834
+[INFO] 2021-11-11 23:54:29,269 [Epoch 312/8000] Loss = inf    Cls = 1.3139    Bbox = inf    Landmark = 1.0786    Epoch Time = 445.980
+[INFO] 2021-11-12 00:01:55,766 [Epoch 313/8000] Loss = inf    Cls = 1.2979    Bbox = inf    Landmark = 1.0655    Epoch Time = 446.494
+[INFO] 2021-11-12 00:09:24,928 [Epoch 314/8000] Loss = 3.6346    Cls = 1.2914    Bbox = 1.2988    Landmark = 1.0445    Epoch Time = 449.157
+[INFO] 2021-11-12 00:16:50,794 [Epoch 315/8000] Loss = 3.6004    Cls = 1.2706    Bbox = 1.2778    Landmark = 1.0521    Epoch Time = 445.863
+[INFO] 2021-11-12 00:24:16,236 [Epoch 316/8000] Loss = 3.6252    Cls = 1.2855    Bbox = 1.2864    Landmark = 1.0533    Epoch Time = 445.438
+[INFO] 2021-11-12 00:31:43,517 [Epoch 317/8000] Loss = 3.6163    Cls = 1.2786    Bbox = 1.2949    Landmark = 1.0427    Epoch Time = 447.279
+[INFO] 2021-11-12 00:39:09,758 [Epoch 318/8000] Loss = 3.6539    Cls = 1.2928    Bbox = 1.3052    Landmark = 1.0559    Epoch Time = 446.238
+[INFO] 2021-11-12 00:46:37,202 [Epoch 319/8000] Loss = 3.5775    Cls = 1.2696    Bbox = 1.2750    Landmark = 1.0329    Epoch Time = 447.440
+[INFO] 2021-11-12 00:54:03,109 [Epoch 320/8000] Loss = 3.7661    Cls = 1.3236    Bbox = 1.3310    Landmark = 1.1115    Epoch Time = 445.904
+[INFO] 2021-11-12 00:58:59,064 Avg AP : 0.8879   Easy AP : 0.9397   Medium AP : 0.9130   Hard AP : 0.8234
+[INFO] 2021-11-12 00:58:59,370 Epoch Model Saved
+[INFO] 2021-11-12 00:58:59,370 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-12 01:06:23,810 [Epoch 321/8000] Loss = 3.7566    Cls = 1.3144    Bbox = 1.3210    Landmark = 1.1212    Epoch Time = 444.438
+[INFO] 2021-11-12 01:13:49,954 [Epoch 322/8000] Loss = 3.6911    Cls = 1.2966    Bbox = 1.3183    Landmark = 1.0762    Epoch Time = 446.141
+[INFO] 2021-11-12 01:21:15,451 [Epoch 323/8000] Loss = 3.6313    Cls = 1.2791    Bbox = 1.3064    Landmark = 1.0458    Epoch Time = 445.493
+[INFO] 2021-11-12 01:28:41,512 [Epoch 324/8000] Loss = 3.6707    Cls = 1.2896    Bbox = 1.2999    Landmark = 1.0812    Epoch Time = 446.057
+[INFO] 2021-11-12 01:36:08,870 [Epoch 325/8000] Loss = 3.6934    Cls = 1.3038    Bbox = 1.3312    Landmark = 1.0584    Epoch Time = 447.354
+[INFO] 2021-11-12 01:43:32,538 [Epoch 326/8000] Loss = 3.6431    Cls = 1.2813    Bbox = 1.2896    Landmark = 1.0722    Epoch Time = 443.666
+[INFO] 2021-11-12 01:50:57,886 [Epoch 327/8000] Loss = 3.6282    Cls = 1.2823    Bbox = 1.2995    Landmark = 1.0464    Epoch Time = 445.344
+[INFO] 2021-11-12 01:58:22,453 [Epoch 328/8000] Loss = 3.6007    Cls = 1.2799    Bbox = 1.2825    Landmark = 1.0383    Epoch Time = 444.564
+[INFO] 2021-11-12 02:05:48,921 [Epoch 329/8000] Loss = 3.6127    Cls = 1.2795    Bbox = 1.2848    Landmark = 1.0484    Epoch Time = 446.464
+[INFO] 2021-11-12 02:13:17,285 [Epoch 330/8000] Loss = 3.7001    Cls = 1.3007    Bbox = 1.3212    Landmark = 1.0782    Epoch Time = 448.360
+[INFO] 2021-11-12 02:18:21,329 Avg AP : 0.8816   Easy AP : 0.9351   Medium AP : 0.9064   Hard AP : 0.8158
+[INFO] 2021-11-12 02:18:21,579 Epoch Model Saved
+[INFO] 2021-11-12 02:18:21,579 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-12 02:25:48,680 [Epoch 331/8000] Loss = 3.6380    Cls = 1.2885    Bbox = 1.2878    Landmark = 1.0617    Epoch Time = 447.100
+[INFO] 2021-11-12 02:33:13,419 [Epoch 332/8000] Loss = 3.5344    Cls = 1.2568    Bbox = 1.2569    Landmark = 1.0207    Epoch Time = 444.735
+[INFO] 2021-11-12 02:40:40,239 [Epoch 333/8000] Loss = 3.5310    Cls = 1.2458    Bbox = 1.2632    Landmark = 1.0220    Epoch Time = 446.817
+[INFO] 2021-11-12 02:48:06,422 [Epoch 334/8000] Loss = 3.5925    Cls = 1.2738    Bbox = 1.2798    Landmark = 1.0390    Epoch Time = 446.180
+[INFO] 2021-11-12 02:55:31,053 [Epoch 335/8000] Loss = 3.6426    Cls = 1.2861    Bbox = 1.2953    Landmark = 1.0612    Epoch Time = 444.629
+[INFO] 2021-11-12 03:02:56,586 [Epoch 336/8000] Loss = 3.5642    Cls = 1.2567    Bbox = 1.2726    Landmark = 1.0349    Epoch Time = 445.530
+[INFO] 2021-11-12 03:10:22,180 [Epoch 337/8000] Loss = 3.5307    Cls = 1.2489    Bbox = 1.2587    Landmark = 1.0232    Epoch Time = 445.592
+[INFO] 2021-11-12 03:17:47,493 [Epoch 338/8000] Loss = 3.5628    Cls = 1.2536    Bbox = 1.2588    Landmark = 1.0504    Epoch Time = 445.310
+[INFO] 2021-11-12 03:25:13,937 [Epoch 339/8000] Loss = 3.5932    Cls = 1.2734    Bbox = 1.2806    Landmark = 1.0391    Epoch Time = 446.439
+[INFO] 2021-11-12 03:32:40,852 [Epoch 340/8000] Loss = 3.5834    Cls = 1.2620    Bbox = 1.2704    Landmark = 1.0510    Epoch Time = 446.911
+[INFO] 2021-11-12 03:37:36,516 Avg AP : 0.8815   Easy AP : 0.9371   Medium AP : 0.9051   Hard AP : 0.8149
+[INFO] 2021-11-12 03:37:36,761 Epoch Model Saved
+[INFO] 2021-11-12 03:37:36,761 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-12 03:45:01,791 [Epoch 341/8000] Loss = 3.5691    Cls = 1.2630    Bbox = 1.2676    Landmark = 1.0385    Epoch Time = 445.029
+[INFO] 2021-11-12 03:52:26,996 [Epoch 342/8000] Loss = 3.5367    Cls = 1.2450    Bbox = 1.2567    Landmark = 1.0351    Epoch Time = 445.202
+[INFO] 2021-11-12 03:59:53,035 [Epoch 343/8000] Loss = 3.5896    Cls = 1.2619    Bbox = 1.2682    Landmark = 1.0596    Epoch Time = 446.036
+[INFO] 2021-11-12 04:07:19,117 [Epoch 344/8000] Loss = 3.5156    Cls = 1.2451    Bbox = 1.2492    Landmark = 1.0213    Epoch Time = 446.079
+[INFO] 2021-11-12 04:14:43,979 [Epoch 345/8000] Loss = 3.5159    Cls = 1.2515    Bbox = 1.2451    Landmark = 1.0193    Epoch Time = 444.860
+[INFO] 2021-11-12 04:22:09,387 [Epoch 346/8000] Loss = 3.5303    Cls = 1.2406    Bbox = 1.2549    Landmark = 1.0348    Epoch Time = 445.404
+[INFO] 2021-11-12 04:29:35,311 [Epoch 347/8000] Loss = 3.5820    Cls = 1.2618    Bbox = 1.2768    Landmark = 1.0434    Epoch Time = 445.921
+[INFO] 2021-11-12 04:37:02,603 [Epoch 348/8000] Loss = 3.6140    Cls = 1.2680    Bbox = 1.2707    Landmark = 1.0752    Epoch Time = 447.289
+[INFO] 2021-11-12 04:44:27,752 [Epoch 349/8000] Loss = 3.5493    Cls = 1.2617    Bbox = 1.2583    Landmark = 1.0293    Epoch Time = 445.146
+[INFO] 2021-11-12 04:51:52,913 [Epoch 350/8000] Loss = 3.5855    Cls = 1.2569    Bbox = 1.2737    Landmark = 1.0550    Epoch Time = 445.154
+[INFO] 2021-11-12 04:56:49,168 Avg AP : 0.8855   Easy AP : 0.9383   Medium AP : 0.9079   Hard AP : 0.8223
+[INFO] 2021-11-12 04:56:49,410 Epoch Model Saved
+[INFO] 2021-11-12 04:56:49,410 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-12 05:04:14,365 [Epoch 351/8000] Loss = 3.5694    Cls = 1.2594    Bbox = 1.2623    Landmark = 1.0476    Epoch Time = 444.954
+[INFO] 2021-11-12 05:11:39,554 [Epoch 352/8000] Loss = 3.5926    Cls = 1.2661    Bbox = 1.2802    Landmark = 1.0464    Epoch Time = 445.188
+[INFO] 2021-11-12 05:19:05,799 [Epoch 353/8000] Loss = 3.5174    Cls = 1.2429    Bbox = 1.2493    Landmark = 1.0253    Epoch Time = 446.241
+[INFO] 2021-11-12 05:26:29,874 [Epoch 354/8000] Loss = 3.5354    Cls = 1.2488    Bbox = 1.2513    Landmark = 1.0354    Epoch Time = 444.071
+[INFO] 2021-11-12 05:33:55,494 [Epoch 355/8000] Loss = 3.5550    Cls = 1.2521    Bbox = 1.2569    Landmark = 1.0460    Epoch Time = 445.616
+[INFO] 2021-11-12 05:41:20,301 [Epoch 356/8000] Loss = 3.6053    Cls = 1.2618    Bbox = 1.2646    Landmark = 1.0788    Epoch Time = 444.803
+[INFO] 2021-11-12 05:48:45,532 [Epoch 357/8000] Loss = 3.7235    Cls = 1.3007    Bbox = 1.3042    Landmark = 1.1186    Epoch Time = 445.228
+[INFO] 2021-11-12 05:56:14,093 [Epoch 358/8000] Loss = 3.6642    Cls = 1.2891    Bbox = 1.2938    Landmark = 1.0813    Epoch Time = 448.557
+[INFO] 2021-11-12 06:03:42,117 [Epoch 359/8000] Loss = 3.5958    Cls = 1.2753    Bbox = 1.2784    Landmark = 1.0421    Epoch Time = 448.020
+[INFO] 2021-11-12 06:11:06,836 [Epoch 360/8000] Loss = inf    Cls = 1.2550    Bbox = inf    Landmark = 1.0364    Epoch Time = 444.715
+[INFO] 2021-11-12 06:16:02,910 Avg AP : 0.8841   Easy AP : 0.9360   Medium AP : 0.9072   Hard AP : 0.8211
+[INFO] 2021-11-12 06:16:03,167 Epoch Model Saved
+[INFO] 2021-11-12 06:16:03,167 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-12 06:23:28,241 [Epoch 361/8000] Loss = 3.6637    Cls = 1.2828    Bbox = 1.3002    Landmark = 1.0807    Epoch Time = 445.073
+[INFO] 2021-11-12 06:30:54,059 [Epoch 362/8000] Loss = 3.5693    Cls = 1.2642    Bbox = 1.2568    Landmark = 1.0482    Epoch Time = 445.814
+[INFO] 2021-11-12 06:38:17,374 [Epoch 363/8000] Loss = 3.6094    Cls = 1.2703    Bbox = 1.2826    Landmark = 1.0565    Epoch Time = 443.310
+[INFO] 2021-11-12 06:45:42,774 [Epoch 364/8000] Loss = 3.6567    Cls = 1.2801    Bbox = 1.2911    Landmark = 1.0855    Epoch Time = 445.396
+[INFO] 2021-11-12 06:53:08,288 [Epoch 365/8000] Loss = 3.6219    Cls = 1.2608    Bbox = 1.2721    Landmark = 1.0890    Epoch Time = 445.510
+[INFO] 2021-11-12 07:00:32,920 [Epoch 366/8000] Loss = 3.7027    Cls = 1.2947    Bbox = 1.3092    Landmark = 1.0987    Epoch Time = 444.628
+[INFO] 2021-11-12 07:07:59,150 [Epoch 367/8000] Loss = 3.5647    Cls = 1.2634    Bbox = 1.2687    Landmark = 1.0325    Epoch Time = 446.227
+[INFO] 2021-11-12 07:15:23,153 [Epoch 368/8000] Loss = 3.6106    Cls = 1.2603    Bbox = 1.2732    Landmark = 1.0771    Epoch Time = 444.000
+[INFO] 2021-11-12 07:22:46,939 [Epoch 369/8000] Loss = 3.5638    Cls = 1.2563    Bbox = 1.2491    Landmark = 1.0585    Epoch Time = 443.783
+[INFO] 2021-11-12 07:30:12,038 [Epoch 370/8000] Loss = 3.5868    Cls = 1.2755    Bbox = 1.2612    Landmark = 1.0501    Epoch Time = 445.096
+[INFO] 2021-11-12 07:35:08,582 Avg AP : 0.8800   Easy AP : 0.9361   Medium AP : 0.9055   Hard AP : 0.8115
+[INFO] 2021-11-12 07:35:08,830 Epoch Model Saved
+[INFO] 2021-11-12 07:35:08,830 Best Avg AP : 0.8877   Easy AP : 0.9399   Medium AP : 0.9107   Hard AP : 0.8245
+[INFO] 2021-11-12 07:42:35,106 [Epoch 371/8000] Loss = 3.5400    Cls = 1.2468    Bbox = 1.2530    Landmark = 1.0403    Epoch Time = 446.275
+[INFO] 2021-11-12 07:50:01,630 [Epoch 372/8000] Loss = 3.5398    Cls = 1.2559    Bbox = 1.2554    Landmark = 1.0285    Epoch Time = 446.522
+[INFO] 2021-11-12 07:57:28,861 [Epoch 373/8000] Loss = 3.5030    Cls = 1.2358    Bbox = 1.2302    Landmark = 1.0370    Epoch Time = 447.229
+[INFO] 2021-11-12 08:04:55,728 [Epoch 374/8000] Loss = 3.4805    Cls = 1.2360    Bbox = 1.2281    Landmark = 1.0163    Epoch Time = 446.863
+[INFO] 2021-11-12 08:12:19,585 [Epoch 375/8000] Loss = 3.5730    Cls = 1.2538    Bbox = 1.2685    Landmark = 1.0507    Epoch Time = 443.855
+[INFO] 2021-11-12 08:19:44,945 [Epoch 376/8000] Loss = 3.5497    Cls = 1.2475    Bbox = 1.2571    Landmark = 1.0451    Epoch Time = 445.356
+[INFO] 2021-11-12 08:27:10,285 [Epoch 377/8000] Loss = 3.6453    Cls = 1.2888    Bbox = 1.2877    Landmark = 1.0688    Epoch Time = 445.336
+[INFO] 2021-11-12 08:34:35,516 [Epoch 378/8000] Loss = 3.5343    Cls = 1.2447    Bbox = 1.2493    Landmark = 1.0403    Epoch Time = 445.228
+[INFO] 2021-11-12 08:41:59,216 [Epoch 379/8000] Loss = 3.5977    Cls = 1.2683    Bbox = 1.2780    Landmark = 1.0514    Epoch Time = 443.696
+[INFO] 2021-11-12 08:49:23,357 [Epoch 380/8000] Loss = inf    Cls = 1.2395    Bbox = inf    Landmark = 1.0289    Epoch Time = 444.137
+[INFO] 2021-11-12 08:54:20,548 Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 08:54:20,807 Epoch Model Saved
+[INFO] 2021-11-12 08:54:21,822 Model Saved
+[INFO] 2021-11-12 08:54:21,823 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 09:01:47,228 [Epoch 381/8000] Loss = 3.5078    Cls = 1.2360    Bbox = 1.2321    Landmark = 1.0397    Epoch Time = 445.403
+[INFO] 2021-11-12 09:09:11,614 [Epoch 382/8000] Loss = 3.4756    Cls = 1.2275    Bbox = 1.2276    Landmark = 1.0205    Epoch Time = 444.384
+[INFO] 2021-11-12 09:16:37,012 [Epoch 383/8000] Loss = 3.4828    Cls = 1.2340    Bbox = 1.2351    Landmark = 1.0137    Epoch Time = 445.396
+[INFO] 2021-11-12 09:24:02,576 [Epoch 384/8000] Loss = 3.4756    Cls = 1.2234    Bbox = 1.2297    Landmark = 1.0225    Epoch Time = 445.560
+[INFO] 2021-11-12 09:31:29,365 [Epoch 385/8000] Loss = 3.4855    Cls = 1.2385    Bbox = 1.2328    Landmark = 1.0143    Epoch Time = 446.788
+[INFO] 2021-11-12 09:38:55,223 [Epoch 386/8000] Loss = 3.5283    Cls = 1.2494    Bbox = 1.2531    Landmark = 1.0258    Epoch Time = 445.854
+[INFO] 2021-11-12 09:46:16,322 [Epoch 387/8000] Loss = 3.4936    Cls = 1.2305    Bbox = 1.2288    Landmark = 1.0343    Epoch Time = 441.097
+[INFO] 2021-11-12 09:53:40,617 [Epoch 388/8000] Loss = inf    Cls = 1.2345    Bbox = inf    Landmark = 1.0300    Epoch Time = 444.292
+[INFO] 2021-11-12 10:01:05,329 [Epoch 389/8000] Loss = 3.5180    Cls = 1.2342    Bbox = 1.2399    Landmark = 1.0439    Epoch Time = 444.710
+[INFO] 2021-11-12 10:08:29,879 [Epoch 390/8000] Loss = 3.5526    Cls = 1.2499    Bbox = 1.2611    Landmark = 1.0416    Epoch Time = 444.547
+[INFO] 2021-11-12 10:13:26,776 Avg AP : 0.8789   Easy AP : 0.9319   Medium AP : 0.9053   Hard AP : 0.8121
+[INFO] 2021-11-12 10:13:27,073 Epoch Model Saved
+[INFO] 2021-11-12 10:13:27,074 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 10:20:56,046 [Epoch 391/8000] Loss = 3.4725    Cls = 1.2322    Bbox = 1.2260    Landmark = 1.0143    Epoch Time = 448.971
+[INFO] 2021-11-12 10:28:25,212 [Epoch 392/8000] Loss = 3.4854    Cls = 1.2317    Bbox = 1.2291    Landmark = 1.0246    Epoch Time = 449.162
+[INFO] 2021-11-12 10:35:54,573 [Epoch 393/8000] Loss = 3.5001    Cls = 1.2385    Bbox = 1.2425    Landmark = 1.0191    Epoch Time = 449.359
+[INFO] 2021-11-12 10:43:24,241 [Epoch 394/8000] Loss = 3.5485    Cls = 1.2503    Bbox = 1.2597    Landmark = 1.0385    Epoch Time = 449.664
+[INFO] 2021-11-12 10:50:54,912 [Epoch 395/8000] Loss = 3.4934    Cls = 1.2431    Bbox = 1.2326    Landmark = 1.0177    Epoch Time = 450.667
+[INFO] 2021-11-12 10:58:23,371 [Epoch 396/8000] Loss = 3.5161    Cls = 1.2389    Bbox = 1.2395    Landmark = 1.0377    Epoch Time = 448.457
+[INFO] 2021-11-12 11:05:54,017 [Epoch 397/8000] Loss = 3.5083    Cls = 1.2337    Bbox = 1.2199    Landmark = 1.0548    Epoch Time = 450.641
+[INFO] 2021-11-12 11:13:23,446 [Epoch 398/8000] Loss = 3.4910    Cls = 1.2379    Bbox = 1.2396    Landmark = 1.0135    Epoch Time = 449.427
+[INFO] 2021-11-12 11:20:53,235 [Epoch 399/8000] Loss = 3.4472    Cls = 1.2208    Bbox = 1.2065    Landmark = 1.0199    Epoch Time = 449.785
+[INFO] 2021-11-12 11:28:23,219 [Epoch 400/8000] Loss = 3.4551    Cls = 1.2260    Bbox = 1.2231    Landmark = 1.0059    Epoch Time = 449.980
+[INFO] 2021-11-12 11:33:23,425 Avg AP : 0.8793   Easy AP : 0.9343   Medium AP : 0.9029   Hard AP : 0.8134
+[INFO] 2021-11-12 11:33:23,678 Epoch Model Saved
+[INFO] 2021-11-12 11:33:23,678 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 11:40:52,128 [Epoch 401/8000] Loss = inf    Cls = 1.2120    Bbox = inf    Landmark = 0.9878    Epoch Time = 448.449
+[INFO] 2021-11-12 11:48:21,649 [Epoch 402/8000] Loss = 3.5374    Cls = 1.2377    Bbox = 1.2385    Landmark = 1.0612    Epoch Time = 449.517
+[INFO] 2021-11-12 11:55:51,091 [Epoch 403/8000] Loss = 3.5549    Cls = 1.2573    Bbox = 1.2464    Landmark = 1.0511    Epoch Time = 449.439
+[INFO] 2021-11-12 12:03:22,385 [Epoch 404/8000] Loss = 3.5886    Cls = 1.2648    Bbox = 1.2621    Landmark = 1.0618    Epoch Time = 451.290
+[INFO] 2021-11-12 12:10:52,157 [Epoch 405/8000] Loss = 3.5277    Cls = 1.2425    Bbox = 1.2428    Landmark = 1.0424    Epoch Time = 449.769
+[INFO] 2021-11-12 12:18:22,745 [Epoch 406/8000] Loss = inf    Cls = 1.2563    Bbox = inf    Landmark = 1.0657    Epoch Time = 450.584
+[INFO] 2021-11-12 12:25:53,263 [Epoch 407/8000] Loss = 3.5341    Cls = 1.2448    Bbox = 1.2441    Landmark = 1.0452    Epoch Time = 450.514
+[INFO] 2021-11-12 12:33:23,989 [Epoch 408/8000] Loss = 3.5047    Cls = 1.2414    Bbox = 1.2318    Landmark = 1.0314    Epoch Time = 450.723
+[INFO] 2021-11-12 12:40:55,581 [Epoch 409/8000] Loss = 3.5343    Cls = 1.2444    Bbox = 1.2442    Landmark = 1.0456    Epoch Time = 451.589
+[INFO] 2021-11-12 12:48:24,935 [Epoch 410/8000] Loss = 3.8408    Cls = 1.3344    Bbox = 1.3385    Landmark = 1.1680    Epoch Time = 449.351
+[INFO] 2021-11-12 12:53:24,126 Avg AP : 0.8800   Easy AP : 0.9285   Medium AP : 0.9136   Hard AP : 0.8103
+[INFO] 2021-11-12 12:53:24,403 Epoch Model Saved
+[INFO] 2021-11-12 12:53:24,403 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 13:00:52,680 [Epoch 411/8000] Loss = 3.8354    Cls = 1.3387    Bbox = 1.3510    Landmark = 1.1457    Epoch Time = 448.276
+[INFO] 2021-11-12 13:08:23,270 [Epoch 412/8000] Loss = 3.6827    Cls = 1.2916    Bbox = 1.3051    Landmark = 1.0860    Epoch Time = 450.586
+[INFO] 2021-11-12 13:15:53,484 [Epoch 413/8000] Loss = 3.5864    Cls = 1.2698    Bbox = 1.2626    Landmark = 1.0540    Epoch Time = 450.210
+[INFO] 2021-11-12 13:23:22,478 [Epoch 414/8000] Loss = 3.5505    Cls = 1.2509    Bbox = 1.2562    Landmark = 1.0434    Epoch Time = 448.991
+[INFO] 2021-11-12 13:30:53,132 [Epoch 415/8000] Loss = 3.5447    Cls = 1.2490    Bbox = 1.2471    Landmark = 1.0486    Epoch Time = 450.650
+[INFO] 2021-11-12 13:38:23,884 [Epoch 416/8000] Loss = 3.5494    Cls = 1.2599    Bbox = 1.2605    Landmark = 1.0290    Epoch Time = 450.749
+[INFO] 2021-11-12 13:45:55,560 [Epoch 417/8000] Loss = 3.5150    Cls = 1.2270    Bbox = 1.2327    Landmark = 1.0553    Epoch Time = 451.672
+[INFO] 2021-11-12 13:53:26,017 [Epoch 418/8000] Loss = 3.4737    Cls = 1.2312    Bbox = 1.2255    Landmark = 1.0171    Epoch Time = 450.454
+[INFO] 2021-11-12 14:00:55,706 [Epoch 419/8000] Loss = 3.4525    Cls = 1.2133    Bbox = 1.2149    Landmark = 1.0243    Epoch Time = 449.686
+[INFO] 2021-11-12 14:08:25,345 [Epoch 420/8000] Loss = 3.5201    Cls = 1.2379    Bbox = 1.2383    Landmark = 1.0439    Epoch Time = 449.635
+[INFO] 2021-11-12 14:13:24,989 Avg AP : 0.8730   Easy AP : 0.9237   Medium AP : 0.8988   Hard AP : 0.8084
+[INFO] 2021-11-12 14:13:25,259 Epoch Model Saved
+[INFO] 2021-11-12 14:13:25,260 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 14:20:54,963 [Epoch 421/8000] Loss = 3.6697    Cls = 1.2808    Bbox = 1.2832    Landmark = 1.1057    Epoch Time = 449.702
+[INFO] 2021-11-12 14:28:26,522 [Epoch 422/8000] Loss = 3.5684    Cls = 1.2553    Bbox = 1.2569    Landmark = 1.0563    Epoch Time = 451.557
+[INFO] 2021-11-12 14:35:56,750 [Epoch 423/8000] Loss = 3.5958    Cls = 1.2503    Bbox = 1.2615    Landmark = 1.0840    Epoch Time = 450.223
+[INFO] 2021-11-12 14:43:28,044 [Epoch 424/8000] Loss = 3.5868    Cls = 1.2580    Bbox = 1.2554    Landmark = 1.0734    Epoch Time = 451.290
+[INFO] 2021-11-12 14:50:58,983 [Epoch 425/8000] Loss = 3.5253    Cls = 1.2438    Bbox = 1.2279    Landmark = 1.0536    Epoch Time = 450.935
+[INFO] 2021-11-12 14:58:29,453 [Epoch 426/8000] Loss = 3.5330    Cls = 1.2464    Bbox = 1.2475    Landmark = 1.0391    Epoch Time = 450.466
+[INFO] 2021-11-12 15:06:01,122 [Epoch 427/8000] Loss = 3.5120    Cls = 1.2404    Bbox = 1.2308    Landmark = 1.0408    Epoch Time = 451.666
+[INFO] 2021-11-12 15:13:30,809 [Epoch 428/8000] Loss = 3.5412    Cls = 1.2458    Bbox = 1.2475    Landmark = 1.0478    Epoch Time = 449.683
+[INFO] 2021-11-12 15:21:01,589 [Epoch 429/8000] Loss = 3.6091    Cls = 1.2671    Bbox = 1.2605    Landmark = 1.0816    Epoch Time = 450.778
+[INFO] 2021-11-12 15:28:32,790 [Epoch 430/8000] Loss = 3.6551    Cls = 1.2899    Bbox = 1.2933    Landmark = 1.0720    Epoch Time = 451.198
+[INFO] 2021-11-12 15:33:31,049 Avg AP : 0.8742   Easy AP : 0.9353   Medium AP : 0.8999   Hard AP : 0.8015
+[INFO] 2021-11-12 15:33:31,299 Epoch Model Saved
+[INFO] 2021-11-12 15:33:31,300 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 15:41:01,732 [Epoch 431/8000] Loss = 3.5883    Cls = 1.2591    Bbox = 1.2574    Landmark = 1.0718    Epoch Time = 450.431
+[INFO] 2021-11-12 15:48:31,485 [Epoch 432/8000] Loss = 3.4925    Cls = 1.2247    Bbox = 1.2197    Landmark = 1.0481    Epoch Time = 449.749
+[INFO] 2021-11-12 15:56:01,328 [Epoch 433/8000] Loss = 3.4860    Cls = 1.2289    Bbox = 1.2229    Landmark = 1.0342    Epoch Time = 449.839
+[INFO] 2021-11-12 16:03:32,360 [Epoch 434/8000] Loss = 3.5033    Cls = 1.2313    Bbox = 1.2278    Landmark = 1.0442    Epoch Time = 451.027
+[INFO] 2021-11-12 16:11:03,131 [Epoch 435/8000] Loss = 3.4899    Cls = 1.2288    Bbox = 1.2202    Landmark = 1.0408    Epoch Time = 450.767
+[INFO] 2021-11-12 16:18:37,947 [Epoch 436/8000] Loss = 3.4963    Cls = 1.2381    Bbox = 1.2245    Landmark = 1.0337    Epoch Time = 454.813
+[INFO] 2021-11-12 16:26:10,700 [Epoch 437/8000] Loss = 3.4247    Cls = 1.2123    Bbox = 1.1979    Landmark = 1.0144    Epoch Time = 452.750
+[INFO] 2021-11-12 16:33:41,221 [Epoch 438/8000] Loss = 3.5182    Cls = 1.2385    Bbox = 1.2261    Landmark = 1.0536    Epoch Time = 450.518
+[INFO] 2021-11-12 16:41:15,886 [Epoch 439/8000] Loss = 3.5469    Cls = 1.2561    Bbox = 1.2350    Landmark = 1.0559    Epoch Time = 454.662
+[INFO] 2021-11-12 16:48:57,585 [Epoch 440/8000] Loss = 3.5520    Cls = 1.2467    Bbox = 1.2500    Landmark = 1.0553    Epoch Time = 461.696
+[INFO] 2021-11-12 16:53:57,606 Avg AP : 0.8823   Easy AP : 0.9319   Medium AP : 0.9060   Hard AP : 0.8207
+[INFO] 2021-11-12 16:53:57,855 Epoch Model Saved
+[INFO] 2021-11-12 16:53:57,856 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 17:01:29,599 [Epoch 441/8000] Loss = 3.4450    Cls = 1.2189    Bbox = 1.2103    Landmark = 1.0159    Epoch Time = 451.743
+[INFO] 2021-11-12 17:08:58,789 [Epoch 442/8000] Loss = 3.4643    Cls = 1.2204    Bbox = 1.2063    Landmark = 1.0377    Epoch Time = 449.186
+[INFO] 2021-11-12 17:16:30,197 [Epoch 443/8000] Loss = 3.4099    Cls = 1.2043    Bbox = 1.1909    Landmark = 1.0147    Epoch Time = 451.406
+[INFO] 2021-11-12 17:24:00,163 [Epoch 444/8000] Loss = 3.4584    Cls = 1.2135    Bbox = 1.2133    Landmark = 1.0317    Epoch Time = 449.961
+[INFO] 2021-11-12 17:31:29,804 [Epoch 445/8000] Loss = 3.4451    Cls = 1.2181    Bbox = 1.2031    Landmark = 1.0240    Epoch Time = 449.637
+[INFO] 2021-11-12 17:38:58,908 [Epoch 446/8000] Loss = 3.4354    Cls = 1.2184    Bbox = 1.2053    Landmark = 1.0117    Epoch Time = 449.102
+[INFO] 2021-11-12 17:46:28,820 [Epoch 447/8000] Loss = 3.4154    Cls = 1.2154    Bbox = 1.2008    Landmark = 0.9992    Epoch Time = 449.908
+[INFO] 2021-11-12 17:53:59,802 [Epoch 448/8000] Loss = 3.4507    Cls = 1.2179    Bbox = 1.2150    Landmark = 1.0178    Epoch Time = 450.978
+[INFO] 2021-11-12 18:01:29,187 [Epoch 449/8000] Loss = 3.3713    Cls = 1.1922    Bbox = 1.1814    Landmark = 0.9977    Epoch Time = 449.383
+[INFO] 2021-11-12 18:09:00,357 [Epoch 450/8000] Loss = 3.4638    Cls = 1.2203    Bbox = 1.2109    Landmark = 1.0326    Epoch Time = 451.167
+[INFO] 2021-11-12 18:14:11,731 Avg AP : 0.8824   Easy AP : 0.9318   Medium AP : 0.9064   Hard AP : 0.8207
+[INFO] 2021-11-12 18:14:12,019 Epoch Model Saved
+[INFO] 2021-11-12 18:14:12,019 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 18:21:40,994 [Epoch 451/8000] Loss = 3.4560    Cls = 1.2148    Bbox = 1.2143    Landmark = 1.0269    Epoch Time = 448.974
+[INFO] 2021-11-12 18:29:08,413 [Epoch 452/8000] Loss = 3.3932    Cls = 1.2061    Bbox = 1.1802    Landmark = 1.0070    Epoch Time = 447.415
+[INFO] 2021-11-12 18:36:38,215 [Epoch 453/8000] Loss = 3.3693    Cls = 1.1909    Bbox = 1.1768    Landmark = 1.0016    Epoch Time = 449.798
+[INFO] 2021-11-12 18:44:05,716 [Epoch 454/8000] Loss = 3.4145    Cls = 1.2112    Bbox = 1.1944    Landmark = 1.0089    Epoch Time = 447.496
+[INFO] 2021-11-12 18:51:35,182 [Epoch 455/8000] Loss = 3.4765    Cls = 1.2235    Bbox = 1.2228    Landmark = 1.0301    Epoch Time = 449.462
+[INFO] 2021-11-12 18:59:06,508 [Epoch 456/8000] Loss = 3.4246    Cls = 1.2080    Bbox = 1.1921    Landmark = 1.0245    Epoch Time = 451.322
+[INFO] 2021-11-12 19:06:35,934 [Epoch 457/8000] Loss = 3.5213    Cls = 1.2299    Bbox = 1.2210    Landmark = 1.0704    Epoch Time = 449.422
+[INFO] 2021-11-12 19:14:03,644 [Epoch 458/8000] Loss = 3.4698    Cls = 1.2287    Bbox = 1.2194    Landmark = 1.0218    Epoch Time = 447.707
+[INFO] 2021-11-12 19:21:33,701 [Epoch 459/8000] Loss = 3.4691    Cls = 1.2176    Bbox = 1.2069    Landmark = 1.0446    Epoch Time = 450.053
+[INFO] 2021-11-12 19:29:02,817 [Epoch 460/8000] Loss = 3.5538    Cls = 1.2402    Bbox = 1.2495    Landmark = 1.0642    Epoch Time = 449.110
+[INFO] 2021-11-12 19:34:14,033 Avg AP : 0.8751   Easy AP : 0.9298   Medium AP : 0.9031   Hard AP : 0.8053
+[INFO] 2021-11-12 19:34:14,337 Epoch Model Saved
+[INFO] 2021-11-12 19:34:14,337 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 19:41:40,751 [Epoch 461/8000] Loss = 3.5181    Cls = 1.2336    Bbox = 1.2286    Landmark = 1.0559    Epoch Time = 446.412
+[INFO] 2021-11-12 19:49:08,063 [Epoch 462/8000] Loss = 3.4267    Cls = 1.2098    Bbox = 1.2004    Landmark = 1.0165    Epoch Time = 447.309
+[INFO] 2021-11-12 19:56:34,800 [Epoch 463/8000] Loss = 3.4893    Cls = 1.2160    Bbox = 1.2092    Landmark = 1.0641    Epoch Time = 446.733
+[INFO] 2021-11-12 20:04:05,186 [Epoch 464/8000] Loss = 3.4468    Cls = 1.2175    Bbox = 1.2071    Landmark = 1.0221    Epoch Time = 450.382
+[INFO] 2021-11-12 20:11:35,225 [Epoch 465/8000] Loss = 3.5149    Cls = 1.2384    Bbox = 1.2325    Landmark = 1.0441    Epoch Time = 450.036
+[INFO] 2021-11-12 20:19:04,022 [Epoch 466/8000] Loss = 3.5140    Cls = 1.2432    Bbox = 1.2372    Landmark = 1.0336    Epoch Time = 448.794
+[INFO] 2021-11-12 20:26:32,821 [Epoch 467/8000] Loss = 3.4912    Cls = 1.2276    Bbox = 1.2244    Landmark = 1.0392    Epoch Time = 448.796
+[INFO] 2021-11-12 20:34:03,313 [Epoch 468/8000] Loss = 3.4114    Cls = 1.2127    Bbox = 1.2042    Landmark = 0.9945    Epoch Time = 450.489
+[INFO] 2021-11-12 20:41:31,518 [Epoch 469/8000] Loss = 3.4263    Cls = 1.2131    Bbox = 1.2068    Landmark = 1.0065    Epoch Time = 448.202
+[INFO] 2021-11-12 20:49:01,089 [Epoch 470/8000] Loss = 3.4238    Cls = 1.2011    Bbox = 1.2002    Landmark = 1.0225    Epoch Time = 449.568
+[INFO] 2021-11-12 20:54:11,458 Avg AP : 0.8876   Easy AP : 0.9365   Medium AP : 0.9140   Hard AP : 0.8241
+[INFO] 2021-11-12 20:54:11,763 Epoch Model Saved
+[INFO] 2021-11-12 20:54:11,763 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 21:01:45,247 [Epoch 471/8000] Loss = 3.4163    Cls = 1.2074    Bbox = 1.1978    Landmark = 1.0111    Epoch Time = 453.482
+[INFO] 2021-11-12 21:09:19,078 [Epoch 472/8000] Loss = 3.4070    Cls = 1.2023    Bbox = 1.1950    Landmark = 1.0098    Epoch Time = 453.828
+[INFO] 2021-11-12 21:16:52,784 [Epoch 473/8000] Loss = 3.4489    Cls = 1.2092    Bbox = 1.2050    Landmark = 1.0347    Epoch Time = 453.704
+[INFO] 2021-11-12 21:24:26,403 [Epoch 474/8000] Loss = 3.3777    Cls = 1.1980    Bbox = 1.1788    Landmark = 1.0009    Epoch Time = 453.616
+[INFO] 2021-11-12 21:32:00,399 [Epoch 475/8000] Loss = inf    Cls = 1.2333    Bbox = inf    Landmark = 1.0397    Epoch Time = 453.993
+[INFO] 2021-11-12 21:39:34,745 [Epoch 476/8000] Loss = 3.4401    Cls = 1.2162    Bbox = 1.2089    Landmark = 1.0150    Epoch Time = 454.340
+[INFO] 2021-11-12 21:47:08,709 [Epoch 477/8000] Loss = 3.3501    Cls = 1.1887    Bbox = 1.1701    Landmark = 0.9914    Epoch Time = 453.961
+[INFO] 2021-11-12 21:54:41,945 [Epoch 478/8000] Loss = 3.4136    Cls = 1.2123    Bbox = 1.1840    Landmark = 1.0174    Epoch Time = 453.234
+[INFO] 2021-11-12 22:02:15,293 [Epoch 479/8000] Loss = 3.3907    Cls = 1.1903    Bbox = 1.1794    Landmark = 1.0209    Epoch Time = 453.345
+[INFO] 2021-11-12 22:09:48,853 [Epoch 480/8000] Loss = 3.4410    Cls = 1.2100    Bbox = 1.2002    Landmark = 1.0308    Epoch Time = 453.557
+[INFO] 2021-11-12 22:14:54,071 Avg AP : 0.8793   Easy AP : 0.9342   Medium AP : 0.9021   Hard AP : 0.8141
+[INFO] 2021-11-12 22:14:54,379 Epoch Model Saved
+[INFO] 2021-11-12 22:14:54,380 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 22:22:27,551 [Epoch 481/8000] Loss = 3.3629    Cls = 1.1882    Bbox = 1.1683    Landmark = 1.0064    Epoch Time = 453.170
+[INFO] 2021-11-12 22:30:00,012 [Epoch 482/8000] Loss = 3.3567    Cls = 1.1868    Bbox = 1.1800    Landmark = 0.9899    Epoch Time = 452.458
+[INFO] 2021-11-12 22:37:32,942 [Epoch 483/8000] Loss = 3.4188    Cls = 1.2166    Bbox = 1.1997    Landmark = 1.0025    Epoch Time = 452.926
+[INFO] 2021-11-12 22:45:07,283 [Epoch 484/8000] Loss = 3.4163    Cls = 1.2117    Bbox = 1.1917    Landmark = 1.0129    Epoch Time = 454.338
+[INFO] 2021-11-12 22:52:40,887 [Epoch 485/8000] Loss = 3.4521    Cls = 1.2084    Bbox = 1.1940    Landmark = 1.0497    Epoch Time = 453.600
+[INFO] 2021-11-12 23:00:15,433 [Epoch 486/8000] Loss = 3.5007    Cls = 1.2302    Bbox = 1.2144    Landmark = 1.0561    Epoch Time = 454.542
+[INFO] 2021-11-12 23:07:48,787 [Epoch 487/8000] Loss = 3.4648    Cls = 1.2227    Bbox = 1.2065    Landmark = 1.0355    Epoch Time = 453.351
+[INFO] 2021-11-12 23:15:22,501 [Epoch 488/8000] Loss = 3.4040    Cls = 1.2004    Bbox = 1.1855    Landmark = 1.0181    Epoch Time = 453.711
+[INFO] 2021-11-12 23:22:55,856 [Epoch 489/8000] Loss = 3.4665    Cls = 1.2190    Bbox = 1.2225    Landmark = 1.0250    Epoch Time = 453.351
+[INFO] 2021-11-12 23:30:29,185 [Epoch 490/8000] Loss = 3.3292    Cls = 1.1881    Bbox = 1.1648    Landmark = 0.9763    Epoch Time = 453.326
+[INFO] 2021-11-12 23:35:33,508 Avg AP : 0.8832   Easy AP : 0.9304   Medium AP : 0.9106   Hard AP : 0.8202
+[INFO] 2021-11-12 23:35:33,778 Epoch Model Saved
+[INFO] 2021-11-12 23:35:33,778 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-12 23:43:05,807 [Epoch 491/8000] Loss = 3.3738    Cls = 1.1994    Bbox = 1.1754    Landmark = 0.9990    Epoch Time = 452.027
+[INFO] 2021-11-12 23:50:38,920 [Epoch 492/8000] Loss = 3.4445    Cls = 1.2113    Bbox = 1.2029    Landmark = 1.0303    Epoch Time = 453.110
+[INFO] 2021-11-13 00:01:15,768 [Epoch 493/8000] Loss = 3.4752    Cls = 1.2208    Bbox = 1.2175    Landmark = 1.0369    Epoch Time = 636.845
+[INFO] 2021-11-13 00:12:55,899 [Epoch 494/8000] Loss = 3.4173    Cls = 1.2088    Bbox = 1.1982    Landmark = 1.0103    Epoch Time = 700.128
+[INFO] 2021-11-13 00:21:36,363 [Epoch 495/8000] Loss = 3.4360    Cls = 1.2039    Bbox = 1.1913    Landmark = 1.0408    Epoch Time = 520.460
+[INFO] 2021-11-13 00:29:11,601 [Epoch 496/8000] Loss = 3.3814    Cls = 1.1887    Bbox = 1.1751    Landmark = 1.0175    Epoch Time = 455.235
+[INFO] 2021-11-13 00:36:45,668 [Epoch 497/8000] Loss = 3.3884    Cls = 1.1919    Bbox = 1.1837    Landmark = 1.0128    Epoch Time = 454.063
+[INFO] 2021-11-13 00:44:19,618 [Epoch 498/8000] Loss = 3.3800    Cls = 1.1988    Bbox = 1.1793    Landmark = 1.0019    Epoch Time = 453.946
+[INFO] 2021-11-13 00:51:53,950 [Epoch 499/8000] Loss = 3.4365    Cls = 1.2193    Bbox = 1.1997    Landmark = 1.0176    Epoch Time = 454.330
+[INFO] 2021-11-13 00:59:27,278 [Epoch 500/8000] Loss = 3.3917    Cls = 1.1947    Bbox = 1.1788    Landmark = 1.0182    Epoch Time = 453.323
+[INFO] 2021-11-13 01:04:34,215 Avg AP : 0.8732   Easy AP : 0.9293   Medium AP : 0.9000   Hard AP : 0.8033
+[INFO] 2021-11-13 01:04:34,516 Epoch Model Saved
+[INFO] 2021-11-13 01:04:34,516 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 01:12:06,582 [Epoch 501/8000] Loss = 3.3143    Cls = 1.1730    Bbox = 1.1586    Landmark = 0.9827    Epoch Time = 452.064
+[INFO] 2021-11-13 01:19:44,514 [Epoch 502/8000] Loss = 3.3516    Cls = 1.1841    Bbox = 1.1745    Landmark = 0.9929    Epoch Time = 457.929
+[INFO] 2021-11-13 01:27:20,642 [Epoch 503/8000] Loss = 3.3481    Cls = 1.1804    Bbox = 1.1610    Landmark = 1.0067    Epoch Time = 456.125
+[INFO] 2021-11-13 01:34:55,899 [Epoch 504/8000] Loss = 3.2993    Cls = 1.1755    Bbox = 1.1538    Landmark = 0.9700    Epoch Time = 455.254
+[INFO] 2021-11-13 01:42:31,334 [Epoch 505/8000] Loss = 3.3632    Cls = 1.1984    Bbox = 1.1674    Landmark = 0.9974    Epoch Time = 455.433
+[INFO] 2021-11-13 01:50:01,121 [Epoch 506/8000] Loss = 3.3052    Cls = 1.1763    Bbox = 1.1494    Landmark = 0.9795    Epoch Time = 449.784
+[INFO] 2021-11-13 01:57:37,582 [Epoch 507/8000] Loss = 3.3230    Cls = 1.1726    Bbox = 1.1629    Landmark = 0.9875    Epoch Time = 456.458
+[INFO] 2021-11-13 02:07:42,111 [Epoch 508/8000] Loss = 3.3593    Cls = 1.1915    Bbox = 1.1681    Landmark = 0.9998    Epoch Time = 604.527
+[INFO] 2021-11-13 02:16:21,461 [Epoch 509/8000] Loss = 3.3958    Cls = 1.1951    Bbox = 1.1862    Landmark = 1.0145    Epoch Time = 519.348
+[INFO] 2021-11-13 02:23:56,733 [Epoch 510/8000] Loss = 3.3785    Cls = 1.2040    Bbox = 1.1735    Landmark = 1.0010    Epoch Time = 455.269
+[INFO] 2021-11-13 02:29:07,078 Avg AP : 0.8780   Easy AP : 0.9342   Medium AP : 0.9024   Hard AP : 0.8103
+[INFO] 2021-11-13 02:29:07,394 Epoch Model Saved
+[INFO] 2021-11-13 02:29:07,394 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 02:36:43,067 [Epoch 511/8000] Loss = 3.3807    Cls = 1.1883    Bbox = 1.1782    Landmark = 1.0143    Epoch Time = 455.672
+[INFO] 2021-11-13 02:44:39,530 [Epoch 512/8000] Loss = 3.3246    Cls = 1.1777    Bbox = 1.1530    Landmark = 0.9940    Epoch Time = 476.461
+[INFO] 2021-11-13 02:52:47,304 [Epoch 513/8000] Loss = 3.3812    Cls = 1.1847    Bbox = 1.1708    Landmark = 1.0258    Epoch Time = 487.772
+[INFO] 2021-11-13 03:00:21,279 [Epoch 514/8000] Loss = 3.3695    Cls = 1.1885    Bbox = 1.1677    Landmark = 1.0132    Epoch Time = 453.971
+[INFO] 2021-11-13 03:08:32,685 [Epoch 515/8000] Loss = 3.2704    Cls = 1.1668    Bbox = 1.1319    Landmark = 0.9717    Epoch Time = 491.403
+[INFO] 2021-11-13 03:16:03,621 [Epoch 516/8000] Loss = 3.2706    Cls = 1.1646    Bbox = 1.1460    Landmark = 0.9599    Epoch Time = 450.933
+[INFO] 2021-11-13 03:23:40,681 [Epoch 517/8000] Loss = 3.3274    Cls = 1.1745    Bbox = 1.1575    Landmark = 0.9954    Epoch Time = 457.054
+[INFO] 2021-11-13 03:31:27,545 [Epoch 518/8000] Loss = 3.3250    Cls = 1.1795    Bbox = 1.1567    Landmark = 0.9887    Epoch Time = 466.860
+[INFO] 2021-11-13 03:38:56,485 [Epoch 519/8000] Loss = 3.2962    Cls = 1.1709    Bbox = 1.1478    Landmark = 0.9775    Epoch Time = 448.936
+[INFO] 2021-11-13 03:46:26,383 [Epoch 520/8000] Loss = 3.3755    Cls = 1.1869    Bbox = 1.1829    Landmark = 1.0057    Epoch Time = 449.894
+[INFO] 2021-11-13 03:51:42,547 Avg AP : 0.8836   Easy AP : 0.9381   Medium AP : 0.9062   Hard AP : 0.8189
+[INFO] 2021-11-13 03:51:42,822 Epoch Model Saved
+[INFO] 2021-11-13 03:51:42,823 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 03:59:13,962 [Epoch 521/8000] Loss = 3.3407    Cls = 1.1739    Bbox = 1.1601    Landmark = 1.0067    Epoch Time = 451.138
+[INFO] 2021-11-13 04:06:45,078 [Epoch 522/8000] Loss = 3.2446    Cls = 1.1571    Bbox = 1.1371    Landmark = 0.9505    Epoch Time = 451.112
+[INFO] 2021-11-13 04:14:16,846 [Epoch 523/8000] Loss = 3.3302    Cls = 1.1667    Bbox = 1.1473    Landmark = 1.0162    Epoch Time = 451.765
+[INFO] 2021-11-13 04:21:50,777 [Epoch 524/8000] Loss = 3.4203    Cls = 1.1998    Bbox = 1.1972    Landmark = 1.0233    Epoch Time = 453.928
+[INFO] 2021-11-13 04:29:21,318 [Epoch 525/8000] Loss = 3.3234    Cls = 1.1838    Bbox = 1.1621    Landmark = 0.9774    Epoch Time = 450.536
+[INFO] 2021-11-13 04:36:50,601 [Epoch 526/8000] Loss = 3.3458    Cls = 1.1821    Bbox = 1.1653    Landmark = 0.9984    Epoch Time = 449.279
+[INFO] 2021-11-13 04:44:23,253 [Epoch 527/8000] Loss = 3.3612    Cls = 1.1841    Bbox = 1.1617    Landmark = 1.0154    Epoch Time = 452.648
+[INFO] 2021-11-13 04:51:53,751 [Epoch 528/8000] Loss = 3.4572    Cls = 1.2121    Bbox = 1.1986    Landmark = 1.0465    Epoch Time = 450.493
+[INFO] 2021-11-13 04:59:22,872 [Epoch 529/8000] Loss = 3.4172    Cls = 1.2162    Bbox = 1.1854    Landmark = 1.0157    Epoch Time = 449.117
+[INFO] 2021-11-13 05:06:59,132 [Epoch 530/8000] Loss = 3.4065    Cls = 1.2013    Bbox = 1.1866    Landmark = 1.0186    Epoch Time = 456.256
+[INFO] 2021-11-13 05:12:07,006 Avg AP : 0.8685   Easy AP : 0.9261   Medium AP : 0.8948   Hard AP : 0.7980
+[INFO] 2021-11-13 05:12:07,285 Epoch Model Saved
+[INFO] 2021-11-13 05:12:07,285 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 05:19:35,058 [Epoch 531/8000] Loss = 3.5533    Cls = 1.2471    Bbox = 1.2281    Landmark = 1.0781    Epoch Time = 447.771
+[INFO] 2021-11-13 05:27:02,440 [Epoch 532/8000] Loss = 3.6022    Cls = 1.2529    Bbox = 1.2375    Landmark = 1.1118    Epoch Time = 447.378
+[INFO] 2021-11-13 05:34:31,905 [Epoch 533/8000] Loss = 3.5238    Cls = 1.2279    Bbox = 1.2229    Landmark = 1.0729    Epoch Time = 449.461
+[INFO] 2021-11-13 05:42:00,868 [Epoch 534/8000] Loss = 3.3545    Cls = 1.1886    Bbox = 1.1715    Landmark = 0.9943    Epoch Time = 448.960
+[INFO] 2021-11-13 05:49:27,719 [Epoch 535/8000] Loss = 3.3331    Cls = 1.1811    Bbox = 1.1591    Landmark = 0.9929    Epoch Time = 446.847
+[INFO] 2021-11-13 05:56:55,368 [Epoch 536/8000] Loss = 3.2793    Cls = 1.1566    Bbox = 1.1368    Landmark = 0.9858    Epoch Time = 447.646
+[INFO] 2021-11-13 06:04:23,445 [Epoch 537/8000] Loss = 3.3707    Cls = 1.1886    Bbox = 1.1825    Landmark = 0.9996    Epoch Time = 448.073
+[INFO] 2021-11-13 06:11:51,377 [Epoch 538/8000] Loss = 3.3165    Cls = 1.1759    Bbox = 1.1497    Landmark = 0.9910    Epoch Time = 447.928
+[INFO] 2021-11-13 06:19:17,648 [Epoch 539/8000] Loss = inf    Cls = 1.1772    Bbox = inf    Landmark = 1.0331    Epoch Time = 446.268
+[INFO] 2021-11-13 06:26:44,581 [Epoch 540/8000] Loss = 3.4683    Cls = 1.2109    Bbox = 1.1947    Landmark = 1.0627    Epoch Time = 446.930
+[INFO] 2021-11-13 06:31:52,024 Avg AP : 0.8768   Easy AP : 0.9297   Medium AP : 0.9005   Hard AP : 0.8125
+[INFO] 2021-11-13 06:31:52,282 Epoch Model Saved
+[INFO] 2021-11-13 06:31:52,282 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 06:39:25,724 [Epoch 541/8000] Loss = 3.3246    Cls = 1.1822    Bbox = 1.1597    Landmark = 0.9826    Epoch Time = 453.440
+[INFO] 2021-11-13 06:46:58,711 [Epoch 542/8000] Loss = 3.4835    Cls = 1.2188    Bbox = 1.2144    Landmark = 1.0503    Epoch Time = 452.984
+[INFO] 2021-11-13 06:54:32,037 [Epoch 543/8000] Loss = 3.4210    Cls = 1.2064    Bbox = 1.1859    Landmark = 1.0287    Epoch Time = 453.323
+[INFO] 2021-11-13 07:02:06,671 [Epoch 544/8000] Loss = inf    Cls = 1.1825    Bbox = inf    Landmark = 1.0047    Epoch Time = 454.632
+[INFO] 2021-11-13 07:09:40,308 [Epoch 545/8000] Loss = 3.3402    Cls = 1.1817    Bbox = 1.1555    Landmark = 1.0030    Epoch Time = 453.633
+[INFO] 2021-11-13 07:17:14,138 [Epoch 546/8000] Loss = inf    Cls = 1.1764    Bbox = inf    Landmark = 0.9775    Epoch Time = 453.826
+[INFO] 2021-11-13 07:24:48,077 [Epoch 547/8000] Loss = 3.3067    Cls = 1.1750    Bbox = 1.1515    Landmark = 0.9801    Epoch Time = 453.935
+[INFO] 2021-11-13 07:32:21,930 [Epoch 548/8000] Loss = 3.3640    Cls = 1.1797    Bbox = 1.1630    Landmark = 1.0213    Epoch Time = 453.850
+[INFO] 2021-11-13 07:39:55,446 [Epoch 549/8000] Loss = 3.4246    Cls = 1.2078    Bbox = 1.1858    Landmark = 1.0310    Epoch Time = 453.512
+[INFO] 2021-11-13 07:47:29,230 [Epoch 550/8000] Loss = 3.3711    Cls = 1.1979    Bbox = 1.1652    Landmark = 1.0079    Epoch Time = 453.781
+[INFO] 2021-11-13 07:52:33,333 Avg AP : 0.8818   Easy AP : 0.9300   Medium AP : 0.9071   Hard AP : 0.8199
+[INFO] 2021-11-13 07:52:33,610 Epoch Model Saved
+[INFO] 2021-11-13 07:52:33,611 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 08:00:06,154 [Epoch 551/8000] Loss = 3.3084    Cls = 1.1670    Bbox = 1.1486    Landmark = 0.9929    Epoch Time = 452.541
+[INFO] 2021-11-13 08:07:38,433 [Epoch 552/8000] Loss = 3.3524    Cls = 1.1899    Bbox = 1.1577    Landmark = 1.0048    Epoch Time = 452.276
+[INFO] 2021-11-13 08:15:12,389 [Epoch 553/8000] Loss = 3.4370    Cls = 1.2067    Bbox = 1.1860    Landmark = 1.0443    Epoch Time = 453.952
+[INFO] 2021-11-13 08:22:44,819 [Epoch 554/8000] Loss = 3.3886    Cls = 1.1883    Bbox = 1.1740    Landmark = 1.0262    Epoch Time = 452.427
+[INFO] 2021-11-13 08:30:13,868 [Epoch 555/8000] Loss = 3.3226    Cls = 1.1662    Bbox = 1.1540    Landmark = 1.0024    Epoch Time = 449.046
+[INFO] 2021-11-13 08:37:42,475 [Epoch 556/8000] Loss = 3.3557    Cls = 1.1897    Bbox = 1.1660    Landmark = 1.0000    Epoch Time = 448.603
+[INFO] 2021-11-13 08:45:11,014 [Epoch 557/8000] Loss = 3.3228    Cls = 1.1775    Bbox = 1.1478    Landmark = 0.9976    Epoch Time = 448.536
+[INFO] 2021-11-13 08:52:36,696 [Epoch 558/8000] Loss = inf    Cls = 1.1655    Bbox = inf    Landmark = 0.9830    Epoch Time = 445.680
+[INFO] 2021-11-13 09:00:03,836 [Epoch 559/8000] Loss = 3.3232    Cls = 1.1780    Bbox = 1.1627    Landmark = 0.9825    Epoch Time = 447.135
+[INFO] 2021-11-13 09:07:33,825 [Epoch 560/8000] Loss = 3.3122    Cls = 1.1726    Bbox = 1.1509    Landmark = 0.9887    Epoch Time = 449.985
+[INFO] 2021-11-13 09:12:42,166 Avg AP : 0.8745   Easy AP : 0.9277   Medium AP : 0.8972   Hard AP : 0.8108
+[INFO] 2021-11-13 09:12:42,439 Epoch Model Saved
+[INFO] 2021-11-13 09:12:42,439 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 09:20:08,955 [Epoch 561/8000] Loss = 3.3209    Cls = 1.1732    Bbox = 1.1576    Landmark = 0.9901    Epoch Time = 446.514
+[INFO] 2021-11-13 09:27:35,342 [Epoch 562/8000] Loss = 3.3427    Cls = 1.1788    Bbox = 1.1536    Landmark = 1.0104    Epoch Time = 446.383
+[INFO] 2021-11-13 09:35:03,575 [Epoch 563/8000] Loss = 3.3097    Cls = 1.1756    Bbox = 1.1426    Landmark = 0.9914    Epoch Time = 448.228
+[INFO] 2021-11-13 09:42:30,846 [Epoch 564/8000] Loss = 3.3450    Cls = 1.1824    Bbox = 1.1598    Landmark = 1.0028    Epoch Time = 447.268
+[INFO] 2021-11-13 09:49:59,019 [Epoch 565/8000] Loss = 3.3356    Cls = 1.1712    Bbox = 1.1467    Landmark = 1.0177    Epoch Time = 448.169
+[INFO] 2021-11-13 09:57:26,494 [Epoch 566/8000] Loss = 3.3483    Cls = 1.1733    Bbox = 1.1606    Landmark = 1.0145    Epoch Time = 447.472
+[INFO] 2021-11-13 10:04:54,798 [Epoch 567/8000] Loss = 3.3319    Cls = 1.1748    Bbox = 1.1441    Landmark = 1.0130    Epoch Time = 448.301
+[INFO] 2021-11-13 10:12:24,156 [Epoch 568/8000] Loss = 3.3658    Cls = 1.1887    Bbox = 1.1642    Landmark = 1.0128    Epoch Time = 449.355
+[INFO] 2021-11-13 10:19:53,718 [Epoch 569/8000] Loss = 3.2445    Cls = 1.1603    Bbox = 1.1252    Landmark = 0.9590    Epoch Time = 449.558
+[INFO] 2021-11-13 10:27:20,904 [Epoch 570/8000] Loss = 3.3503    Cls = 1.1769    Bbox = 1.1604    Landmark = 1.0130    Epoch Time = 447.183
+[INFO] 2021-11-13 10:32:30,309 Avg AP : 0.8832   Easy AP : 0.9323   Medium AP : 0.9113   Hard AP : 0.8179
+[INFO] 2021-11-13 10:32:30,595 Epoch Model Saved
+[INFO] 2021-11-13 10:32:30,595 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 10:39:56,622 [Epoch 571/8000] Loss = 3.2622    Cls = 1.1563    Bbox = 1.1333    Landmark = 0.9726    Epoch Time = 446.025
+[INFO] 2021-11-13 10:47:23,561 [Epoch 572/8000] Loss = 3.2731    Cls = 1.1638    Bbox = 1.1228    Landmark = 0.9864    Epoch Time = 446.935
+[INFO] 2021-11-13 10:54:51,010 [Epoch 573/8000] Loss = 3.3194    Cls = 1.1687    Bbox = 1.1473    Landmark = 1.0033    Epoch Time = 447.446
+[INFO] 2021-11-13 11:02:17,938 [Epoch 574/8000] Loss = 3.2966    Cls = 1.1576    Bbox = 1.1401    Landmark = 0.9989    Epoch Time = 446.925
+[INFO] 2021-11-13 11:09:43,235 [Epoch 575/8000] Loss = 3.2624    Cls = 1.1529    Bbox = 1.1284    Landmark = 0.9811    Epoch Time = 445.293
+[INFO] 2021-11-13 11:17:10,233 [Epoch 576/8000] Loss = 3.2394    Cls = 1.1476    Bbox = 1.1119    Landmark = 0.9799    Epoch Time = 446.995
+[INFO] 2021-11-13 11:24:36,719 [Epoch 577/8000] Loss = 3.2054    Cls = 1.1405    Bbox = 1.1091    Landmark = 0.9558    Epoch Time = 446.482
+[INFO] 2021-11-13 11:32:05,513 [Epoch 578/8000] Loss = 3.3426    Cls = 1.1800    Bbox = 1.1515    Landmark = 1.0111    Epoch Time = 448.791
+[INFO] 2021-11-13 11:39:33,883 [Epoch 579/8000] Loss = 3.3304    Cls = 1.1831    Bbox = 1.1510    Landmark = 0.9963    Epoch Time = 448.366
+[INFO] 2021-11-13 11:47:00,343 [Epoch 580/8000] Loss = 3.4378    Cls = 1.2088    Bbox = 1.1819    Landmark = 1.0471    Epoch Time = 446.456
+[INFO] 2021-11-13 11:52:31,510 Avg AP : 0.8675   Easy AP : 0.9291   Medium AP : 0.8969   Hard AP : 0.7909
+[INFO] 2021-11-13 11:52:31,780 Epoch Model Saved
+[INFO] 2021-11-13 11:52:31,780 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 12:00:12,416 [Epoch 581/8000] Loss = 3.3156    Cls = 1.1773    Bbox = 1.1546    Landmark = 0.9837    Epoch Time = 460.635
+[INFO] 2021-11-13 12:07:53,745 [Epoch 582/8000] Loss = 3.4883    Cls = 1.2162    Bbox = 1.2002    Landmark = 1.0718    Epoch Time = 461.327
+[INFO] 2021-11-13 12:15:35,188 [Epoch 583/8000] Loss = 3.3548    Cls = 1.1896    Bbox = 1.1566    Landmark = 1.0086    Epoch Time = 461.441
+[INFO] 2021-11-13 12:23:17,800 [Epoch 584/8000] Loss = 3.3374    Cls = 1.1836    Bbox = 1.1588    Landmark = 0.9950    Epoch Time = 462.610
+[INFO] 2021-11-13 12:30:59,125 [Epoch 585/8000] Loss = 3.3628    Cls = 1.1742    Bbox = 1.1618    Landmark = 1.0268    Epoch Time = 461.323
+[INFO] 2021-11-13 12:38:40,943 [Epoch 586/8000] Loss = inf    Cls = 1.1552    Bbox = inf    Landmark = 0.9805    Epoch Time = 461.815
+[INFO] 2021-11-13 12:46:23,699 [Epoch 587/8000] Loss = 3.2202    Cls = 1.1435    Bbox = 1.1180    Landmark = 0.9587    Epoch Time = 462.752
+[INFO] 2021-11-13 12:54:04,014 [Epoch 588/8000] Loss = 3.3815    Cls = 1.1832    Bbox = 1.1587    Landmark = 1.0396    Epoch Time = 460.312
+[INFO] 2021-11-13 13:01:46,246 [Epoch 589/8000] Loss = 3.3408    Cls = 1.1731    Bbox = 1.1439    Landmark = 1.0238    Epoch Time = 462.227
+[INFO] 2021-11-13 13:09:26,523 [Epoch 590/8000] Loss = 3.3380    Cls = 1.1802    Bbox = 1.1596    Landmark = 0.9982    Epoch Time = 460.274
+[INFO] 2021-11-13 13:14:57,777 Avg AP : 0.8829   Easy AP : 0.9374   Medium AP : 0.9041   Hard AP : 0.8195
+[INFO] 2021-11-13 13:14:58,085 Epoch Model Saved
+[INFO] 2021-11-13 13:14:58,085 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 13:22:40,986 [Epoch 591/8000] Loss = 3.4148    Cls = 1.2029    Bbox = 1.1845    Landmark = 1.0274    Epoch Time = 462.899
+[INFO] 2021-11-13 13:30:22,373 [Epoch 592/8000] Loss = 3.3408    Cls = 1.1743    Bbox = 1.1590    Landmark = 1.0074    Epoch Time = 461.386
+[INFO] 2021-11-13 13:38:01,289 [Epoch 593/8000] Loss = 3.3351    Cls = 1.1816    Bbox = 1.1622    Landmark = 0.9913    Epoch Time = 458.913
+[INFO] 2021-11-13 13:45:42,266 [Epoch 594/8000] Loss = 3.3255    Cls = 1.1706    Bbox = 1.1484    Landmark = 1.0065    Epoch Time = 460.974
+[INFO] 2021-11-13 13:53:23,860 [Epoch 595/8000] Loss = 3.3010    Cls = 1.1614    Bbox = 1.1472    Landmark = 0.9925    Epoch Time = 461.592
+[INFO] 2021-11-13 14:01:06,429 [Epoch 596/8000] Loss = 3.2974    Cls = 1.1615    Bbox = 1.1309    Landmark = 1.0050    Epoch Time = 462.567
+[INFO] 2021-11-13 14:08:59,069 [Epoch 597/8000] Loss = inf    Cls = 1.1770    Bbox = inf    Landmark = 1.0343    Epoch Time = 472.636
+[INFO] 2021-11-13 14:18:16,573 [Epoch 598/8000] Loss = 3.3354    Cls = 1.1642    Bbox = 1.1436    Landmark = 1.0275    Epoch Time = 557.500
+[INFO] 2021-11-13 14:26:12,762 [Epoch 599/8000] Loss = 3.3128    Cls = 1.1665    Bbox = 1.1523    Landmark = 0.9940    Epoch Time = 476.187
+[INFO] 2021-11-13 14:33:57,871 [Epoch 600/8000] Loss = 3.4222    Cls = 1.2001    Bbox = 1.1816    Landmark = 1.0404    Epoch Time = 465.106
+[INFO] 2021-11-13 14:39:30,971 Avg AP : 0.8688   Easy AP : 0.9251   Medium AP : 0.8976   Hard AP : 0.7971
+[INFO] 2021-11-13 14:39:31,237 Epoch Model Saved
+[INFO] 2021-11-13 14:39:31,238 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 14:47:14,374 [Epoch 601/8000] Loss = 3.3834    Cls = 1.1936    Bbox = 1.1599    Landmark = 1.0300    Epoch Time = 463.135
+[INFO] 2021-11-13 14:54:56,458 [Epoch 602/8000] Loss = 3.4248    Cls = 1.1998    Bbox = 1.1782    Landmark = 1.0467    Epoch Time = 462.081
+[INFO] 2021-11-13 15:02:37,863 [Epoch 603/8000] Loss = 3.4840    Cls = 1.2173    Bbox = 1.2003    Landmark = 1.0664    Epoch Time = 461.401
+[INFO] 2021-11-13 15:10:20,352 [Epoch 604/8000] Loss = 3.4521    Cls = 1.2103    Bbox = 1.1938    Landmark = 1.0480    Epoch Time = 462.486
+[INFO] 2021-11-13 15:18:05,156 [Epoch 605/8000] Loss = 3.4716    Cls = 1.2189    Bbox = 1.2037    Landmark = 1.0491    Epoch Time = 464.801
+[INFO] 2021-11-13 15:25:45,831 [Epoch 606/8000] Loss = 3.4403    Cls = 1.2191    Bbox = 1.2015    Landmark = 1.0197    Epoch Time = 460.671
+[INFO] 2021-11-13 15:33:27,305 [Epoch 607/8000] Loss = 3.3040    Cls = 1.1652    Bbox = 1.1474    Landmark = 0.9914    Epoch Time = 461.472
+[INFO] 2021-11-13 15:41:10,670 [Epoch 608/8000] Loss = 3.3622    Cls = 1.1833    Bbox = 1.1658    Landmark = 1.0132    Epoch Time = 463.362
+[INFO] 2021-11-13 15:48:52,732 [Epoch 609/8000] Loss = 3.2548    Cls = 1.1508    Bbox = 1.1370    Landmark = 0.9670    Epoch Time = 462.059
+[INFO] 2021-11-13 15:56:34,343 [Epoch 610/8000] Loss = 3.1906    Cls = 1.1417    Bbox = 1.1063    Landmark = 0.9425    Epoch Time = 461.608
+[INFO] 2021-11-13 16:02:06,076 Avg AP : 0.8784   Easy AP : 0.9289   Medium AP : 0.9072   Hard AP : 0.8114
+[INFO] 2021-11-13 16:02:06,351 Epoch Model Saved
+[INFO] 2021-11-13 16:02:06,351 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 16:09:50,496 [Epoch 611/8000] Loss = 3.2757    Cls = 1.1548    Bbox = 1.1378    Landmark = 0.9831    Epoch Time = 464.143
+[INFO] 2021-11-13 16:17:32,312 [Epoch 612/8000] Loss = 3.1993    Cls = 1.1355    Bbox = 1.1071    Landmark = 0.9566    Epoch Time = 461.812
+[INFO] 2021-11-13 16:25:12,943 [Epoch 613/8000] Loss = 3.2357    Cls = 1.1424    Bbox = 1.1141    Landmark = 0.9792    Epoch Time = 460.629
+[INFO] 2021-11-13 16:32:53,767 [Epoch 614/8000] Loss = 3.3683    Cls = 1.1936    Bbox = 1.1653    Landmark = 1.0094    Epoch Time = 460.820
+[INFO] 2021-11-13 16:40:37,121 [Epoch 615/8000] Loss = 3.3111    Cls = 1.1698    Bbox = 1.1544    Landmark = 0.9869    Epoch Time = 463.351
+[INFO] 2021-11-13 16:48:19,661 [Epoch 616/8000] Loss = 3.2542    Cls = 1.1520    Bbox = 1.1305    Landmark = 0.9717    Epoch Time = 462.537
+[INFO] 2021-11-13 16:56:00,809 [Epoch 617/8000] Loss = 3.3066    Cls = 1.1604    Bbox = 1.1419    Landmark = 1.0042    Epoch Time = 461.145
+[INFO] 2021-11-13 17:03:45,117 [Epoch 618/8000] Loss = 3.3601    Cls = 1.1725    Bbox = 1.1591    Landmark = 1.0285    Epoch Time = 464.306
+[INFO] 2021-11-13 17:11:35,425 [Epoch 619/8000] Loss = 3.2946    Cls = 1.1636    Bbox = 1.1346    Landmark = 0.9964    Epoch Time = 470.305
+[INFO] 2021-11-13 17:19:25,463 [Epoch 620/8000] Loss = 3.3157    Cls = 1.1648    Bbox = 1.1455    Landmark = 1.0054    Epoch Time = 470.035
+[INFO] 2021-11-13 17:25:14,063 Avg AP : 0.8824   Easy AP : 0.9361   Medium AP : 0.9077   Hard AP : 0.8159
+[INFO] 2021-11-13 17:25:14,373 Epoch Model Saved
+[INFO] 2021-11-13 17:25:14,373 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 17:33:10,425 [Epoch 621/8000] Loss = 3.4732    Cls = 1.2091    Bbox = 1.1924    Landmark = 1.0717    Epoch Time = 476.051
+[INFO] 2021-11-13 17:41:02,448 [Epoch 622/8000] Loss = 3.2505    Cls = 1.1444    Bbox = 1.1146    Landmark = 0.9914    Epoch Time = 472.020
+[INFO] 2021-11-13 17:48:52,098 [Epoch 623/8000] Loss = 3.2999    Cls = 1.1619    Bbox = 1.1402    Landmark = 0.9979    Epoch Time = 469.647
+[INFO] 2021-11-13 17:56:41,599 [Epoch 624/8000] Loss = 3.2746    Cls = 1.1539    Bbox = 1.1367    Landmark = 0.9840    Epoch Time = 469.496
+[INFO] 2021-11-13 18:04:26,141 [Epoch 625/8000] Loss = 3.2910    Cls = 1.1633    Bbox = 1.1377    Landmark = 0.9900    Epoch Time = 464.540
+[INFO] 2021-11-13 18:13:18,266 [Epoch 626/8000] Loss = 3.2925    Cls = 1.1605    Bbox = 1.1454    Landmark = 0.9867    Epoch Time = 532.122
+[INFO] 2021-11-13 18:23:16,339 [Epoch 627/8000] Loss = 3.2875    Cls = 1.1647    Bbox = 1.1355    Landmark = 0.9874    Epoch Time = 598.069
+[INFO] 2021-11-13 18:34:02,180 [Epoch 628/8000] Loss = 3.2933    Cls = 1.1710    Bbox = 1.1377    Landmark = 0.9846    Epoch Time = 645.839
+[INFO] 2021-11-13 18:41:48,369 [Epoch 629/8000] Loss = 3.2455    Cls = 1.1514    Bbox = 1.1168    Landmark = 0.9773    Epoch Time = 466.185
+[INFO] 2021-11-13 18:49:37,546 [Epoch 630/8000] Loss = 3.3219    Cls = 1.1785    Bbox = 1.1483    Landmark = 0.9951    Epoch Time = 469.173
+[INFO] 2021-11-13 18:55:26,144 Avg AP : 0.8785   Easy AP : 0.9336   Medium AP : 0.8994   Hard AP : 0.8149
+[INFO] 2021-11-13 18:55:26,473 Epoch Model Saved
+[INFO] 2021-11-13 18:55:26,473 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 19:03:13,176 [Epoch 631/8000] Loss = 3.3263    Cls = 1.1725    Bbox = 1.1529    Landmark = 1.0009    Epoch Time = 466.702
+[INFO] 2021-11-13 19:11:28,125 [Epoch 632/8000] Loss = 3.3481    Cls = 1.1785    Bbox = 1.1589    Landmark = 1.0107    Epoch Time = 494.946
+[INFO] 2021-11-13 19:19:26,757 [Epoch 633/8000] Loss = 3.2094    Cls = 1.1456    Bbox = 1.1081    Landmark = 0.9557    Epoch Time = 478.629
+[INFO] 2021-11-13 19:27:30,669 [Epoch 634/8000] Loss = 3.3152    Cls = 1.1721    Bbox = 1.1434    Landmark = 0.9996    Epoch Time = 483.910
+[INFO] 2021-11-13 19:35:26,721 [Epoch 635/8000] Loss = 3.2623    Cls = 1.1553    Bbox = 1.1261    Landmark = 0.9809    Epoch Time = 476.049
+[INFO] 2021-11-13 19:43:20,731 [Epoch 636/8000] Loss = 3.1897    Cls = 1.1301    Bbox = 1.0997    Landmark = 0.9600    Epoch Time = 474.008
+[INFO] 2021-11-13 19:51:13,584 [Epoch 637/8000] Loss = 3.2100    Cls = 1.1314    Bbox = 1.0957    Landmark = 0.9830    Epoch Time = 472.851
+[INFO] 2021-11-13 19:59:18,867 [Epoch 638/8000] Loss = 3.1978    Cls = 1.1357    Bbox = 1.0975    Landmark = 0.9646    Epoch Time = 485.280
+[INFO] 2021-11-13 20:07:26,249 [Epoch 639/8000] Loss = 3.3659    Cls = 1.1881    Bbox = 1.1722    Landmark = 1.0056    Epoch Time = 487.379
+[INFO] 2021-11-13 20:15:16,857 [Epoch 640/8000] Loss = 3.2422    Cls = 1.1451    Bbox = 1.1236    Landmark = 0.9735    Epoch Time = 470.605
+[INFO] 2021-11-13 20:21:47,976 Avg AP : 0.8772   Easy AP : 0.9318   Medium AP : 0.9023   Hard AP : 0.8103
+[INFO] 2021-11-13 20:21:48,284 Epoch Model Saved
+[INFO] 2021-11-13 20:21:48,284 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 20:29:56,175 [Epoch 641/8000] Loss = 3.3606    Cls = 1.1911    Bbox = 1.1510    Landmark = 1.0185    Epoch Time = 487.889
+[INFO] 2021-11-13 20:38:12,831 [Epoch 642/8000] Loss = 3.5258    Cls = 1.2295    Bbox = 1.2241    Landmark = 1.0722    Epoch Time = 496.654
+[INFO] 2021-11-13 20:46:27,298 [Epoch 643/8000] Loss = 3.4861    Cls = 1.2210    Bbox = 1.1900    Landmark = 1.0751    Epoch Time = 494.465
+[INFO] 2021-11-13 20:54:41,869 [Epoch 644/8000] Loss = 3.3273    Cls = 1.1769    Bbox = 1.1460    Landmark = 1.0044    Epoch Time = 494.568
+[INFO] 2021-11-13 21:02:57,107 [Epoch 645/8000] Loss = 3.2681    Cls = 1.1600    Bbox = 1.1311    Landmark = 0.9770    Epoch Time = 495.236
+[INFO] 2021-11-13 21:11:06,817 [Epoch 646/8000] Loss = 3.2528    Cls = 1.1496    Bbox = 1.1253    Landmark = 0.9778    Epoch Time = 489.707
+[INFO] 2021-11-13 21:19:11,614 [Epoch 647/8000] Loss = 3.1784    Cls = 1.1271    Bbox = 1.0898    Landmark = 0.9616    Epoch Time = 484.795
+[INFO] 2021-11-13 21:27:25,704 [Epoch 648/8000] Loss = 3.2073    Cls = 1.1321    Bbox = 1.1001    Landmark = 0.9750    Epoch Time = 494.086
+[INFO] 2021-11-13 21:35:39,347 [Epoch 649/8000] Loss = 3.2235    Cls = 1.1350    Bbox = 1.1125    Landmark = 0.9760    Epoch Time = 493.638
+[INFO] 2021-11-13 21:43:57,338 [Epoch 650/8000] Loss = 3.1521    Cls = 1.1222    Bbox = 1.0903    Landmark = 0.9395    Epoch Time = 497.989
+[INFO] 2021-11-13 21:50:02,402 Avg AP : 0.8876   Easy AP : 0.9366   Medium AP : 0.9088   Hard AP : 0.8286
+[INFO] 2021-11-13 21:50:02,706 Epoch Model Saved
+[INFO] 2021-11-13 21:50:02,707 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 21:57:57,135 [Epoch 651/8000] Loss = 3.2192    Cls = 1.1398    Bbox = 1.1093    Landmark = 0.9701    Epoch Time = 474.426
+[INFO] 2021-11-13 22:05:58,428 [Epoch 652/8000] Loss = 3.1648    Cls = 1.1234    Bbox = 1.0938    Landmark = 0.9476    Epoch Time = 481.290
+[INFO] 2021-11-13 22:14:13,889 [Epoch 653/8000] Loss = 3.2079    Cls = 1.1408    Bbox = 1.1074    Landmark = 0.9597    Epoch Time = 495.457
+[INFO] 2021-11-13 22:22:15,857 [Epoch 654/8000] Loss = 3.2435    Cls = 1.1431    Bbox = 1.1129    Landmark = 0.9875    Epoch Time = 481.965
+[INFO] 2021-11-13 22:30:25,653 [Epoch 655/8000] Loss = 3.2658    Cls = 1.1504    Bbox = 1.1180    Landmark = 0.9973    Epoch Time = 489.791
+[INFO] 2021-11-13 22:38:37,971 [Epoch 656/8000] Loss = 3.2239    Cls = 1.1358    Bbox = 1.1152    Landmark = 0.9729    Epoch Time = 492.313
+[INFO] 2021-11-13 22:46:51,398 [Epoch 657/8000] Loss = 3.1541    Cls = 1.1119    Bbox = 1.0861    Landmark = 0.9561    Epoch Time = 493.425
+[INFO] 2021-11-13 22:55:03,084 [Epoch 658/8000] Loss = 3.2072    Cls = 1.1328    Bbox = 1.1018    Landmark = 0.9726    Epoch Time = 491.682
+[INFO] 2021-11-13 23:03:07,138 [Epoch 659/8000] Loss = 3.1585    Cls = 1.1137    Bbox = 1.0837    Landmark = 0.9611    Epoch Time = 484.051
+[INFO] 2021-11-13 23:11:10,929 [Epoch 660/8000] Loss = 3.2907    Cls = 1.1677    Bbox = 1.1332    Landmark = 0.9898    Epoch Time = 483.789
+[INFO] 2021-11-13 23:17:38,402 Avg AP : 0.8806   Easy AP : 0.9354   Medium AP : 0.9106   Hard AP : 0.8090
+[INFO] 2021-11-13 23:17:38,717 Epoch Model Saved
+[INFO] 2021-11-13 23:17:38,717 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-13 23:26:00,153 [Epoch 661/8000] Loss = 3.2581    Cls = 1.1436    Bbox = 1.1194    Landmark = 0.9951    Epoch Time = 501.434
+[INFO] 2021-11-13 23:33:53,086 [Epoch 662/8000] Loss = 3.1970    Cls = 1.1402    Bbox = 1.1025    Landmark = 0.9543    Epoch Time = 472.929
+[INFO] 2021-11-13 23:41:48,341 [Epoch 663/8000] Loss = 3.1123    Cls = 1.1081    Bbox = 1.0790    Landmark = 0.9251    Epoch Time = 475.252
+[INFO] 2021-11-13 23:49:51,769 [Epoch 664/8000] Loss = 3.2626    Cls = 1.1522    Bbox = 1.1088    Landmark = 1.0016    Epoch Time = 483.424
+[INFO] 2021-11-13 23:58:03,749 [Epoch 665/8000] Loss = 3.2384    Cls = 1.1482    Bbox = 1.1183    Landmark = 0.9718    Epoch Time = 491.976
+[INFO] 2021-11-14 00:05:58,485 [Epoch 666/8000] Loss = 3.2050    Cls = 1.1375    Bbox = 1.1068    Landmark = 0.9607    Epoch Time = 474.731
+[INFO] 2021-11-14 00:13:49,411 [Epoch 667/8000] Loss = 3.1970    Cls = 1.1375    Bbox = 1.1043    Landmark = 0.9553    Epoch Time = 470.924
+[INFO] 2021-11-14 00:21:39,001 [Epoch 668/8000] Loss = 3.2617    Cls = 1.1472    Bbox = 1.1200    Landmark = 0.9945    Epoch Time = 469.587
+[INFO] 2021-11-14 00:29:28,665 [Epoch 669/8000] Loss = 3.1554    Cls = 1.1202    Bbox = 1.0863    Landmark = 0.9489    Epoch Time = 469.662
+[INFO] 2021-11-14 00:37:15,302 [Epoch 670/8000] Loss = 3.2026    Cls = 1.1354    Bbox = 1.1092    Landmark = 0.9580    Epoch Time = 466.635
+[INFO] 2021-11-14 00:43:42,582 Avg AP : 0.8714   Easy AP : 0.9303   Medium AP : 0.8971   Hard AP : 0.8004
+[INFO] 2021-11-14 00:43:42,921 Epoch Model Saved
+[INFO] 2021-11-14 00:43:42,921 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 00:51:53,412 [Epoch 671/8000] Loss = 3.5256    Cls = 1.2482    Bbox = 1.2132    Landmark = 1.0641    Epoch Time = 490.488
+[INFO] 2021-11-14 00:59:53,053 [Epoch 672/8000] Loss = 3.3352    Cls = 1.1832    Bbox = 1.1630    Landmark = 0.9890    Epoch Time = 479.633
+[INFO] 2021-11-14 01:08:01,459 [Epoch 673/8000] Loss = 3.2339    Cls = 1.1443    Bbox = 1.1202    Landmark = 0.9693    Epoch Time = 488.400
+[INFO] 2021-11-14 01:16:12,034 [Epoch 674/8000] Loss = 3.1829    Cls = 1.1219    Bbox = 1.1059    Landmark = 0.9551    Epoch Time = 490.571
+[INFO] 2021-11-14 01:24:17,843 [Epoch 675/8000] Loss = 3.2051    Cls = 1.1333    Bbox = 1.0980    Landmark = 0.9739    Epoch Time = 485.805
+[INFO] 2021-11-14 01:32:24,221 [Epoch 676/8000] Loss = 3.1922    Cls = 1.1293    Bbox = 1.0943    Landmark = 0.9686    Epoch Time = 486.373
+[INFO] 2021-11-14 01:40:24,394 [Epoch 677/8000] Loss = 3.3216    Cls = 1.1767    Bbox = 1.1529    Landmark = 0.9920    Epoch Time = 480.170
+[INFO] 2021-11-14 01:48:34,540 [Epoch 678/8000] Loss = 3.1540    Cls = 1.1118    Bbox = 1.0845    Landmark = 0.9577    Epoch Time = 490.143
+[INFO] 2021-11-14 01:56:38,801 [Epoch 679/8000] Loss = 3.1789    Cls = 1.1273    Bbox = 1.0961    Landmark = 0.9555    Epoch Time = 484.257
+[INFO] 2021-11-14 02:04:54,313 [Epoch 680/8000] Loss = 3.1813    Cls = 1.1216    Bbox = 1.0869    Landmark = 0.9728    Epoch Time = 495.510
+[INFO] 2021-11-14 02:10:49,510 Avg AP : 0.8732   Easy AP : 0.9278   Medium AP : 0.8972   Hard AP : 0.8073
+[INFO] 2021-11-14 02:10:49,846 Epoch Model Saved
+[INFO] 2021-11-14 02:10:49,846 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 02:18:59,701 [Epoch 681/8000] Loss = 3.2184    Cls = 1.1397    Bbox = 1.1073    Landmark = 0.9714    Epoch Time = 489.852
+[INFO] 2021-11-14 02:27:01,961 [Epoch 682/8000] Loss = 3.1961    Cls = 1.1304    Bbox = 1.1006    Landmark = 0.9651    Epoch Time = 482.257
+[INFO] 2021-11-14 02:35:24,260 [Epoch 683/8000] Loss = 3.2370    Cls = 1.1433    Bbox = 1.1066    Landmark = 0.9872    Epoch Time = 502.297
+[INFO] 2021-11-14 02:43:21,093 [Epoch 684/8000] Loss = 3.2909    Cls = 1.1567    Bbox = 1.1221    Landmark = 1.0121    Epoch Time = 476.830
+[INFO] 2021-11-14 02:51:33,653 [Epoch 685/8000] Loss = 3.3043    Cls = 1.1578    Bbox = 1.1244    Landmark = 1.0221    Epoch Time = 492.558
+[INFO] 2021-11-14 02:59:37,102 [Epoch 686/8000] Loss = inf    Cls = 1.1476    Bbox = inf    Landmark = 0.9701    Epoch Time = 483.447
+[INFO] 2021-11-14 03:07:34,497 [Epoch 687/8000] Loss = 3.1816    Cls = 1.1219    Bbox = 1.0969    Landmark = 0.9627    Epoch Time = 477.391
+[INFO] 2021-11-14 03:15:26,577 [Epoch 688/8000] Loss = inf    Cls = 1.1217    Bbox = inf    Landmark = 0.9450    Epoch Time = 472.077
+[INFO] 2021-11-14 03:23:22,708 [Epoch 689/8000] Loss = 3.2349    Cls = 1.1471    Bbox = 1.1085    Landmark = 0.9792    Epoch Time = 476.128
+[INFO] 2021-11-14 03:31:20,019 [Epoch 690/8000] Loss = 3.2372    Cls = 1.1412    Bbox = 1.0958    Landmark = 1.0001    Epoch Time = 477.307
+[INFO] 2021-11-14 03:37:19,564 Avg AP : 0.8763   Easy AP : 0.9309   Medium AP : 0.9038   Hard AP : 0.8073
+[INFO] 2021-11-14 03:37:19,853 Epoch Model Saved
+[INFO] 2021-11-14 03:37:19,854 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 03:45:14,483 [Epoch 691/8000] Loss = 3.4620    Cls = 1.2212    Bbox = 1.1916    Landmark = 1.0491    Epoch Time = 474.627
+[INFO] 2021-11-14 03:53:12,887 [Epoch 692/8000] Loss = 3.3036    Cls = 1.1601    Bbox = 1.1356    Landmark = 1.0079    Epoch Time = 478.402
+[INFO] 2021-11-14 04:01:11,064 [Epoch 693/8000] Loss = 3.2859    Cls = 1.1617    Bbox = 1.1328    Landmark = 0.9914    Epoch Time = 478.172
+[INFO] 2021-11-14 04:09:06,001 [Epoch 694/8000] Loss = 3.2707    Cls = 1.1571    Bbox = 1.1320    Landmark = 0.9816    Epoch Time = 474.935
+[INFO] 2021-11-14 04:16:55,852 [Epoch 695/8000] Loss = inf    Cls = 1.1389    Bbox = inf    Landmark = 0.9738    Epoch Time = 469.849
+[INFO] 2021-11-14 04:24:45,212 [Epoch 696/8000] Loss = 3.2115    Cls = 1.1405    Bbox = 1.1070    Landmark = 0.9641    Epoch Time = 469.356
+[INFO] 2021-11-14 04:32:36,546 [Epoch 697/8000] Loss = 3.2788    Cls = 1.1551    Bbox = 1.1327    Landmark = 0.9910    Epoch Time = 471.331
+[INFO] 2021-11-14 04:40:32,055 [Epoch 698/8000] Loss = 3.2363    Cls = 1.1344    Bbox = 1.1170    Landmark = 0.9849    Epoch Time = 475.505
+[INFO] 2021-11-14 04:48:24,597 [Epoch 699/8000] Loss = 3.1588    Cls = 1.1266    Bbox = 1.0838    Landmark = 0.9483    Epoch Time = 472.539
+[INFO] 2021-11-14 04:56:16,718 [Epoch 700/8000] Loss = 3.2765    Cls = 1.1450    Bbox = 1.1162    Landmark = 1.0153    Epoch Time = 472.118
+[INFO] 2021-11-14 05:02:13,010 Avg AP : 0.8723   Easy AP : 0.9256   Medium AP : 0.9024   Hard AP : 0.8020
+[INFO] 2021-11-14 05:02:13,309 Epoch Model Saved
+[INFO] 2021-11-14 05:02:13,309 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 05:10:09,124 [Epoch 701/8000] Loss = 3.2626    Cls = 1.1537    Bbox = 1.1262    Landmark = 0.9828    Epoch Time = 475.813
+[INFO] 2021-11-14 05:18:03,899 [Epoch 702/8000] Loss = 3.1914    Cls = 1.1328    Bbox = 1.0906    Landmark = 0.9680    Epoch Time = 474.773
+[INFO] 2021-11-14 05:25:57,233 [Epoch 703/8000] Loss = 3.2379    Cls = 1.1358    Bbox = 1.1041    Landmark = 0.9980    Epoch Time = 473.332
+[INFO] 2021-11-14 05:33:50,482 [Epoch 704/8000] Loss = 3.2842    Cls = 1.1461    Bbox = 1.1205    Landmark = 1.0176    Epoch Time = 473.246
+[INFO] 2021-11-14 05:41:43,837 [Epoch 705/8000] Loss = 3.1758    Cls = 1.1205    Bbox = 1.0824    Landmark = 0.9728    Epoch Time = 473.352
+[INFO] 2021-11-14 05:49:36,330 [Epoch 706/8000] Loss = inf    Cls = 1.1173    Bbox = inf    Landmark = 0.9635    Epoch Time = 472.489
+[INFO] 2021-11-14 05:57:29,596 [Epoch 707/8000] Loss = 3.0886    Cls = 1.1008    Bbox = 1.0637    Landmark = 0.9241    Epoch Time = 473.263
+[INFO] 2021-11-14 06:05:22,445 [Epoch 708/8000] Loss = 3.1245    Cls = 1.1100    Bbox = 1.0752    Landmark = 0.9393    Epoch Time = 472.845
+[INFO] 2021-11-14 06:13:16,770 [Epoch 709/8000] Loss = 3.1454    Cls = 1.1039    Bbox = 1.0725    Landmark = 0.9690    Epoch Time = 474.323
+[INFO] 2021-11-14 06:21:08,037 [Epoch 710/8000] Loss = 3.1593    Cls = 1.1125    Bbox = 1.0834    Landmark = 0.9634    Epoch Time = 471.265
+[INFO] 2021-11-14 06:27:03,097 Avg AP : 0.8832   Easy AP : 0.9324   Medium AP : 0.9101   Hard AP : 0.8191
+[INFO] 2021-11-14 06:27:03,437 Epoch Model Saved
+[INFO] 2021-11-14 06:27:03,437 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 06:34:57,032 [Epoch 711/8000] Loss = 3.1838    Cls = 1.1297    Bbox = 1.0881    Landmark = 0.9660    Epoch Time = 473.592
+[INFO] 2021-11-14 06:42:49,642 [Epoch 712/8000] Loss = 3.1776    Cls = 1.1265    Bbox = 1.0855    Landmark = 0.9657    Epoch Time = 472.608
+[INFO] 2021-11-14 06:50:41,739 [Epoch 713/8000] Loss = 3.1700    Cls = 1.1229    Bbox = 1.0822    Landmark = 0.9649    Epoch Time = 472.094
+[INFO] 2021-11-14 06:58:33,880 [Epoch 714/8000] Loss = inf    Cls = 1.1160    Bbox = inf    Landmark = 0.9685    Epoch Time = 472.138
+[INFO] 2021-11-14 07:06:21,759 [Epoch 715/8000] Loss = 3.3362    Cls = 1.1713    Bbox = 1.1377    Landmark = 1.0271    Epoch Time = 467.875
+[INFO] 2021-11-14 07:14:12,753 [Epoch 716/8000] Loss = 3.2687    Cls = 1.1447    Bbox = 1.1170    Landmark = 1.0070    Epoch Time = 470.990
+[INFO] 2021-11-14 07:22:09,631 [Epoch 717/8000] Loss = 3.2279    Cls = 1.1371    Bbox = 1.1044    Landmark = 0.9864    Epoch Time = 476.875
+[INFO] 2021-11-14 07:30:07,016 [Epoch 718/8000] Loss = 3.2422    Cls = 1.1470    Bbox = 1.1079    Landmark = 0.9874    Epoch Time = 477.384
+[INFO] 2021-11-14 07:38:08,882 [Epoch 719/8000] Loss = 3.3086    Cls = 1.1610    Bbox = 1.1326    Landmark = 1.0151    Epoch Time = 481.863
+[INFO] 2021-11-14 07:46:04,444 [Epoch 720/8000] Loss = 3.2620    Cls = 1.1595    Bbox = 1.1267    Landmark = 0.9759    Epoch Time = 475.560
+[INFO] 2021-11-14 07:52:04,113 Avg AP : 0.8771   Easy AP : 0.9338   Medium AP : 0.8982   Hard AP : 0.8121
+[INFO] 2021-11-14 07:52:04,492 Epoch Model Saved
+[INFO] 2021-11-14 07:52:04,492 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 07:59:59,034 [Epoch 721/8000] Loss = 3.1792    Cls = 1.1269    Bbox = 1.0935    Landmark = 0.9588    Epoch Time = 474.540
+[INFO] 2021-11-14 08:07:51,838 [Epoch 722/8000] Loss = 3.1388    Cls = 1.1138    Bbox = 1.0792    Landmark = 0.9458    Epoch Time = 472.801
+[INFO] 2021-11-14 08:15:44,251 [Epoch 723/8000] Loss = 3.1234    Cls = 1.1115    Bbox = 1.0703    Landmark = 0.9416    Epoch Time = 472.409
+[INFO] 2021-11-14 08:23:36,303 [Epoch 724/8000] Loss = 3.1652    Cls = 1.1292    Bbox = 1.0887    Landmark = 0.9473    Epoch Time = 472.050
+[INFO] 2021-11-14 08:31:25,173 [Epoch 725/8000] Loss = 3.2321    Cls = 1.1374    Bbox = 1.1110    Landmark = 0.9837    Epoch Time = 468.866
+[INFO] 2021-11-14 08:39:13,881 [Epoch 726/8000] Loss = 3.1810    Cls = 1.1233    Bbox = 1.1013    Landmark = 0.9564    Epoch Time = 468.706
+[INFO] 2021-11-14 08:47:08,500 [Epoch 727/8000] Loss = 3.1817    Cls = 1.1268    Bbox = 1.0960    Landmark = 0.9589    Epoch Time = 474.617
+[INFO] 2021-11-14 08:55:09,365 [Epoch 728/8000] Loss = 3.1772    Cls = 1.1274    Bbox = 1.0917    Landmark = 0.9582    Epoch Time = 480.862
+[INFO] 2021-11-14 09:03:12,469 [Epoch 729/8000] Loss = 3.1472    Cls = 1.1156    Bbox = 1.0827    Landmark = 0.9490    Epoch Time = 483.100
+[INFO] 2021-11-14 09:11:12,004 [Epoch 730/8000] Loss = 3.1635    Cls = 1.1259    Bbox = 1.0748    Landmark = 0.9628    Epoch Time = 479.531
+[INFO] 2021-11-14 09:17:15,785 Avg AP : 0.8836   Easy AP : 0.9374   Medium AP : 0.9073   Hard AP : 0.8186
+[INFO] 2021-11-14 09:17:16,097 Epoch Model Saved
+[INFO] 2021-11-14 09:17:16,097 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 09:25:14,206 [Epoch 731/8000] Loss = 3.1419    Cls = 1.1008    Bbox = 1.0679    Landmark = 0.9733    Epoch Time = 478.108
+[INFO] 2021-11-14 09:33:10,918 [Epoch 732/8000] Loss = 3.1206    Cls = 1.0979    Bbox = 1.0709    Landmark = 0.9517    Epoch Time = 476.708
+[INFO] 2021-11-14 09:41:03,381 [Epoch 733/8000] Loss = 3.0742    Cls = 1.0911    Bbox = 1.0565    Landmark = 0.9267    Epoch Time = 472.461
+[INFO] 2021-11-14 09:48:57,446 [Epoch 734/8000] Loss = 3.0987    Cls = 1.0961    Bbox = 1.0627    Landmark = 0.9400    Epoch Time = 474.062
+[INFO] 2021-11-14 09:56:48,783 [Epoch 735/8000] Loss = 3.1092    Cls = 1.1028    Bbox = 1.0678    Landmark = 0.9386    Epoch Time = 471.334
+[INFO] 2021-11-14 10:04:43,239 [Epoch 736/8000] Loss = inf    Cls = 1.0912    Bbox = inf    Landmark = 0.9261    Epoch Time = 474.453
+[INFO] 2021-11-14 10:12:40,504 [Epoch 737/8000] Loss = inf    Cls = 1.1192    Bbox = inf    Landmark = 0.9889    Epoch Time = 477.262
+[INFO] 2021-11-14 10:20:34,729 [Epoch 738/8000] Loss = 3.1511    Cls = 1.1181    Bbox = 1.0772    Landmark = 0.9558    Epoch Time = 474.219
+[INFO] 2021-11-14 10:28:23,086 [Epoch 739/8000] Loss = 3.1392    Cls = 1.1097    Bbox = 1.0674    Landmark = 0.9621    Epoch Time = 468.353
+[INFO] 2021-11-14 10:36:09,089 [Epoch 740/8000] Loss = 3.2120    Cls = 1.1364    Bbox = 1.0965    Landmark = 0.9791    Epoch Time = 466.000
+[INFO] 2021-11-14 10:41:59,777 Avg AP : 0.8726   Easy AP : 0.9314   Medium AP : 0.8929   Hard AP : 0.8065
+[INFO] 2021-11-14 10:42:00,097 Epoch Model Saved
+[INFO] 2021-11-14 10:42:00,097 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 10:49:55,322 [Epoch 741/8000] Loss = 3.1398    Cls = 1.1107    Bbox = 1.0754    Landmark = 0.9537    Epoch Time = 475.223
+[INFO] 2021-11-14 10:57:53,426 [Epoch 742/8000] Loss = 3.1246    Cls = 1.1088    Bbox = 1.0634    Landmark = 0.9524    Epoch Time = 478.101
+[INFO] 2021-11-14 11:05:49,413 [Epoch 743/8000] Loss = 3.0935    Cls = 1.0990    Bbox = 1.0565    Landmark = 0.9380    Epoch Time = 475.984
+[INFO] 2021-11-14 11:13:47,273 [Epoch 744/8000] Loss = 3.0905    Cls = 1.1073    Bbox = 1.0643    Landmark = 0.9189    Epoch Time = 477.857
+[INFO] 2021-11-14 11:21:46,772 [Epoch 745/8000] Loss = 3.1134    Cls = 1.1049    Bbox = 1.0532    Landmark = 0.9553    Epoch Time = 479.495
+[INFO] 2021-11-14 11:29:45,998 [Epoch 746/8000] Loss = 3.2230    Cls = 1.1361    Bbox = 1.0994    Landmark = 0.9876    Epoch Time = 479.222
+[INFO] 2021-11-14 11:37:42,859 [Epoch 747/8000] Loss = 3.2028    Cls = 1.1346    Bbox = 1.0962    Landmark = 0.9720    Epoch Time = 476.858
+[INFO] 2021-11-14 11:45:37,398 [Epoch 748/8000] Loss = 3.0771    Cls = 1.0936    Bbox = 1.0538    Landmark = 0.9298    Epoch Time = 474.536
+[INFO] 2021-11-14 11:53:37,095 [Epoch 749/8000] Loss = 3.0991    Cls = 1.1020    Bbox = 1.0633    Landmark = 0.9338    Epoch Time = 479.693
+[INFO] 2021-11-14 12:01:35,098 [Epoch 750/8000] Loss = 3.1333    Cls = 1.1066    Bbox = 1.0605    Landmark = 0.9662    Epoch Time = 477.999
+[INFO] 2021-11-14 12:07:38,427 Avg AP : 0.8789   Easy AP : 0.9350   Medium AP : 0.9049   Hard AP : 0.8100
+[INFO] 2021-11-14 12:07:38,768 Epoch Model Saved
+[INFO] 2021-11-14 12:07:38,768 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 12:15:29,721 [Epoch 751/8000] Loss = 3.1645    Cls = 1.1270    Bbox = 1.0816    Landmark = 0.9559    Epoch Time = 470.951
+[INFO] 2021-11-14 12:23:20,636 [Epoch 752/8000] Loss = 3.2669    Cls = 1.1416    Bbox = 1.1114    Landmark = 1.0139    Epoch Time = 470.911
+[INFO] 2021-11-14 12:31:10,260 [Epoch 753/8000] Loss = 3.1800    Cls = 1.1211    Bbox = 1.0815    Landmark = 0.9774    Epoch Time = 469.622
+[INFO] 2021-11-14 12:38:57,766 [Epoch 754/8000] Loss = 3.1115    Cls = 1.0973    Bbox = 1.0649    Landmark = 0.9494    Epoch Time = 467.503
+[INFO] 2021-11-14 12:46:40,638 [Epoch 755/8000] Loss = 3.0810    Cls = 1.0917    Bbox = 1.0431    Landmark = 0.9462    Epoch Time = 462.868
+[INFO] 2021-11-14 12:54:21,407 [Epoch 756/8000] Loss = 3.1543    Cls = 1.1140    Bbox = 1.0759    Landmark = 0.9644    Epoch Time = 460.766
+[INFO] 2021-11-14 13:02:01,122 [Epoch 757/8000] Loss = inf    Cls = 1.1296    Bbox = inf    Landmark = 0.9692    Epoch Time = 459.712
+[INFO] 2021-11-14 13:09:42,521 [Epoch 758/8000] Loss = 3.2933    Cls = 1.1547    Bbox = 1.1236    Landmark = 1.0149    Epoch Time = 461.395
+[INFO] 2021-11-14 13:17:25,169 [Epoch 759/8000] Loss = 3.2418    Cls = 1.1408    Bbox = 1.1046    Landmark = 0.9964    Epoch Time = 462.646
+[INFO] 2021-11-14 13:25:06,716 [Epoch 760/8000] Loss = 3.1704    Cls = 1.1270    Bbox = 1.0893    Landmark = 0.9541    Epoch Time = 461.542
+[INFO] 2021-11-14 13:30:39,298 Avg AP : 0.8769   Easy AP : 0.9317   Medium AP : 0.9021   Hard AP : 0.8096
+[INFO] 2021-11-14 13:30:39,596 Epoch Model Saved
+[INFO] 2021-11-14 13:30:39,596 Best Avg AP : 0.8914   Easy AP : 0.9385   Medium AP : 0.9143   Hard AP : 0.8325
+[INFO] 2021-11-14 13:38:19,681 [Epoch 761/8000] Loss = 3.1091    Cls = 1.1107    Bbox = 1.0654    Landmark = 0.9330    Epoch Time = 460.083
+[INFO] 2021-11-14 13:46:01,217 [Epoch 762/8000] Loss = 3.0784    Cls = 1.0952    Bbox = 1.0442    Landmark = 0.9391    Epoch Time = 461.534
+[INFO] 2021-11-14 13:53:36,025 [Epoch 763/8000] Loss = 3.2322    Cls = 1.1470    Bbox = 1.0979    Landmark = 0.9872    Epoch Time = 454.805
+[INFO] 2021-11-14 14:01:09,132 [Epoch 764/8000] Loss = 3.1380    Cls = 1.1150    Bbox = 1.0725    Landmark = 0.9505    Epoch Time = 453.103

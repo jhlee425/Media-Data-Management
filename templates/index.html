@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 30px;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-image: url('/static/bg.jpeg'); /* 배경 이미지 경로 설정 */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative; /* 부모 위치 기준으로 자식 위치 조정 */
+        }
+
+        .company-logo {
+            position: absolute; /* 절대 위치 설정 */
+            top: 20px;
+            left: 20px;
+            width: 200px; /* 이미지 너비 조정 */
+            height: auto; /* 이미지 높이 자동 조정 */
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-right: 20px; /* 제목과 이미지 사이 간격 설정 */
+        }
+
+        .header p {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .figure1 {
+            text-align: center; /* 가운데 정렬을 위해 컨테이너를 텍스트 정렬 */
+        }
+
+        .image-container {
+            display: inline-block;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .image-toggle-button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: #f0f0f0;
+            border: none;
+            padding: 2px 5px;
+            cursor: pointer;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .upload-form {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .file-input {
+            margin-bottom: 10px;
+        }
+
+        .consent-input {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .consent-input label {
+            margin-bottom: 0;
+            margin-left: 5px;
+        }
+
+        .consent-input select {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background-color: white;
+        }
+
+        .submit-btn {
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-btn.disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .flash-container {
+            max-height: 200px; /* 최대 높이 설정 */
+            margin-bottom: 20px; /* 하단 여백 추가 */
+        }
+        
+        .flash-message {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .flash-message.success {
+            background-color: #c3e6cb;
+            color: #155724;
+            border: 1px solid #155724;
+        }
+
+        .flash-message.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #721c24;
+        }
+
+        .file-list {
+            margin-top: 30px;
+        }
+
+        .file-list table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+
+        .file-list th, 
+        .file-list td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .file-list th {
+            background-color: #f9f9f9;
+        }
+
+        .file-list th:first-child,
+        .file-list td:first-child {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .preview-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .preview-link:hover {
+            text-decoration: underline;
+        }
+
+        .user-info {
+            position: absolute;
+            top: 10px;
+            right: 100px;
+        }
+
+        .file-list-container {
+            max-height: 400px; /* 최대 높이 설정 */
+            overflow-y: auto; /* 수직 스크롤 적용 */
+        }
+
+        .logout-btn {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+ 
+        }
+        .modal {
+            display: none; /* 초기에 모달 숨기기 */
+            position: fixed; /* 고정 위치 */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* 반투명한 검은 배경 */
+            z-index: 9999; /* 다른 요소 위에 표시 */
+            overflow: auto; /* 스크롤 가능하도록 설정 */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* 모달 창 너비 */
+            max-width: 600px; /* 최대 너비 제한 */
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); /* 정가운데 위치 조정 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content img {
+            max-width: 100%;
+            max-height: 80vh; /* 모달 창 높이의 80%로 이미지 높이 제한 */
+            margin: 0 auto;
+        }
+
+        .modal-content video {
+            max-width: 100%;
+            max-height: 80vh; /* 모달 창 높이의 80%로 동영상 높이 제한 */
+            margin: 0 auto;
+        }
+    </style>
+
+    <script>
+        // 플래시 메시지 자동 숨김 기능
+        setTimeout(function() {
+            var flashMessages = document.querySelectorAll('.flash-message');
+            flashMessages.forEach(function(message) {
+                message.style.display = 'none';
+            });
+        }, 3000);
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const selectAllCheckbox = document.getElementById('select-all-checkbox');
+            const checkboxes = document.querySelectorAll('input[type="checkbox"][name="selected_files"]');
+
+            selectAllCheckbox.addEventListener('change', function() {
+                checkboxes.forEach(function(checkbox) {
+                    checkbox.checked = selectAllCheckbox.checked;
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const imageContainers = document.querySelectorAll('.image-container');
+
+            imageContainers.forEach(function(container) {
+                const image = container.querySelector('img');
+                const toggleButton = document.createElement('button');
+                toggleButton.classList.add('image-toggle-button');
+                toggleButton.textContent = '▲';
+
+                toggleButton.addEventListener('click', function() {
+                    if (image.style.display === 'none') {
+                        image.style.display = 'block';
+                        toggleButton.textContent = '▲';
+                    } else {
+                        image.style.display = 'none';
+                        toggleButton.textContent = '▼';
+                    }
+                });
+
+                container.appendChild(toggleButton);
+            });
+        });
+
+        // 모달 엘리먼트와 닫기 버튼 가져오기
+        document.addEventListener('DOMContentLoaded', function() {
+            var modal = document.getElementById('mediaModal');
+            var closeBtn = modal.querySelector('.close');
+            var mediaContainer = modal.querySelector('#mediaContainer');
+
+            // 미리보기 링크 클릭 시 모달 열기
+            var previewLinks = document.querySelectorAll('.preview-link');
+            previewLinks.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var mediaSrc = link.getAttribute('data-media-src');
+                    mediaContainer.innerHTML = ''; // 모달 내용 초기화
+                    if (mediaSrc) {
+                        if (mediaSrc.endsWith('.jpg') || mediaSrc.endsWith('.png')) {
+                            // 이미지인 경우
+                            mediaContainer.innerHTML = '<img src="' + mediaSrc + '">';
+                        } else if (mediaSrc.endsWith('.mp4')) {
+                            // 비디오인 경우
+                            mediaContainer.innerHTML = '<video controls><source src="' + mediaSrc + '" type="video/mp4"></video>';
+                        } else if (mediaSrc.endsWith('.mp3')) {
+                            // 오디오인 경우
+                            mediaContainer.innerHTML = '<audio controls><source src="' + mediaSrc + '" type="audio/mpeg"></audio>';
+                        }
+                        modal.style.display = 'block'; // 모달 열기
+                    }
+                });
+            });
+
+            // 모달 닫기 버튼 클릭 시 모달 닫기
+            closeBtn.addEventListener('click', function() {
+                modal.style.display = 'none';
+            });
+
+            // 모달 외부 클릭 시 모달 닫기
+            window.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const consentCheckbox = document.getElementById('consent-checkbox');
+            const dataAttributeDiv = document.querySelector('.data-attribute');
+            const monthSelect = document.getElementById('month');
+            const timeSelect = document.getElementById('time');
+            const weatherSelect = document.getElementById('weather');
+
+            // 초기에 비활성화 상태로 시작
+            dataAttributeDiv.classList.add('disabled');
+            monthSelect.setAttribute('disabled', true);
+            timeSelect.setAttribute('disabled', true);
+            weatherSelect.setAttribute('disabled', true);
+
+            consentCheckbox.addEventListener('change', function() {
+                if (consentCheckbox.checked) {
+                    dataAttributeDiv.classList.remove('disabled');
+                    monthSelect.removeAttribute('disabled');
+                    timeSelect.removeAttribute('disabled');
+                    weatherSelect.removeAttribute('disabled');
+                } else {
+                    dataAttributeDiv.classList.add('disabled');
+                    monthSelect.setAttribute('disabled', true);
+                    timeSelect.setAttribute('disabled', true);
+                    weatherSelect.setAttribute('disabled', true);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="/static/ci.jpg" class="company-logo" alt="Company Logo">
+        <div class="header">
+            <h1>미디어 데이터 관리</h1>
+        </div>
+
+         <!-- 로그인 -->
+        <div class="login-status">
+            {% if current_user.is_authenticated %}
+                <div class="logout-btn">
+                    <span>{{ current_user.username }} 님</span>
+                    &nbsp;
+                    <a href="{{ url_for('change_password_page') }}">비밀번호 변경</a>
+                    &nbsp;
+                    <a href="{{ url_for('logout') }}">로그아웃</a>
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- 업로드 폼 시작 -->
+        <div class="upload-form">
+            <p class="upload-form-desc">다양한 형식의 이미지, 비디오, 오디오 및 텍스트 파일을 업로드할 수 있습니다.</p>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <div class="file-input">
+                    <label for="file">파일 선택:</label>
+                    <input type="file" name="file" id="file" accept=".jpg,.jpeg,.png,.mp4,.avi,.mp3,.wav" required multiple>
+                </div>
+                <!-- 익명화 처리 요청 -->
+                <div class="consent-input">
+                    <label for="consent-checkbox">데이터 익명화 요청 :</label>
+                    <span style="margin-left: 5px;"></span>
+                    <input type="checkbox" name="consent" id="consent-checkbox">
+                    <span style="margin-left: 10px;"></span>
+                    <!-- 영상 익명화 방법 선택 창 -->
+                    <label for="image_anonymization_method">영상 처리 :</label>
+                    <span style="margin-left: 5px;"></span>
+                    <select name="image_anonymization_method" id="image_anonymization_method">
+                            <option value="blur">블러링</option>
+                            <option value="mask">마스킹</option>
+                            <option value="replace">치환</option>
+                    </select>
+                    <span style="margin-left: 10px;"></span>
+                    <!-- 오디오 익명화 방법 선택 창 -->
+                    <label for="audio_anonymization_method">오디오 처리 :</label>
+                    <span style="margin-left: 5px;"></span>
+                    <select name="audio_anonymization_method" id="audio_anonymization_method">
+                            <option value="pitchshift">피치변환</option>
+                            <option value="addnoise">노이즈추가</option>
+                            <option value="resample">리샘플링</option>
+                    </select>
+                </div>
+                <div class="data-attribute">
+                    <div class="time-options">
+                        <label for="collection-time">수집 시간 :</label>
+                        <select id="month" name="month" required disabled>
+                            <option value="" disabled selected>선택</option>
+                            <option value="1">1월</option>
+                            <option value="2">2월</option>
+                            <option value="3">3월</option>
+                            <option value="4">4월</option>
+                            <option value="5">5월</option>
+                            <option value="6">6월</option>
+                            <option value="7">7월</option>
+                            <option value="8">8월</option>
+                            <option value="9">9월</option>
+                            <option value="10">10월</option>
+                            <option value="11">11월</option>
+                            <option value="12">12월</option>
+                        </select>
+                        <select id="time" name="time" required disabled>
+                            <option value="" disabled selected>선택</option>
+                            <option value="0">12:00 AM</option>
+                            <option value="1">01:00 AM</option>
+                            <option value="2">02:00 AM</option>
+                            <option value="3">03:00 AM</option>
+                            <option value="4">04:00 AM</option>
+                            <option value="5">05:00 AM</option>
+                            <option value="6">06:00 AM</option>
+                            <option value="7">07:00 AM</option>
+                            <option value="8">08:00 AM</option>
+                            <option value="9">09:00 AM</option>
+                            <option value="10">10:00 AM</option>
+                            <option value="11">11:00 AM</option>
+                            <option value="12">12:00 PM</option>
+                            <option value="13">01:00 PM</option>
+                            <option value="14">02:00 PM</option>
+                            <option value="15">03:00 PM</option>
+                            <option value="16">04:00 PM</option>
+                            <option value="17">05:00 PM</option>
+                            <option value="18">06:00 PM</option>
+                            <option value="19">07:00 PM</option>
+                            <option value="20">08:00 PM</option>
+                            <option value="21">09:00 PM</option>
+                            <option value="22">10:00 PM</option>
+                            <option value="23">11:00 PM</option>
+                        </select>
+                        <span style="margin-left: 10px;"></span>
+                        <label for="collection-weather">수집 날씨 :</label>
+                        <select id="weather" name="weather" required disabled>
+                            <option value="" disabled selected>선택</option>
+                            <option value="1.0">맑음</option>
+                            <option value="0.9">눈</option>
+                            <option value="0.85">비</option>
+                            <option value="0.8">안개</option>
+                            <option value="0.75">스모그</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">데이터 업로드</button>
+            </form>
+        </div>
+        <!-- 업로드 폼 끝 -->
+
+        <!-- 업로드 파일 관리 폼 -->
+        <div class="file-list">
+            <h2>업로드된 파일 목록</h2>
+            <form action="{{ url_for('download_selected') }}" method="post" id="file-management-form">
+                <div class="file-list-container">
+                    <table>
+                        <tr>
+                            <th>번호</th>
+                            <th>선택 <input type="checkbox" id="select-all-checkbox"></th>
+                            <th>파일 이름</th>
+                            <th>파일 크기</th>
+                            <th>업로드 시간</th>
+                            <th>개인식별위험도</th>
+                            <th>정보활용동의</th>
+                            <th>미리보기</th>
+                        </tr>
+                        {% for uploaded_file in uploaded_files %}
+                        <tr>
+                            <td>{{ uploaded_file.id }}</td>
+                            <td><input type="checkbox" name="selected_files" value="{{ uploaded_file.filename }}"></td>
+                            <td>{{ uploaded_file.filename }}</td>
+                            <td>{{ uploaded_file.file_size }} MB</td>
+                            <td>{{ uploaded_file.upload_time }}</td>
+                            <td>
+                                {% if uploaded_file.risk_level == '없음' %}
+                                    <span style="color: green;">{{ uploaded_file.risk_level }}</span>
+                                {% elif uploaded_file.risk_level == '매우 낮음' %}
+                                    <span style="color: green;">{{ uploaded_file.risk_level }}</span>
+                                {% elif uploaded_file.risk_level == '낮음' %}
+                                    <span style="color: green;">{{ uploaded_file.risk_level }}</span>
+                                {% elif uploaded_file.risk_level == '보통' %}
+                                    <span style="color: orange;">{{ uploaded_file.risk_level }}</span>
+                                {% elif uploaded_file.risk_level == '높음' %}
+                                    <span style="color: red;">{{ uploaded_file.risk_level }}</span>
+                                {% elif uploaded_file.risk_level == '매우 높음' %}
+                                    <span style="color: red; font-weight: bold;">{{ uploaded_file.risk_level }}</span>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if uploaded_file.consent == 'on' %}
+                                    미동의
+                                {% elif uploaded_file.consent is none %}
+                                    동의
+                                {% endif %}
+                            </td>              
+                            <td>
+                                <a class="preview-link" href="#" data-media-src="{{ url_for('preview', filename=uploaded_file.filename) }}">
+                                    클릭
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                <button type="submit" class="submit-btn" formaction="{{ url_for('download_selected') }}">선택 파일 다운로드</button>
+                <button type="submit" class="submit-btn{{ ' disabled' if not (current_user.is_authenticated and current_user.username == 'admin') }}" 
+                formaction="{{ url_for('delete_selected') }}" onclick="return confirm('선택 파일을 삭제하시겠습니까?')">선택 파일 삭제</button>
+            </form>
+        </div>
+        <!-- 업로드 파일 관리 폼 끝 -->
+
+        <!-- 모달 템플릿 -->
+        <div id="mediaModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="mediaContainer"></div>
+            </div>
+        </div>
+
+        <!-- 플래시 메시지 표시 -->
+        <div class="flash-container">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <div class="flash-messages">
+                        {% for message in messages %}
+                            <div class="flash-message{% if '동의서' in message %} success{% elif '올바르지 않은 파일' in message %} error{% endif %}">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+        </div>
+        <!-- 플래시 메시지 끝 -->
+    </div>
+
+    <div class="figure1">
+        <div class="image-container">
+            <img src="/static/fig1.png" alt="Image">
+        </div>
+    </div>
+    
+</body>
+</html>
